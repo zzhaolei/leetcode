@@ -11,3 +11,6 @@ members = [
     "question_1047",
     "question_1603",
 ]
+
+[profile.dev]
+split-debuginfo = "unpacked"
