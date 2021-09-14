@@ -1,3 +1,4 @@
+#![allow(unused)]
 use std::{collections::HashMap, sync::Arc};
 
 /// https://leetcode-cn.com/problems/count-and-say/comments/
@@ -58,8 +59,14 @@ impl Solution {
     }
 }
 
-fn main() {
-    assert_eq!(Solution::count_and_say(1), "1");
-    assert_eq!(Solution::count_and_say(2), "11");
-    assert_eq!(Solution::count_and_say(3), "21");
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn count_and_say() {
+        assert_eq!(Solution::count_and_say(1), "1");
+        assert_eq!(Solution::count_and_say(2), "11");
+        assert_eq!(Solution::count_and_say(3), "21");
+    }
 }
