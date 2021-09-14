@@ -22,9 +22,23 @@ impl Solution {
     }
 }
 
-fn main() {
-    println!("{} == 2", Solution::search_insert(vec![1, 3, 5, 6], 5));
-    println!("{} == 1", Solution::search_insert(vec![1, 3, 5, 6], 2));
-    println!("{} == 4", Solution::search_insert(vec![1, 3, 5, 6], 7));
-    println!("{} == 0", Solution::search_insert(vec![1, 3, 5, 6], 0));
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn impl_1() {
+        assert_eq!(Solution::impl_1(vec![1, 3, 5, 6], 5), 2);
+        assert_eq!(Solution::impl_1(vec![1, 3, 5, 6], 2), 1);
+        assert_eq!(Solution::impl_1(vec![1, 3, 5, 6], 7), 4);
+        assert_eq!(Solution::impl_1(vec![1, 3, 5, 6], 0), 0);
+    }
+
+    #[test]
+    fn impl_2() {
+        assert_eq!(Solution::impl_2(vec![1, 3, 5, 6], 5), 2);
+        assert_eq!(Solution::impl_2(vec![1, 3, 5, 6], 2), 1);
+        assert_eq!(Solution::impl_2(vec![1, 3, 5, 6], 7), 4);
+        assert_eq!(Solution::impl_2(vec![1, 3, 5, 6], 0), 0);
+    }
 }
