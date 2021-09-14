@@ -29,6 +29,12 @@ impl Solution {
     }
 }
 
-fn main() {
-    println!("{}, {}", Solution::single_number(vec![2, 2, 1]), 1);
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn single_number() {
+        assert_eq!(Solution::single_number(vec![2, 2, 1]), 1);
+    }
 }
