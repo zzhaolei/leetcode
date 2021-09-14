@@ -64,10 +64,35 @@ impl Solution {
     }
 }
 
-fn main() {
-    let mut n = vec![0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
-    let r = Solution::remove_duplicates(&mut n) as usize;
-    for i in &n[..r] {
-        println!("{}", i);
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn impl_1() {
+        let mut n = vec![0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+        let r = Solution::impl_1(&mut n) as usize;
+        assert_eq!(&n[..r], &[0, 1, 2, 3, 4]);
+    }
+
+    #[test]
+    fn impl_2() {
+        let mut n = vec![0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+        let r = Solution::impl_2(&mut n) as usize;
+        assert_eq!(&n[..r], &[0, 1, 2, 3, 4]);
+    }
+
+    #[test]
+    fn impl_3() {
+        let mut n = vec![0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+        let r = Solution::impl_3(&mut n) as usize;
+        assert_eq!(&n[..r], &[0, 1, 2, 3, 4]);
+    }
+
+    #[test]
+    fn impl_4() {
+        let mut n = vec![0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+        let r = Solution::impl_4(&mut n) as usize;
+        assert_eq!(&n[..r], &[0, 1, 2, 3, 4]);
     }
 }
