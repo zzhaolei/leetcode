@@ -15,6 +15,12 @@ impl Solution {
     }
 }
 
-fn main() {
-    Solution::hammingWeight(11);
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn hamming_weight() {
+        assert_eq!(Solution::hammingWeight(11), 3);
+    }
 }
