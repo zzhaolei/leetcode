@@ -34,10 +34,23 @@ impl Solution {
     }
 }
 
-fn main() {
-    // let mut nums = vec![0, 1, 2, 2, 3, 0, 4, 2];
-    let s = Solution::remove_element(&mut vec![0, 1, 2, 2, 3, 0, 4, 2], 2);
-    assert_eq!(s, 5);
-    let s = Solution::remove_element(&mut vec![0, 1, 2, 2, 2, 3, 0, 4, 2], 2);
-    assert_eq!(s, 5);
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn impl_1() {
+        let s = Solution::impl_1(&mut vec![0, 1, 2, 2, 3, 0, 4, 2], 2);
+        assert_eq!(s, 5);
+        let s = Solution::impl_1(&mut vec![0, 1, 2, 2, 2, 3, 0, 4, 2], 2);
+        assert_eq!(s, 5);
+    }
+
+    #[test]
+    fn impl_2() {
+        let s = Solution::impl_2(&mut vec![0, 1, 2, 2, 3, 0, 4, 2], 2);
+        assert_eq!(s, 5);
+        let s = Solution::impl_2(&mut vec![0, 1, 2, 2, 2, 3, 0, 4, 2], 2);
+        assert_eq!(s, 5);
+    }
 }
