@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 /// https://leetcode-cn.com/problems/missing-number/submissions/
 
 struct Solution;
@@ -19,13 +21,15 @@ impl Solution {
     }
 }
 
-fn main() {
-    println!("{}, {}", Solution::missing_number(vec![3, 0, 1]), 2);
-    println!("{}, {}", Solution::missing_number(vec![0, 1]), 2);
-    println!(
-        "{}, {}",
-        Solution::missing_number(vec![9, 6, 4, 2, 3, 5, 7, 0, 1]),
-        8
-    );
-    println!("{}, {}", Solution::missing_number(vec![0]), 1);
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn missing_number() {
+        assert_eq!(Solution::missing_number(vec![3, 0, 1]), 2);
+        assert_eq!(Solution::missing_number(vec![0, 1]), 2);
+        assert_eq!(Solution::missing_number(vec![9, 6, 4, 2, 3, 5, 7, 0, 1]), 8);
+        assert_eq!(Solution::missing_number(vec![0]), 1);
+    }
 }
