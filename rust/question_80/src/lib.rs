@@ -28,9 +28,16 @@ impl Solution {
     }
 }
 
-fn main() {
-    let mut nums = vec![1, 1, 1, 2, 2, 3];
-    println!("{}, {:?}", Solution::remove_duplicates(&mut nums), nums);
-    let mut nums = vec![0, 0, 1, 1, 1, 1, 2, 3, 3];
-    println!("{}, {:?}", Solution::remove_duplicates(&mut nums), nums);
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn remove_duplicates() {
+        assert_eq!(Solution::remove_duplicates(&mut vec![1, 1, 1, 2, 2, 3]), 5);
+        assert_eq!(
+            Solution::remove_duplicates(&mut vec![0, 0, 1, 1, 1, 1, 2, 3, 3]),
+            7
+        );
+    }
 }
