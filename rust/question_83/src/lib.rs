@@ -47,33 +47,54 @@ impl Solution {
     }
 }
 
-fn main() {
-    let l1 = Some(Box::new(ListNode {
-        val: 1,
-        next: Some(Box::new(ListNode {
-            val: 1,
-            next: Some(Box::new(ListNode { val: 2, next: None })),
-        })),
-    }));
-    let l2 = Some(Box::new(ListNode {
-        val: 1,
-        next: Some(Box::new(ListNode {
-            val: 1,
-            next: Some(Box::new(ListNode { val: 1, next: None })),
-        })),
-    }));
-    let l3 = Some(Box::new(ListNode {
-        val: 1,
-        next: Some(Box::new(ListNode {
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn delete_duplicates() {
+        let l1 = Some(Box::new(ListNode {
             val: 1,
             next: Some(Box::new(ListNode {
                 val: 1,
                 next: Some(Box::new(ListNode { val: 2, next: None })),
             })),
-        })),
-    }));
+        }));
+        let l2 = Some(Box::new(ListNode {
+            val: 1,
+            next: Some(Box::new(ListNode {
+                val: 1,
+                next: Some(Box::new(ListNode { val: 1, next: None })),
+            })),
+        }));
+        let l3 = Some(Box::new(ListNode {
+            val: 1,
+            next: Some(Box::new(ListNode {
+                val: 1,
+                next: Some(Box::new(ListNode {
+                    val: 1,
+                    next: Some(Box::new(ListNode { val: 2, next: None })),
+                })),
+            })),
+        }));
 
-    println!("Result: {:?}", Solution::delete_duplicates(l1));
-    println!("Result: {:?}", Solution::delete_duplicates(l2));
-    println!("Result: {:?}", Solution::delete_duplicates(l3));
+        assert_eq!(
+            Solution::delete_duplicates(l1),
+            Some(Box::new(ListNode {
+                val: 1,
+                next: Some(Box::new(ListNode { val: 2, next: None })),
+            }))
+        );
+        assert_eq!(
+            Solution::delete_duplicates(l2),
+            Some(Box::new(ListNode { val: 1, next: None }))
+        );
+        assert_eq!(
+            Solution::delete_duplicates(l3),
+            Some(Box::new(ListNode {
+                val: 1,
+                next: Some(Box::new(ListNode { val: 2, next: None })),
+            }))
+        );
+    }
 }
