@@ -25,7 +25,13 @@ impl Solution {
     }
 }
 
-fn main() {
-    assert_eq!(Solution::search(vec![5, 7, 7, 8, 8, 10], 8), 2);
-    assert_eq!(Solution::search(vec![5, 7, 7, 8, 8, 10], 6), 0);
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn search() {
+        assert_eq!(Solution::search(vec![5, 7, 7, 8, 8, 10], 8), 2);
+        assert_eq!(Solution::search(vec![5, 7, 7, 8, 8, 10], 6), 0);
+    }
 }
