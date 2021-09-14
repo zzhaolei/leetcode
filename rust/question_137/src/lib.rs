@@ -1,6 +1,7 @@
-use std::collections::HashMap;
+#![allow(unused)]
 
 /// https://leetcode-cn.com/problems/single-number-ii/
+use std::collections::HashMap;
 
 struct Solution;
 
@@ -22,7 +23,13 @@ impl Solution {
     }
 }
 
-fn main() {
-    assert_eq!(Solution::single_number(vec![2, 2, 3, 2]), 3);
-    assert_eq!(Solution::single_number(vec![0, 1, 0, 1, 0, 1, 99]), 99);
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn impl_1() {
+        assert_eq!(Solution::impl_1(vec![2, 2, 3, 2]), 3);
+        assert_eq!(Solution::impl_1(vec![0, 1, 0, 1, 0, 1, 99]), 99);
+    }
 }
