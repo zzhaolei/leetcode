@@ -586,33 +586,41 @@ fn get_test_data() -> Vec<i32> {
     ]
 }
 
-fn main() {
-    assert_eq!(
-        Solution::maximum_element_after_decrementing_and_rearranging(vec![1, 1, 1, 4, 1, 1, 1]),
-        2
-    );
-    assert_eq!(
-        Solution::maximum_element_after_decrementing_and_rearranging(vec![1, 2, 3, 4, 5]),
-        5
-    );
-    assert_eq!(
-        Solution::maximum_element_after_decrementing_and_rearranging(vec![2, 2, 1, 2, 1]),
-        2
-    );
-    assert_eq!(
-        Solution::maximum_element_after_decrementing_and_rearranging(vec![100, 1, 1000]),
-        3
-    );
-    assert_eq!(
-        Solution::maximum_element_after_decrementing_and_rearranging(vec![91205]),
-        1
-    );
-    assert_eq!(
-        Solution::maximum_element_after_decrementing_and_rearranging(vec![1, 5, 5, 5, 5, 5, 100]),
-        6
-    );
-    assert_eq!(
-        Solution::maximum_element_after_decrementing_and_rearranging(get_test_data()),
-        210
-    );
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn maximum_element_after_decrementing_and_rearranging() {
+        assert_eq!(
+            Solution::maximum_element_after_decrementing_and_rearranging(vec![1, 1, 1, 4, 1, 1, 1]),
+            2
+        );
+        assert_eq!(
+            Solution::maximum_element_after_decrementing_and_rearranging(vec![1, 2, 3, 4, 5]),
+            5
+        );
+        assert_eq!(
+            Solution::maximum_element_after_decrementing_and_rearranging(vec![2, 2, 1, 2, 1]),
+            2
+        );
+        assert_eq!(
+            Solution::maximum_element_after_decrementing_and_rearranging(vec![100, 1, 1000]),
+            3
+        );
+        assert_eq!(
+            Solution::maximum_element_after_decrementing_and_rearranging(vec![91205]),
+            1
+        );
+        assert_eq!(
+            Solution::maximum_element_after_decrementing_and_rearranging(vec![
+                1, 5, 5, 5, 5, 5, 100
+            ]),
+            6
+        );
+        assert_eq!(
+            Solution::maximum_element_after_decrementing_and_rearranging(get_test_data()),
+            210
+        );
+    }
 }
