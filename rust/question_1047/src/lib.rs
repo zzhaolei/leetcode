@@ -88,6 +88,22 @@ impl Solution {
     }
 }
 
-fn main() {
-    assert_eq!(Solution::remove_duplicates("abbaca".to_string()), "ca");
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn impl_1() {
+        assert_eq!(Solution::impl_1("abbaca".to_string()), "ca");
+    }
+
+    #[test]
+    fn impl_2() {
+        assert_eq!(Solution::impl_2("abbaca".to_string()), "ca");
+    }
+
+    #[test]
+    fn impl_3() {
+        assert_eq!(Solution::impl_3("abbaca".to_string()), "ca");
+    }
 }
