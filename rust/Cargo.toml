@@ -1,26 +1,26 @@
 [workspace]
 members = [
-    "21",
-    "26",
-    "27",
-    "28",
-    "35",
-    "38",
-    "53",
-    "56",
-    "80",
-    "83",
-    "136",
-    "137",
-    "191",
-    "242",
-    "268",
-    "349",
-    "414",
-    "724",
-    "1047",
-    "1603",
-    "1846",
+    "merge-two-sorted-lists", # 21
+    "remove-duplicates-from-sorted-array", # 26
+    "remove-element", # 27
+    "implement-strstr", # 28
+    "search-insert-position", # 35
+    "count-and-say", # 38
+    "maximum-subarray", # 53
+    "merge-intervals", # 56
+    "remove-duplicates-from-sorted-array-ii", # 80
+    "remove-duplicates-from-sorted-list", # 83
+    "single-number", # 136
+    "single-number-ii", # 137
+    "number-of-1-bits", # 191
+    "valid-anagram", # 242
+    "missing-number", # 268
+    "intersection-of-two-arrays", # 349
+    "third-maximum-number", # 414
+    "find-pivot-index", # 724
+    "remove-all-adjacent-duplicates-in-string", # 1047
+    "design-parking-system", # 1603
+    "maximum-element-after-decreasing-and-rearranging", # 1846
 ]
 
 [profile.dev]
