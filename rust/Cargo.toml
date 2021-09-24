@@ -6,7 +6,7 @@ members = [
     "implement-strstr", # 28
     "search-insert-position", # 35
     "count-and-say", # 38
-    "zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof", # 53
+    "maximum-subarray", # 53
     "merge-intervals", # 56
     "remove-duplicates-from-sorted-array-ii", # 80
     "remove-duplicates-from-sorted-list", # 83
@@ -21,6 +21,8 @@ members = [
     "remove-all-adjacent-duplicates-in-string", # 1047
     "design-parking-system", # 1603
     "maximum-element-after-decreasing-and-rearranging", # 1846
+
+    "zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof", # offer 53
 ]
 
 [profile.dev]

@@ -51,4 +51,5 @@
 |39|[1736. 替换隐藏数字得到的最晚时间](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)|🟩||[Go](golang/latest-time-by-replacing-hidden-digits/main.go)|
 |40|[1846. 减小和重新排列数组后的最大元素](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging/)|🟨||[Rust](rust/maximum-element-after-decreasing-and-rearranging/src/lib.rs)|
 |41|[1893. 检查是否区域内所有整数都被覆盖](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|🟩||[Go](golang/check-if-all-the-integers-in-a-range-are-covered/main.go)|
-|42|[1929. 数组串联](https://leetcode-cn.com/problems/concatenation-of-array/)|🟩||[Go](golang/problems/concatenation-of-array/main.go)|
+|42|[1929. 数组串联](https://leetcode-cn.com/problems/concatenation-of-array/)|🟩||[Go](golang/concatenation-of-array/main.go)|
+|43|[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|🟩||[Rust](rust/maximum-subarray/src/lib.rs)|
