@@ -6,7 +6,7 @@ members = [
     "implement-strstr", # 28
     "search-insert-position", # 35
     "count-and-say", # 38
-    "maximum-subarray", # 53
+    "zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof", # 53
     "merge-intervals", # 56
     "remove-duplicates-from-sorted-array-ii", # 80
     "remove-duplicates-from-sorted-list", # 83

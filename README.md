@@ -21,7 +21,7 @@
 |9|[28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)|🟩|`双指针` `字符串` `字符串匹配`|[Rust](rust/implement-strstr/src/lib.rs)|
 |10|[35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)|🟩|`数组` `二分查找`|[Go](golang/search-insert-position/main.go) [Rust](rust/search-insert-position/src/lib.rs)|
 |11|[38. 外观数列](https://leetcode-cn.com/problems/count-and-say/)|🟨|`字符串`|[Rust](rust/count-and-say/src/lib.rs)|
-|12|[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|🟩|`数组` `分治` `动态规划`|[Rust](rust/maximum-subarray/src/lib.rs)|
+|12|[剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)|🟩|`数组` `二分查找`|[Rust](rust/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/src/lib.rs)|
 |13|[56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)|🟨|`数组` `排序`|[Rust](rust/merge-intervals/src/lib.rs)|
 |14|[57. 插入区间](https://leetcode-cn.com/problems/insert-interval/)|🟨|`数组`||
 |15|[剑指 Offer 52. 两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|🟩|`哈希表` `链表` `双指针`|[Go](golang/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/main.go)|
