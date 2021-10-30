@@ -53,3 +53,4 @@
 |41|[1893. 检查是否区域内所有整数都被覆盖](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|🟩||[Go](golang/check-if-all-the-integers-in-a-range-are-covered/main.go)|
 |42|[1929. 数组串联](https://leetcode-cn.com/problems/concatenation-of-array/)|🟩||[Go](golang/concatenation-of-array/main.go)|
 |43|[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|🟩||[Rust](rust/maximum-subarray/src/lib.rs)|
+|44|[260. 只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii/)|🟨||[Rust](rust/single-number-iii/src/lib.rs)|

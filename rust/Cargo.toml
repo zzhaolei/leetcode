@@ -12,6 +12,7 @@ members = [
     "remove-duplicates-from-sorted-list", # 83
     "single-number", # 136
     "single-number-ii", # 137
+    "single-number-iii",
     "number-of-1-bits", # 191
     "valid-anagram", # 242
     "missing-number", # 268
@@ -21,7 +22,6 @@ members = [
     "remove-all-adjacent-duplicates-in-string", # 1047
     "design-parking-system", # 1603
     "maximum-element-after-decreasing-and-rearranging", # 1846
-
     "zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof", # offer 53
 ]
 
