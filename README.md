@@ -54,3 +54,4 @@
 |42|[1929. 数组串联](https://leetcode-cn.com/problems/concatenation-of-array/)|🟩||[Go](golang/concatenation-of-array/main.go)|
 |43|[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|🟩||[Rust](rust/maximum-subarray/src/lib.rs)|
 |44|[260. 只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii/)|🟨||[Rust](rust/single-number-iii/src/lib.rs)|
+|45|[500. 键盘行](https://leetcode-cn.com/problems/keyboard-row/)|🟩|`数组` `哈希表` `字符串`|[Rust](rust/keyboard-row/src/lib.rs)|
