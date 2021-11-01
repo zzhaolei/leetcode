@@ -24,6 +24,7 @@ members = [
     "maximum-element-after-decreasing-and-rearranging", # 1846
     "zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof", # offer 53
     "keyboard-row",
+    "distribute-candies",
 ]
 
 [profile.dev]
