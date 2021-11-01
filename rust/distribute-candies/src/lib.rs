@@ -1,20 +1,13 @@
 struct Solution;
 
 impl Solution {
-    pub fn distribute_candies(mut candy_type: Vec<i32>) -> i32 {
-        use std::collections::HashSet;
-
-        let candy_len = candy_type.len();
-        let half = (candy_len / 2) as i32;
-
-        let c: HashSet<i32> = candy_type.drain(..).collect();
-
-        let len = c.len() as i32;
-        if len == 1 || len == half || len < half {
-            return len;
-        }
-
-        return half;
+    pub fn distribute_candies(candy_type: Vec<i32>) -> i32 {
+        candy_type
+            .iter()
+            .map(|&i| i)
+            .collect::<std::collections::HashSet<i32>>()
+            .len()
+            .min(candy_type.len() / 2) as i32
     }
 }
 
