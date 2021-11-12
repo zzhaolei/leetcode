@@ -25,6 +25,7 @@ members = [
     "zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof", # offer 53
     "keyboard-row",
     "distribute-candies",
+    "range-addition-ii",
 ]
 
 [profile.dev]
