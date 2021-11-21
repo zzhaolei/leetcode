@@ -26,6 +26,7 @@ members = [
     "keyboard-row",
     "distribute-candies",
     "range-addition-ii",
+    "dui-cheng-de-er-cha-shu-lcof",
 ]
 
 [profile.dev]
