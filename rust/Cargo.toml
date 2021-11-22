@@ -27,6 +27,7 @@ members = [
     "distribute-candies",
     "range-addition-ii",
     "dui-cheng-de-er-cha-shu-lcof",
+    "detect-capital",
 ]
 
 [profile.dev]

@@ -59,3 +59,4 @@
 |47|[237. 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|🟩|`链表`|[Go](golang/delete-node-in-a-linked-list/main.go)|
 |48|[598. 范围求和 II](https://leetcode-cn.com/problems/range-addition-ii/)|🟩|`数组` `数学`|[Rust](rust/range-addition-ii/src/lib.rs)|
 |49|[剑指 Offer 28. 对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)|🟩||[Rust](rust/dui-cheng-de-er-cha-shu-lcof/src/lib.rs)|
+|50|[520. 检测大写字母](https://leetcode-cn.com/problems/detect-capital/)|🟩||[Rust](rust/detect-capital/src/lib.rs)|
