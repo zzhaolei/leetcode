@@ -1,8 +1,8 @@
 # Leetcode Solutions
 
-> Total: 42
-> + Go: 26
-> + Rust: 21
+> Total: 51
+> + Go: 27
+> + Rust: 29
 
 ***
 ## Soluions
