@@ -29,6 +29,7 @@ members = [
     "dui-cheng-de-er-cha-shu-lcof",
     "detect-capital",
     "contains-duplicate-ii",
+    "longest-palindromic-substring",
 ]
 
 [profile.dev]
