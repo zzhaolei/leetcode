@@ -28,6 +28,7 @@ members = [
     "range-addition-ii",
     "dui-cheng-de-er-cha-shu-lcof",
     "detect-capital",
+    "contains-duplicate-ii",
 ]
 
 [profile.dev]

@@ -60,3 +60,4 @@
 |48|[598. 范围求和 II](https://leetcode-cn.com/problems/range-addition-ii/)|🟩|`数组` `数学`|[Rust](rust/range-addition-ii/src/lib.rs)|
 |49|[剑指 Offer 28. 对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)|🟩||[Rust](rust/dui-cheng-de-er-cha-shu-lcof/src/lib.rs)|
 |50|[520. 检测大写字母](https://leetcode-cn.com/problems/detect-capital/)|🟩||[Rust](rust/detect-capital/src/lib.rs)|
+|51|[219. 存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/)|🟩|`数组` `哈希表` `滑动窗口`|[Rust](rust/contains-duplicate-ii/src/lib.rs)|
