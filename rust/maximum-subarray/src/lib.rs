@@ -14,17 +14,18 @@ impl Solution {
         let mut find;
         for i in 0..nums.len() {
             find = nums[i];
-            for j in (i + 1)..nums.len() {
+            for &j in nums.iter().skip(i+1) {
+                let j = j as usize;
                 if nums[j] > max {
                     max = nums[j];
                 }
-                find = find + nums[j];
+                find += nums[j];
                 if find > max {
                     max = find;
                 }
             }
         }
-        return max;
+        max
     }
 
     fn impl2(nums: Vec<i32>) -> i32 {

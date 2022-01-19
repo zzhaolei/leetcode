@@ -1,10 +1,12 @@
+#![allow(unused)]
+
 struct Solution;
 
 impl Solution {
     pub fn distribute_candies(candy_type: Vec<i32>) -> i32 {
         candy_type
             .iter()
-            .map(|&i| i)
+            .copied()
             .collect::<std::collections::HashSet<i32>>()
             .len()
             .min(candy_type.len() / 2) as i32

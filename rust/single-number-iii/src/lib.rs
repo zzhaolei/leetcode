@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 struct Solution;
 
 impl Solution {
@@ -26,14 +28,6 @@ impl Solution {
 
     fn impl_2(nums: Vec<i32>) -> Vec<i32> {
         let mut ans = 0;
-        let nums = nums
-            .into_iter()
-            .map(|x| {
-                ans ^= x;
-                x
-            })
-            .collect::<Vec<i32>>();
-
         let bit = ans & -ans;
         println!(
             "{}, {:b}, {}, {:b}, {}, {:b}",
@@ -43,6 +37,10 @@ impl Solution {
         let mut num2 = 0;
         let _ = nums
             .into_iter()
+            .map(|x| {
+                ans ^= x;
+                x
+            })
             .map(|x| {
                 if x & bit == 0 {
                     num1 ^= x;

@@ -19,7 +19,7 @@ impl Solution {
         } else {
             unsafe { return *nums.get_unchecked(0) }
         }
-        return 0;
+        0
     }
 
     fn impl_2(nums: Vec<i32>) -> i32 {

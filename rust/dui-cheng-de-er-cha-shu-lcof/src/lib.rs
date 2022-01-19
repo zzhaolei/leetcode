@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 // Definition for a binary tree node.
 #[derive(Debug, PartialEq, Eq)]
 pub struct TreeNode {
@@ -19,7 +21,7 @@ impl TreeNode {
 
 struct Solution;
 
-use std::cell::{Ref, RefCell};
+use std::cell::RefCell;
 use std::rc::Rc;
 
 impl Solution {

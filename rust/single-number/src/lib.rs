@@ -15,7 +15,7 @@ impl Solution {
         for i in 1..nums.len() {
             nums[0] ^= nums[i];
         }
-        return nums[0];
+        nums[0]
     }
 
     fn impl3(nums: Vec<i32>) -> i32 {

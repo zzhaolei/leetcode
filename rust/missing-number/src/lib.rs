@@ -13,7 +13,7 @@ impl Solution {
             map.insert(i, Some(i));
         }
         for i in 0..=nums.len() {
-            if let None = map.get(&(i as i32)) {
+            if map.get(&(i as i32)).is_none() {
                 return i as i32;
             }
         }

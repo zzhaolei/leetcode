@@ -26,7 +26,7 @@ impl Solution {
         nums.len() as i32
     }
     pub fn impl_3(nums: &mut Vec<i32>) -> i32 {
-        if nums.len() == 0 {
+        if nums.is_empty() {
             return 0;
         }
         let mut dup = nums[0];
@@ -44,7 +44,7 @@ impl Solution {
         idx as i32
     }
     pub fn impl_4(nums: &mut Vec<i32>) -> i32 {
-        if nums.len() == 0 {
+        if nums.is_empty() {
             return 0;
         }
         let mut i = 0;

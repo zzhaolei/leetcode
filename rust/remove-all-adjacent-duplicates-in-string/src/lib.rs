@@ -29,8 +29,8 @@ impl Solution {
                     i_c = Some(c);
                 }
             }
-            if i_c.is_some() {
-                result.push(i_c.unwrap());
+            if let Some(c) = i_c {
+                result.push(c);
             }
             if !dup {
                 break result;

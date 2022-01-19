@@ -5,10 +5,7 @@ struct Solution;
 
 impl Solution {
     fn impl_1(nums: Vec<i32>, target: i32) -> i32 {
-        nums.iter()
-            .filter(|e| if **e == target { true } else { false })
-            .collect::<Vec<&i32>>()
-            .len() as i32
+        nums.iter().filter(|e| **e == target).count() as i32
     }
     fn impl_2(nums: Vec<i32>, target: i32) -> i32 {
         let mut r = 0;

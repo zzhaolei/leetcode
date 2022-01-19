@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 use std::collections::HashMap;
 
 struct Solution;
@@ -12,20 +14,16 @@ impl Solution {
 
         let find_by_line = |s: &String, line: &HashSet<char>| -> bool {
             for j in s.to_lowercase().chars() {
-                if let None = line.get(&j) {
+                if line.get(&j).is_none() {
                     return false;
                 }
             }
-            return true;
+            true
         };
 
         let mut ans = Vec::new();
         for i in words.into_iter() {
-            if find_by_line(&i, &one) {
-                ans.push(i);
-            } else if find_by_line(&i, &two) {
-                ans.push(i);
-            } else if find_by_line(&i, &three) {
+            if find_by_line(&i, &one) || find_by_line(&i, &two) || find_by_line(&i, &three) {
                 ans.push(i);
             }
         }
@@ -42,27 +40,19 @@ impl Solution {
 
         let find_by_line = |s: &String, line: &HashSet<char>| -> bool {
             for j in s.to_lowercase().chars() {
-                if let None = line.get(&j) {
+                if line.get(&j).is_none() {
                     return false;
                 }
             }
-            return true;
+            true
         };
 
-        return words
+        words
             .into_iter()
             .filter(|s| -> bool {
-                if find_by_line(s, &one) {
-                    true
-                } else if find_by_line(s, &two) {
-                    true
-                } else if find_by_line(s, &three) {
-                    true
-                } else {
-                    false
-                }
+                find_by_line(s, &one) || find_by_line(s, &two) || find_by_line(s, &three)
             })
-            .collect();
+            .collect()
     }
 
     fn init_map() -> HashMap<char, u8> {
@@ -81,7 +71,7 @@ impl Solution {
 
     fn impl3(words: Vec<String>) -> Vec<String> {
         let map = Solution::init_map();
-        return words
+        words
             .into_iter()
             .filter(|s| -> bool {
                 let mut n = None;
@@ -95,9 +85,9 @@ impl Solution {
                         n = Some(v);
                     }
                 }
-                return true;
+                true
             })
-            .collect();
+            .collect()
     }
 
     fn impl4(words: Vec<String>) -> Vec<String> {
@@ -111,21 +101,21 @@ impl Solution {
             let s = s.to_lowercase().chars().collect::<HashSet<char>>();
             let s_len = s.len();
 
-            let mut len = s.intersection(&one).collect::<Vec<&char>>().len();
+            let mut len = s.intersection(&one).count();
             if len == s_len {
                 return true;
             } else if len != 0 {
                 return false;
             }
 
-            len = s.intersection(&two).collect::<Vec<&char>>().len();
+            len = s.intersection(&two).count();
             if len == s_len {
                 return true;
             } else if len != 0 {
                 return false;
             }
 
-            len = s.intersection(&three).collect::<Vec<&char>>().len();
+            len = s.intersection(&three).count();
             if len == s_len {
                 return true;
             } else if len != 0 {
@@ -135,10 +125,10 @@ impl Solution {
             false
         };
 
-        return words
+        words
             .into_iter()
             .filter(|s| -> bool { find_by_line(s) })
-            .collect();
+            .collect()
     }
 
     pub fn find_words(words: Vec<String>) -> Vec<String> {

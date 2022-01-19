@@ -11,7 +11,7 @@ impl Solution {
         if len == 1 {
             return 1;
         }
-        arr.sort();
+        arr.sort_unstable();
         arr[0] = 1;
         for i in 1..len {
             if arr[i] - arr[i - 1] > 1 {

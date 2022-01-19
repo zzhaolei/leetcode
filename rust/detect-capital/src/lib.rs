@@ -1,8 +1,10 @@
+#![allow(unused)]
+
 struct Solution;
 
 impl Solution {
     pub fn detect_capital_use(word: String) -> bool {
-        if word.chars().all(|x| x.is_ascii_lowercase())
+        word.chars().all(|x| x.is_ascii_lowercase())
             || word.chars().all(|x| x.is_ascii_uppercase())
             || word.char_indices().all(|(i, x)| {
                 if i == 0 {
@@ -11,11 +13,6 @@ impl Solution {
                     x.is_ascii_lowercase()
                 }
             })
-        {
-            true
-        } else {
-            false
-        }
     }
 }
 

@@ -47,16 +47,16 @@ impl Solution {
                     let r = Solution::merge_two_lists(l2.next, Some(l1));
                     nodes.next = r;
                 }
-                return Some(nodes);
+                Some(nodes)
             }
             (None, Some(l2)) => {
-                return Some(l2);
+                Some(l2)
             }
             (Some(l1), None) => {
-                return Some(l1);
+                Some(l1)
             }
             (None, None) => {
-                return None;
+                None
             }
         }
     }

@@ -11,12 +11,12 @@ impl Solution {
         let mut arr = [0_i32; 26];
         let mut index;
         let mut ascii;
-        for c in s.chars().into_iter() {
+        for c in s.chars() {
             ascii = c as usize;
             index = ascii - 97;
             arr[index] += 1;
         }
-        for c in t.chars().into_iter() {
+        for c in t.chars() {
             ascii = c as usize;
             index = ascii - 97;
             if let Some(value) = arr.get(index) {
@@ -28,7 +28,7 @@ impl Solution {
                 return false;
             }
         }
-        return true;
+        true
     }
 }
 

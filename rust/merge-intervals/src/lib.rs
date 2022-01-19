@@ -10,7 +10,7 @@ impl Solution {
 
         let mut v: Vec<Vec<i32>> = Vec::new();
         for i in intervals.into_iter() {
-            if v.len() == 0 || v.last().unwrap()[1] < i[0] {
+            if v.is_empty() || v.last().unwrap()[1] < i[0] {
                 // 如果当前v为空，则直接插入进去
                 // 如果v中最后一个元素的end值，小于i的start元素，说明i此时还在v的最后一个元素的范围中。
                 v.push(i);
@@ -20,7 +20,7 @@ impl Solution {
                 end[1] = i32::max(end[1], i[1]);
             }
         }
-        return v;
+        v
     }
 }
 

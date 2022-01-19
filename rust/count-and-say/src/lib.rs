@@ -54,7 +54,7 @@ impl Solution {
     }
     pub fn count_and_say(n: i32) -> String {
         let say = Solution::get_or_init_say();
-        let r = say.say.get(&n).unwrap().clone().to_string();
+        let r = <&str>::clone(say.say.get(&n).unwrap()).to_string();
         r
     }
 }

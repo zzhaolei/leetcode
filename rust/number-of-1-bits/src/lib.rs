@@ -9,9 +9,8 @@ impl Solution {
         let bin = format!("{:b}", n);
         let bin = bin
             .chars()
-            .filter(|c| if *c == '1' { true } else { false })
-            .collect::<Vec<char>>();
-        bin.len() as i32
+            .filter(|c| *c == '1').count();
+        bin as i32
     }
 }
 
