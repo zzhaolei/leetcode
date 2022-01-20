@@ -30,6 +30,7 @@ members = [
     "detect-capital",
     "contains-duplicate-ii",
     "longest-palindromic-substring",
+    "zigzag-conversion",
 ]
 
 [profile.dev]
