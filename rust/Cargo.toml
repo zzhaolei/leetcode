@@ -31,6 +31,7 @@ members = [
     "contains-duplicate-ii",
     "longest-palindromic-substring",
     "zigzag-conversion",
+    "string-to-integer-atoi",
 ]
 
 [profile.dev]

@@ -1,8 +1,8 @@
 # Leetcode Solutions
 
-> Total: 53
+> Total: 54
 > + Go: 27
-> + Rust: 31
+> + Rust: 32
 
 ***
 ## Soluions
@@ -63,3 +63,4 @@
 |51|[219. 存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/)|🟩|`数组` `哈希表` `滑动窗口`|[Rust](rust/contains-duplicate-ii/src/lib.rs)|
 |52|[5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)|🟨||[Rust](rust/longest-palindromic-substring/src/lib.rs)|
 |53|[6. Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)|🟨||[Rust](rust/zigzag-conversion/src/main.rs)|
+|54|[8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)|🟨||[Rust](rust/string-to-integer-atoi/src/main.rs)|
