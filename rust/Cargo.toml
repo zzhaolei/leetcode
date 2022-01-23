@@ -32,6 +32,7 @@ members = [
     "longest-palindromic-substring",
     "zigzag-conversion",
     "string-to-integer-atoi",
+    "length-of-last-word",
 ]
 
 [profile.dev]

@@ -1,8 +1,8 @@
 # Leetcode Solutions
 
-> Total: 54
+> Total: 55
 > + Go: 27
-> + Rust: 32
+> + Rust: 33
 
 ***
 ## Soluions
@@ -64,3 +64,4 @@
 |52|[5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)|🟨||[Rust](rust/longest-palindromic-substring/src/lib.rs)|
 |53|[6. Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)|🟨||[Rust](rust/zigzag-conversion/src/main.rs)|
 |54|[8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)|🟨||[Rust](rust/string-to-integer-atoi/src/main.rs)|
+|55|[58. 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)|🟩||[Rust](rust/length-of-last-word/src/main.rs)|
