@@ -1,8 +1,8 @@
 # Leetcode Solutions
 
-> Total: 57
+> Total: 58
 > + Go: 27
-> + Rust: 35
+> + Rust: 36
 
 ***
 ## Soluions
@@ -67,3 +67,4 @@
 |55|[58. 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)|🟩||[Rust](rust/length-of-last-word/src/main.rs)|
 |56|[234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)|🟩||[Rust](rust/palindrome-linked-list/src/main.rs)|
 |57|[66. 加一](https://leetcode-cn.com/problems/plus-one/)|🟩||[Rust](rust/plus-one/src/main.rs)|
+|58|[67. 二进制求和](https://leetcode-cn.com/problems/add-binary/)|🟩||[Rust](rust/add-binary/src/main.rs)|

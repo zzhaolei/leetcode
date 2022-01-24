@@ -35,6 +35,7 @@ members = [
     "length-of-last-word",
     "palindrome-linked-list",
     "plus-one",
+    "add-binary",
 ]
 
 [profile.dev]
