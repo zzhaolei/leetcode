@@ -37,6 +37,7 @@ members = [
     "plus-one",
     "add-binary",
     "longest-substring-without-repeating-characters",
+    "median-of-two-sorted-arrays",
 ]
 
 [profile.dev]
