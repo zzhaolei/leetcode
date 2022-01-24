@@ -14,12 +14,11 @@ impl Solution {
         let mut find;
         for i in 0..nums.len() {
             find = nums[i];
-            for &j in nums.iter().skip(i+1) {
-                let j = j as usize;
-                if nums[j] > max {
-                    max = nums[j];
+            for &j in nums.iter().skip(i + 1) {
+                if j > max {
+                    max = j;
                 }
-                find += nums[j];
+                find += j;
                 if find > max {
                     max = find;
                 }
