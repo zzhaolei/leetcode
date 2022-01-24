@@ -34,6 +34,7 @@ members = [
     "string-to-integer-atoi",
     "length-of-last-word",
     "palindrome-linked-list",
+    "plus-one",
 ]
 
 [profile.dev]
