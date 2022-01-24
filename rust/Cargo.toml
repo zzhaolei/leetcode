@@ -36,6 +36,7 @@ members = [
     "palindrome-linked-list",
     "plus-one",
     "add-binary",
+    "longest-substring-without-repeating-characters",
 ]
 
 [profile.dev]

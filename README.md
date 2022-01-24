@@ -10,7 +10,7 @@
 
 |No.|题目|难度|Tags|Solutions|
 |---|---|---|---|---|
-|1|[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|🟩|`哈希表` `字符串` `滑动窗口`|[Go](golang/longest-substring-without-repeating-characters/main.go)|
+|1|[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|🟩|`哈希表` `字符串` `滑动窗口`|[Go](golang/longest-substring-without-repeating-characters/main.go) [Rust](rust/longest-substring-without-repeating-characters/src/main.rs)|
 |2|[4. 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)|🟥|`数组` `二分查找` `分治`|[Go](golang/median-of-two-sorted-arrays/main.go)|
 |3|[7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)|🟩|`数学`|[Go](golang/reverse-integer/main.go)|
 |4|[19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|🟨|`链表` `双指针`|[Go](golang/remove-nth-node-from-end-of-list/main.go)|
