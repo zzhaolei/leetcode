@@ -1,8 +1,8 @@
 # Leetcode Solutions
 
-> Total: 55
+> Total: 56
 > + Go: 27
-> + Rust: 33
+> + Rust: 34
 
 ***
 ## Soluions
@@ -65,3 +65,4 @@
 |53|[6. Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)|🟨||[Rust](rust/zigzag-conversion/src/main.rs)|
 |54|[8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)|🟨||[Rust](rust/string-to-integer-atoi/src/main.rs)|
 |55|[58. 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)|🟩||[Rust](rust/length-of-last-word/src/main.rs)|
+|56|[234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)|🟩||[Rust](rust/palindrome-linked-list/src/main.rs)|

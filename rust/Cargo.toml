@@ -33,6 +33,7 @@ members = [
     "zigzag-conversion",
     "string-to-integer-atoi",
     "length-of-last-word",
+    "palindrome-linked-list",
 ]
 
 [profile.dev]
