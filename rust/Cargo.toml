@@ -1,3 +1,6 @@
+[profile.dev]
+split-debuginfo = "unpacked"
+
 [workspace]
 members = [
     "merge-two-sorted-lists", # 21
@@ -38,7 +41,5 @@ members = [
     "add-binary",
     "longest-substring-without-repeating-characters",
     "median-of-two-sorted-arrays",
+    "reverse-integer",
 ]
-
-[profile.dev]
-split-debuginfo = "unpacked"
