@@ -1,8 +1,8 @@
 # Leetcode Solutions
 
-> Total: 58
+> Total: 59
 > + Go: 27
-> + Rust: 39
+> + Rust: 40
 
 ***
 ## Soluions
@@ -68,3 +68,4 @@
 |56|[234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)|🟩||[Rust](rust/palindrome-linked-list/src/main.rs)|
 |57|[66. 加一](https://leetcode-cn.com/problems/plus-one/)|🟩||[Rust](rust/plus-one/src/main.rs)|
 |58|[67. 二进制求和](https://leetcode-cn.com/problems/add-binary/)|🟩||[Rust](rust/add-binary/src/main.rs)|
+|59|[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)|🟩||[Rust](rust/reverse-linked-list/src/main.rs)|

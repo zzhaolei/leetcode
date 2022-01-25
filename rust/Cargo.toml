@@ -42,4 +42,5 @@ members = [
     "longest-substring-without-repeating-characters",
     "median-of-two-sorted-arrays",
     "reverse-integer",
+    "reverse-linked-list",
 ]
