@@ -43,4 +43,5 @@ members = [
     "median-of-two-sorted-arrays",
     "reverse-integer",
     "reverse-linked-list",
+    "convert-binary-number-in-a-linked-list-to-integer",
 ]
