@@ -45,8 +45,8 @@ mod tests {
 
     #[test]
     fn test_impl1() {
-        assert_eq!(Solution::test_impl1("abcabcbb".to_string()), 3);
-        assert_eq!(Solution::test_impl1("bbbbb".to_string()), 1);
-        assert_eq!(Solution::test_impl1("pwwkew".to_string()), 3);
+        assert_eq!(Solution::impl1("abcabcbb".to_string()), 3);
+        assert_eq!(Solution::impl1("bbbbb".to_string()), 1);
+        assert_eq!(Solution::impl1("pwwkew".to_string()), 3);
     }
 }

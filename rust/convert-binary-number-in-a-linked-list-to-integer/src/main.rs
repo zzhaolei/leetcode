@@ -26,6 +26,7 @@ impl Solution {
         i32::from_str_radix(&s, 2).unwrap_or(0)
     }
 
+    #[allow(unused)]
     pub fn impl2(head: Option<Box<ListNode>>) -> i32 {
         let mut head = head;
         let mut ans = 0;
