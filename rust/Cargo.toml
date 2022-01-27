@@ -44,4 +44,5 @@ members = [
     "reverse-integer",
     "reverse-linked-list",
     "convert-binary-number-in-a-linked-list-to-integer",
+    "remove-nth-node-from-end-of-list",
 ]

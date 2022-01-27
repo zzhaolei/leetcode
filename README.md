@@ -1,15 +1,12 @@
-# Leetcode Solutions
-
-***
-## Soluions
-> 所有解决方案
+# 解决方案
+> 🟩 简单 🟨 中等 🟥 困难
 
 |No.|题目|难度|Tags|Solutions|
 |---|---|---|---|---|
 |1|[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|🟩|`哈希表` `字符串` `滑动窗口`|[Go](golang/longest-substring-without-repeating-characters/main.go) [Rust](rust/longest-substring-without-repeating-characters/src/main.rs)|
 |2|[4. 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)|🟥|`数组` `二分查找` `分治`|[Go](golang/median-of-two-sorted-arrays/main.go) [Rust](rust/median-of-two-sorted-arrays/src/main.rs)|
 |3|[7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)|🟩|`数学`|[Go](golang/reverse-integer/main.go) [Rust](rust/reverse-integer/src/main.rs)|
-|4|[19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|🟨|`链表` `双指针`|[Go](golang/remove-nth-node-from-end-of-list/main.go)|
+|4|[19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|🟨|`链表` `双指针`|[Go](golang/remove-nth-node-from-end-of-list/main.go) [Rust](rust/remove-nth-node-from-end-of-list/src/main.rs)|
 |5|[21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|🟩|`链表` `递归`|[Rust](rust/merge-two-sorted-lists/src/lib.rs)|
 |6|[22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)|🟨|`字符串` `动态规划` `回溯`|[Go](golang/generate-parentheses/main.go)|
 |7|[26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|🟩|`数组` `双指针`|[Rust](rust/remove-duplicates-from-sorted-array/src/lib.rs)|
