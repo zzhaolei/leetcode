@@ -63,3 +63,4 @@
 |58|[67. 二进制求和](https://leetcode-cn.com/problems/add-binary/)|🟩||[Rust](rust/add-binary/src/main.rs)|
 |59|[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)|🟩||[Rust](rust/reverse-linked-list/src/main.rs)|
 |60|[1290. 二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|🟩||[Rust](rust/convert-binary-number-in-a-linked-list-to-integer/src/main.rs)|
+|61|[2047. 句子中的有效单词数](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/)|🟩||[Rust](rust/number-of-valid-words-in-a-sentence/src/main.rs)|
