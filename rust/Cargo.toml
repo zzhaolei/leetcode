@@ -46,4 +46,5 @@ members = [
     "convert-binary-number-in-a-linked-list-to-integer",
     "remove-nth-node-from-end-of-list",
     "number-of-valid-words-in-a-sentence",
+    "sqrtx",
 ]
