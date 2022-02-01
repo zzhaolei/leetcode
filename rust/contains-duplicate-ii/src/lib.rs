@@ -3,6 +3,14 @@
 struct Solution;
 
 impl Solution {
+    fn test(self) -> Self {
+        println!("1");
+        if (true) {
+            return self;
+        }
+
+        self
+    }
     pub fn impl1(nums: Vec<i32>, k: i32) -> bool {
         for i in 0..nums.len() - 1 {
             for j in i + 1..nums.len() {
@@ -42,6 +50,10 @@ mod tests {
 
     #[test]
     fn test_impl1() {
+        let s = Solution;
+        // Solution::test("");
+
+        s.test();
         assert_eq!(Solution::impl1(vec![1, 2, 3, 1], 3), true);
         assert_eq!(Solution::impl1(vec![1, 0, 1, 1], 1), true);
         assert_eq!(Solution::impl1(vec![1, 2, 3, 1, 2, 3], 2), false);

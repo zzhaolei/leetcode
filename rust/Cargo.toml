@@ -47,4 +47,5 @@ members = [
     "remove-nth-node-from-end-of-list",
     "number-of-valid-words-in-a-sentence",
     "sqrtx",
+    "number-of-steps-to-reduce-a-number-to-zero",
 ]
