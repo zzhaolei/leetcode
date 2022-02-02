@@ -48,4 +48,5 @@ members = [
     "number-of-valid-words-in-a-sentence",
     "sqrtx",
     "number-of-steps-to-reduce-a-number-to-zero",
+    "reverse-prefix-of-word",
 ]
