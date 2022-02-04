@@ -29,7 +29,7 @@
 |24|[242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)|🟩||[Go](golang/valid-anagram/main.go) [Rust](rust/valid-anagram/src/lib.rs)|
 |25|[268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/)|🟩||[Go](golang/missing-number/main.go) [Rust](rust/missing-number/src/lib.rs)|
 |26|[278. 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/)|🟩||[Go](golang/first-bad-version/main.go)|
-|27|[283. 移动零](https://leetcode-cn.com/problems/m/ove-zeroes/)|🟩|`数组` `双指针`|[Go](golang/move-zeroes/main.go)|
+|27|[283. 移动零](https://leetcode-cn.com/problems/m/ove-zeroes/)|🟩|`数组` `双指针`|[Go](golang/move-zeroes/main.go) [Rust](rust/move-zeroes/src/main.rs)|
 |28|[344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)|🟩||[Go](golang/reverse-string/main.go)|
 |29|[349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)|🟩||[Go](golang/intersection-of-two-arrays/main.go) [Rust](rust/intersection-of-two-arrays/src/lib.rs)|
 |30|[414. 第三大的数](https://leetcode-cn.com/problems/third-maximum-number/)|🟩||[Go](golang/third-maximum-number/main.go) [Rust](rust/third-maximum-number/src/lib.rs)|
