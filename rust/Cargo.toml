@@ -50,4 +50,5 @@ members = [
     "number-of-steps-to-reduce-a-number-to-zero",
     "reverse-prefix-of-word",
     "move-zeroes",
+    "sum-of-unique-elements",
 ]

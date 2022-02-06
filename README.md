@@ -67,3 +67,4 @@
 |62|[69. Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)|🟩||[Rust](rust/sqrtx/src/main.rs)|
 |63|[1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|🟩||[Rust](rust/number-of-steps-to-reduce-a-number-to-zero/src/main.rs)|
 |64|[2000. 反转单词前缀](https://leetcode-cn.com/problems/reverse-prefix-of-word/)|🟩||[Rust](rust/reverse-prefix-of-word/src/main.rs)|
+|65|[1748. 唯一元素的和](https://leetcode-cn.com/problems/sum-of-unique-elements/)|🟩||[Rust](rust/sum-of-unique-elements/src/main.rs)|
