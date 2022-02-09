@@ -51,4 +51,5 @@ members = [
     "reverse-prefix-of-word",
     "move-zeroes",
     "sum-of-unique-elements",
+    "count-number-of-pairs-with-absolute-difference-k",
 ]
