@@ -52,4 +52,5 @@ members = [
     "move-zeroes",
     "sum-of-unique-elements",
     "count-number-of-pairs-with-absolute-difference-k",
+    "maximum-number-of-balloons",
 ]
