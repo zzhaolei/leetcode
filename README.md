@@ -71,3 +71,4 @@
 |66|[2006. 差的绝对值为 K 的数对数目](https://leetcode-cn.com/problems/count-number-of-pairs-with-absolute-difference-k/)|🟩||[Rust](rust/count-number-of-pairs-with-absolute-difference-k/src/main.rs)|
 |67|[1189. “气球” 的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balloons/)|🟩||[Rust](rust/maximum-number-of-balloons/src/main.rs)|
 |68|[540. 有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)|🟩||[Rust](rust/single-element-in-a-sorted-array/src/main.rs)|
+|69|[1380. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)|🟩||[Rust](rust/lucky-numbers-in-a-matrix/src/main.rs)|

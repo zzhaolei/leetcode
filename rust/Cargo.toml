@@ -54,4 +54,5 @@ members = [
     "count-number-of-pairs-with-absolute-difference-k",
     "maximum-number-of-balloons",
     "single-element-in-a-sorted-array",
+    "lucky-numbers-in-a-matrix",
 ]
