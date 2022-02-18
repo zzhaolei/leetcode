@@ -72,3 +72,4 @@
 |67|[1189. “气球” 的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balloons/)|🟩||[Rust](rust/maximum-number-of-balloons/src/main.rs)|
 |68|[540. 有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)|🟩||[Rust](rust/single-element-in-a-sorted-array/src/main.rs)|
 |69|[1380. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)|🟩||[Rust](rust/lucky-numbers-in-a-matrix/src/main.rs)|
+|70|[1791. 找出星型图的中心节点](https://leetcode-cn.com/problems/find-center-of-star-graph/)|🟩||[Rust](rust/find-center-of-star-graph/src/main.rs)|

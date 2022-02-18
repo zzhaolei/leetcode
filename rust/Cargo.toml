@@ -55,4 +55,5 @@ members = [
     "maximum-number-of-balloons",
     "single-element-in-a-sorted-array",
     "lucky-numbers-in-a-matrix",
+    "find-center-of-star-graph",
 ]
