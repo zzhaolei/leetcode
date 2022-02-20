@@ -1,7 +1,7 @@
 struct Solution;
 
 impl Solution {
-    pub fn is_one_bit_character(bits: Vec<i32>) -> bool {
+    fn impl1(bits: Vec<i32>) -> bool {
         let mut bit = 0;
         let mut ans = true;
         for i in bits {
@@ -13,6 +13,19 @@ impl Solution {
             }
         }
         ans
+    }
+
+    #[allow(unused)]
+    fn impl2(bits: Vec<i32>) -> bool {
+        let mut s = 0;
+        while s < bits.len() - 1 {
+            s = if bits[s] == 0 { s + 1 } else { s + 2 };
+        }
+        s == bits.len() - 1
+    }
+
+    pub fn is_one_bit_character(bits: Vec<i32>) -> bool {
+        Solution::impl1(bits)
     }
 }
 
@@ -26,13 +39,19 @@ mod tests {
 
     #[test]
     fn test_impl1() {
-        assert_eq!(Solution::is_one_bit_character(vec![1, 0, 0]), true);
-        assert_eq!(Solution::is_one_bit_character(vec![1, 1, 1, 0]), false);
-        assert_eq!(Solution::is_one_bit_character(vec![1, 1, 0, 0]), true);
-        assert_eq!(Solution::is_one_bit_character(vec![1, 1, 0, 1]), false);
-        assert_eq!(Solution::is_one_bit_character(vec![0, 1, 0, 0]), true);
-        assert_eq!(Solution::is_one_bit_character(vec![0, 1, 0, 1]), false);
-        assert_eq!(Solution::is_one_bit_character(vec![0]), true);
-        assert_eq!(Solution::is_one_bit_character(vec![1]), false);
+        assert_eq!(Solution::impl1(vec![1, 0, 0]), true);
+        assert_eq!(Solution::impl1(vec![1, 1, 1, 0]), false);
+        assert_eq!(Solution::impl1(vec![1, 1, 0, 0]), true);
+        assert_eq!(Solution::impl1(vec![0, 1, 0, 0]), true);
+        assert_eq!(Solution::impl1(vec![0]), true);
+    }
+
+    #[test]
+    fn test_impl2() {
+        assert_eq!(Solution::impl2(vec![1, 0, 0]), true);
+        assert_eq!(Solution::impl2(vec![1, 1, 1, 0]), false);
+        assert_eq!(Solution::impl2(vec![1, 1, 0, 0]), true);
+        assert_eq!(Solution::impl2(vec![0, 1, 0, 0]), true);
+        assert_eq!(Solution::impl2(vec![0]), true);
     }
 }
