@@ -5,7 +5,7 @@ impl Solution {
         for v in matrix.iter() {
             let mut ans = *v.first().unwrap();
             let mut index = 0;
-            for (i, v) in v.iter().skip(1).enumerate() {
+            for (i, v) in v.iter().enumerate() {
                 if *v < ans {
                     ans = *v;
                     index = i;
