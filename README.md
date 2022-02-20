@@ -73,3 +73,4 @@
 |68|[540. 有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)|🟩||[Rust](rust/single-element-in-a-sorted-array/src/main.rs)|
 |69|[1380. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)|🟩||[Rust](rust/lucky-numbers-in-a-matrix/src/main.rs)|
 |70|[1791. 找出星型图的中心节点](https://leetcode-cn.com/problems/find-center-of-star-graph/)|🟩||[Rust](rust/find-center-of-star-graph/src/main.rs)|
+|71|[717. 1比特与2比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/)|🟩||[Rust](rust/one-bit-and-2-bit-characters/src/main.rs)|

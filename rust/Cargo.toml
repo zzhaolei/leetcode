@@ -56,4 +56,5 @@ members = [
     "single-element-in-a-sorted-array",
     "lucky-numbers-in-a-matrix",
     "find-center-of-star-graph",
+    "one-bit-and-2-bit-characters",
 ]
