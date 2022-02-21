@@ -58,4 +58,5 @@ members = [
     "find-center-of-star-graph",
     "one-bit-and-2-bit-characters",
     "implement-queue-using-stacks",
+    "fibonacci-number",
 ]
