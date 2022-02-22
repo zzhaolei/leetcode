@@ -24,7 +24,7 @@
 |19|[137. 只出现一次的数字 II](https://leetcode-cn.com/problems/single-number-ii/)|🟨|`数组` `位运算`|[Rust](rust/single-number-ii/src/lib.rs)|
 |20|[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|🟩|`数组` `双指针` `二分查找`|[Go](golang/two-sum-ii-input-array-is-sorted/main.go)|
 |21|[169. 多数元素](https://leetcode-cn.com/problems/majority-element/)|🟩|`数组` `哈希表` `分治` `计数` `排序`|[Go](golang/majority-element/main.go)|
-|22|[189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/)|🟨|`数组` `双指针` `数学`|[Go](golang/rotate-array/main.go)|
+|22|[189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/)|🟨|`数组` `双指针` `数学`|[Go](golang/rotate-array/main.go) [Rust](rust/rotate-array/src/main.rs)|
 |23|[191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)|🟩|`位运算`|[Rust](rust/number-of-1-bits/src/lib.rs)|
 |24|[242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)|🟩||[Go](golang/valid-anagram/main.go) [Rust](rust/valid-anagram/src/lib.rs)|
 |25|[268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/)|🟩||[Go](golang/missing-number/main.go) [Rust](rust/missing-number/src/lib.rs)|
