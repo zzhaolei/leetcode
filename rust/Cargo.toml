@@ -61,4 +61,5 @@ members = [
     "fibonacci-number",
     "best-time-to-buy-and-sell-stock-ii",
     "rotate-array",
+    "contains-duplicate",
 ]

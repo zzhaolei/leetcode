@@ -77,3 +77,4 @@
 |72|[232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)|🟩||[Rust](rust/implement-queue-using-stacks/src/main.rs)|
 |73|[509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)|🟩||[Rust](rust/fibonacci-number/src/main.rs)|
 |74|[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|🟩||[Rust](rust/best-time-to-buy-and-sell-stock-ii/src/main.rs)|
+|75|[217. 存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)|🟩||[Rust](rust/contains-duplicate/src/main.rs)|
