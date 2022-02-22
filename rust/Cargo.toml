@@ -59,4 +59,5 @@ members = [
     "one-bit-and-2-bit-characters",
     "implement-queue-using-stacks",
     "fibonacci-number",
+    "best-time-to-buy-and-sell-stock-ii",
 ]
