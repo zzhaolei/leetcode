@@ -79,3 +79,4 @@
 |74|[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|🟩||[Rust](rust/best-time-to-buy-and-sell-stock-ii/src/main.rs)|
 |75|[217. 存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)|🟩||[Rust](rust/contains-duplicate/src/main.rs)|
 |76|[917. 仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/)|🟩||[Rust](rust/reverse-only-letters/src/main.rs)|
+|77|[746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|🟩||[Rust](rust/min-cost-climbing-stairs/src/main.rs)|

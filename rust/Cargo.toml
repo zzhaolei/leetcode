@@ -63,4 +63,5 @@ members = [
     "rotate-array",
     "contains-duplicate",
     "reverse-only-letters",
+    "min-cost-climbing-stairs",
 ]
