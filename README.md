@@ -81,3 +81,4 @@
 |76|[917. 仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/)|🟩||[Rust](rust/reverse-only-letters/src/main.rs)|
 |77|[746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|🟩||[Rust](rust/min-cost-climbing-stairs/src/main.rs)|
 |78|[350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)|🟩||[Rust](rust/intersection-of-two-arrays-ii/src/main.rs)|
+|79|[1. 两数之和](https://leetcode-cn.com/problems/two-sum/solution/)|🟩||[Rust](rust/two-sum/src/main.rs)|

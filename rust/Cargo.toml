@@ -65,4 +65,5 @@ members = [
     "reverse-only-letters",
     "min-cost-climbing-stairs",
     "intersection-of-two-arrays-ii",
+    "two-sum",
 ]
