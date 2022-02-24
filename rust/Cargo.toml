@@ -64,4 +64,5 @@ members = [
     "contains-duplicate",
     "reverse-only-letters",
     "min-cost-climbing-stairs",
+    "intersection-of-two-arrays-ii",
 ]
