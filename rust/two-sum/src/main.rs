@@ -6,7 +6,7 @@ impl Solution {
         let mut map: std::collections::HashMap<i32, i32> = std::collections::HashMap::new();
         for (index, value) in nums.iter().enumerate() {
             let t = target - value;
-            if let Some(r) = map.get(&value) {
+            if let Some(r) = map.get(value) {
                 result.push(*r);
                 result.push(index as i32);
             }
