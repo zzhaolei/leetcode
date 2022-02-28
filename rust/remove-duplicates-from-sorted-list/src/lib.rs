@@ -22,7 +22,7 @@ impl Solution {
         match head {
             Some(mut head) => {
                 if let Some(next) = head.next {
-                    let next_n;
+                    let mut next_n = None;
                     if head.val == next.val {
                         next_n = next.next;
                     } else {
