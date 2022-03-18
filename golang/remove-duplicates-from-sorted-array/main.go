@@ -4,10 +4,10 @@ import "fmt"
 
 func removeDuplicates(nums []int) int {
 	var i int
-	for j, v := range nums {
+	for _, v := range nums {
 		if nums[i] != v {
 			i++
-			nums[i] = nums[j]
+			nums[i] = v
 		}
 	}
 	return i + 1
