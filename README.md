@@ -9,7 +9,7 @@
 |4|[19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|🟨|`链表` `双指针`|[Go](golang/remove-nth-node-from-end-of-list/main.go) [Rust](rust/remove-nth-node-from-end-of-list/src/main.rs)|
 |5|[21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|🟩|`链表` `递归`|[Rust](rust/merge-two-sorted-lists/src/lib.rs) [Go](golang/merge-two-sorted-lists/main.go)|
 |6|[22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)|🟨|`字符串` `动态规划` `回溯`|[Go](golang/generate-parentheses/main.go)|
-|7|[26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|🟩|`数组` `双指针`|[Rust](rust/remove-duplicates-from-sorted-array/src/lib.rs)|
+|7|[26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|🟩|`数组` `双指针`|[Rust](rust/remove-duplicates-from-sorted-array/src/lib.rs) [Go](golang/remove-duplicates-from-sorted-array/main.go)|
 |8|[27. 移除元素](https://leetcode-cn.com/problems/remove-element/)|🟩|`数组` `双指针`|[Rust](rust/remove-element/src/lib.rs)|
 |9|[28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)|🟩|`双指针` `字符串` `字符串匹配`|[Rust](rust/implement-strstr/src/lib.rs)|
 |10|[35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)|🟩|`数组` `二分查找`|[Go](golang/search-insert-position/main.go) [Rust](rust/search-insert-position/src/lib.rs)|
