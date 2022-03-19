@@ -13,7 +13,7 @@
 |8|[27. 移除元素](https://leetcode-cn.com/problems/remove-element/)|🟩|[Go](golang/remove-element/main.go) [Rust](rust/remove-element/src/lib.rs)|
 |9|[28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)|🟩|[Go](golang/implement-strstr/main.go) [Rust](rust/implement-strstr/src/lib.rs)|
 |10|[35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)|🟩|[Go](golang/search-insert-position/main.go) [Rust](rust/search-insert-position/src/lib.rs)|
-|11|[38. 外观数列](https://leetcode-cn.com/problems/count-and-say/)|🟨|[Rust](rust/count-and-say/src/lib.rs)|
+|11|[38. 外观数列](https://leetcode-cn.com/problems/count-and-say/)|🟨|[Go](golang/count-and-say/main.go) [Rust](rust/count-and-say/src/lib.rs)|
 |12|[剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)|🟩|[Rust](rust/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/src/lib.rs)|
 |13|[56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)|🟨|[Rust](rust/merge-intervals/src/lib.rs)|
 |14|[57. 插入区间](https://leetcode-cn.com/problems/insert-interval/)|🟨||
