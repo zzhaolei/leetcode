@@ -6,22 +6,22 @@ import "fmt"
 // impl1 循环移动元素
 // 这种方式太慢
 func impl1(nums []int, k int) {
-	new := nums
-	lenght := len(new)
+	length := len(nums)
+	newSlice := nums
 	for i := 0; i < k; i++ {
-		new = append(new[lenght-1:], new[:lenght-1]...)
+		newSlice = append(newSlice[length-1:], newSlice[:length-1]...)
 	}
-	copy(nums, new)
+	copy(nums, newSlice)
 }
 
 // impl2 采用取余的方式，可以计算指定位置的元素
 func impl2(nums []int, k int) {
-	lenght := len(nums)
-	new := make([]int, lenght)
+	length := len(nums)
+	newSlice := make([]int, length)
 	for i, v := range nums {
-		new[(i+k)%lenght] = v
+		newSlice[(i+k)%length] = v
 	}
-	copy(nums, new)
+	copy(nums, newSlice)
 }
 
 func rotate(nums []int, k int) {

@@ -4,33 +4,33 @@ package main
 import "fmt"
 
 func maximumTime(time string) string {
-	new := []byte(time)
-	if new[0] == '?' && new[1] == '?' && new[3] == '?' && new[4] == '?' {
+	newSlice := []byte(time)
+	if newSlice[0] == '?' && newSlice[1] == '?' && newSlice[3] == '?' && newSlice[4] == '?' {
 		return "23:59"
 	}
 
-	if new[0] == '?' {
-		if new[1] >= '4' && new[1] <= '9' {
-			new[0] = '1'
+	if newSlice[0] == '?' {
+		if newSlice[1] >= '4' && newSlice[1] <= '9' {
+			newSlice[0] = '1'
 		} else {
-			new[0] = '2'
+			newSlice[0] = '2'
 		}
 	}
-	if new[1] == '?' {
-		if new[0] == '2' {
-			new[1] = '3'
+	if newSlice[1] == '?' {
+		if newSlice[0] == '2' {
+			newSlice[1] = '3'
 		} else {
-			new[1] = '9'
+			newSlice[1] = '9'
 		}
 	}
 
-	if new[3] == '?' {
-		new[3] = '5'
+	if newSlice[3] == '?' {
+		newSlice[3] = '5'
 	}
-	if new[4] == '?' {
-		new[4] = '9'
+	if newSlice[4] == '?' {
+		newSlice[4] = '9'
 	}
-	return string(new)
+	return string(newSlice)
 }
 
 func main() {

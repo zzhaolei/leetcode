@@ -18,7 +18,7 @@ func impl1(head *ListNode, n int) *ListNode {
 	if head == nil {
 		return nil
 	}
-	list := []*ListNode{}
+	var list []*ListNode
 	next := head
 	for next != nil {
 		list = append(list, next)

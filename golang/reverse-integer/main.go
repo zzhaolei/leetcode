@@ -7,7 +7,7 @@ import (
 )
 
 func reverse(x int) int {
-	var r int = 0
+	var r = 0
 	for x != 0 {
 		mod := x % 10
 		x = x / 10

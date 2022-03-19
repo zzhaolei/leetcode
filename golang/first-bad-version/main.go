@@ -9,7 +9,9 @@ package main
  */
 
 // isBadVersion 此方法可以找到确定一个版本是否是错误的版本
-func isBadVersion(version int) bool
+func isBadVersion(version int) bool {
+	return true
+}
 
 // firstBadVersion 针对版本号 n ，使用二分查找，确定错误的版本号
 func firstBadVersion(n int) int {

@@ -31,8 +31,8 @@ func impl1(head *ListNode) *ListNode {
 
 func impl2(head *ListNode) *ListNode {
 	var (
-		last *ListNode = head
-		fast *ListNode = head
+		last = head
+		fast = head
 	)
 	for fast != nil && fast.Next != nil {
 		fast = fast.Next.Next

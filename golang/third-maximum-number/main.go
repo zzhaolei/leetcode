@@ -9,11 +9,11 @@ import (
 
 func thirdMax(nums []int) int {
 	var (
-		num int = int(math.Pow(-2, 31))
-		max int = num
-		mid int = num
-		min int = num
-		set     = make(map[int]struct{})
+		num = int(math.Pow(-2, 31))
+		max = num
+		mid = num
+		min = num
+		set = make(map[int]struct{})
 	)
 	for _, v := range nums {
 		if v > max {
