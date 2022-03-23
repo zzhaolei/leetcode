@@ -67,4 +67,5 @@ members = [
     "intersection-of-two-arrays-ii",
     "two-sum",
     "fan-zhuan-dan-ci-shun-xu-lcof",
+    "is-unique-lcci",
 ]
