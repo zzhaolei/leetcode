@@ -8,7 +8,7 @@
 |3|[7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)|🟩|[Go](golang/reverse-integer/src/main.go) [Rust](rust/reverse-integer/src/main.rs)|
 |4|[19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|🟨|[Go](golang/remove-nth-node-from-end-of-list/src/main.go) [Rust](rust/remove-nth-node-from-end-of-list/src/main.rs)|
 |5|[21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|🟩|[Go](golang/merge-two-sorted-lists/src/main.go) [Rust](rust/merge-two-sorted-lists/src/lib.rs)|
-|6|[22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)|🟨|[Go](golang/generate-parentheses/src/main.go)|
+|6|[22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)|🟨||
 |7|[26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|🟩|[Go](golang/remove-duplicates-from-sorted-array/src/main.go) [Rust](rust/remove-duplicates-from-sorted-array/src/lib.rs)|
 |8|[27. 移除元素](https://leetcode-cn.com/problems/remove-element/)|🟩|[Go](golang/remove-element/src/main.go) [Rust](rust/remove-element/src/lib.rs)|
 |9|[28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)|🟩|[Go](golang/implement-strstr/src/main.go) [Rust](rust/implement-strstr/src/lib.rs)|
@@ -85,3 +85,4 @@
 |80|[剑指 Offer 58 - I. 翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)|🟩|[Rust](rust/fan-zhuan-dan-ci-shun-xu-lcof/src/main.rs)|
 |81|[2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)|🟩|[Go](golang/add-two-numbers/src/main.go)|
 |82|[面试题 01.01. 判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/)|🟩|[Go](golang/is-unique-lcci/src/main.go) [Rust](rust/is-unique-lcci/src/main.rs)|
+|83|[剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)|🟩|[Go](golang/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/src/main.go) [Rust](rust/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/src/main.rs)|
