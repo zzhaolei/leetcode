@@ -3,6 +3,7 @@ split-debuginfo = "unpacked"
 
 [workspace]
 members = [
+    "running-sum-of-1d-array",
     "squares-of-a-sorted-array",
     "middle-of-the-linked-list",
     "binary-search",

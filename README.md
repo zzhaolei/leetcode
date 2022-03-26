@@ -39,7 +39,7 @@
 |34|[876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)|🟩|[Go](golang/middle-of-the-linked-list/src/main.go) [Rust](rust/middle-of-the-linked-list/src/main.rs)|
 |35|[977. 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)|🟩|[Go](golang/squares-of-a-sorted-array/src/main.go) [Rust](rust/squares-of-a-sorted-array/src/main.rs)|
 |36|[1047. 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|🟩|[Rust](rust/remove-all-adjacent-duplicates-in-string/src/lib.rs)|
-|37|[1480. 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)|🟩|[Go](golang/running-sum-of-1d-array/src/main.go)|
+|37|[1480. 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)|🟩|[Go](golang/running-sum-of-1d-array/src/main.go) [Rust](rust/running-sum-of-1d-array/src/main.rs)|
 |38|[1603. 设计停车系统](https://leetcode-cn.com/problems/design-parking-system/)|🟩|[Rust](rust/design-parking-system/src/lib.rs)|
 |39|[1736. 替换隐藏数字得到的最晚时间](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)|🟩|[Go](golang/latest-time-by-replacing-hidden-digits/src/main.go)|
 |40|[1846. 减小和重新排列数组后的最大元素](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging/)|🟨|[Rust](rust/maximum-element-after-decreasing-and-rearranging/src/lib.rs)|
