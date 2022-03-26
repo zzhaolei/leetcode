@@ -28,7 +28,7 @@
 |23|[191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)|🟩|[Rust](rust/number-of-1-bits/src/lib.rs)|
 |24|[242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)|🟩|[Go](golang/valid-anagram/src/main.go) [Rust](rust/valid-anagram/src/lib.rs)|
 |25|[268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/)|🟩|[Go](golang/missing-number/src/main.go) [Rust](rust/missing-number/src/lib.rs)|
-|26|[278. 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/)|🟩|[Go](golang/first-bad-version/src/main.go)|
+|26|[278. 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/)|🟩|[Go](golang/first-bad-version/src/main.go) [Rust](rust/first-bad-version/src/main.rs)|
 |27|[283. 移动零](https://leetcode-cn.com/problems/m/ove-zeroes/)|🟩|[Go](golang/move-zeroes/src/main.go) [Rust](rust/move-zeroes/src/main.rs)|
 |28|[344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)|🟩|[Go](golang/reverse-string/src/main.go)|
 |29|[349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)|🟩|[Go](golang/intersection-of-two-arrays/src/main.go) [Rust](rust/intersection-of-two-arrays/src/lib.rs)|

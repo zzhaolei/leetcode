@@ -73,4 +73,5 @@ members = [
     "insert-interval",
     "two-sum-ii-input-array-is-sorted",
     "majority-element",
+    "first-bad-version",
 ]
