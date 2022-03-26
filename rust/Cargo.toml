@@ -71,4 +71,5 @@ members = [
     "lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof",
     "generate-parentheses",
     "insert-interval",
+    "two-sum-ii-input-array-is-sorted",
 ]

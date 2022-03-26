@@ -22,7 +22,7 @@
 |17|[83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|🟩|[Rust](rust/remove-duplicates-from-sorted-list/src/lib.rs)|
 |18|[136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)|🟩|[Go](golang/single-number/src/main.go) [Rust](rust/single-number/src/lib.rs)|
 |19|[137. 只出现一次的数字 II](https://leetcode-cn.com/problems/single-number-ii/)|🟨|[Rust](rust/single-number-ii/src/lib.rs)|
-|20|[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|🟩|[Go](golang/two-sum-ii-input-array-is-sorted/src/main.go)|
+|20|[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|🟩|[Go](golang/two-sum-ii-input-array-is-sorted/src/main.go) [Rust](rust/two-sum-ii-input-array-is-sorted/src/main.rs)|
 |21|[169. 多数元素](https://leetcode-cn.com/problems/majority-element/)|🟩|[Go](golang/majority-element/src/main.go)|
 |22|[189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/)|🟨|[Go](golang/rotate-array/src/main.go) [Rust](rust/rotate-array/src/main.rs)|
 |23|[191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)|🟩|[Rust](rust/number-of-1-bits/src/lib.rs)|
