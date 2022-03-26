@@ -41,7 +41,7 @@
 |36|[1047. 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|🟩|[Rust](rust/remove-all-adjacent-duplicates-in-string/src/lib.rs)|
 |37|[1480. 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)|🟩|[Go](golang/running-sum-of-1d-array/src/main.go) [Rust](rust/running-sum-of-1d-array/src/main.rs)|
 |38|[1603. 设计停车系统](https://leetcode-cn.com/problems/design-parking-system/)|🟩|[Rust](rust/design-parking-system/src/lib.rs)|
-|39|[1736. 替换隐藏数字得到的最晚时间](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)|🟩|[Go](golang/latest-time-by-replacing-hidden-digits/src/main.go)|
+|39|[1736. 替换隐藏数字得到的最晚时间](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)|🟩|[Go](golang/latest-time-by-replacing-hidden-digits/src/main.go) [Rust](rust/latest-time-by-replacing-hidden-digits/src/main.rs)|
 |40|[1846. 减小和重新排列数组后的最大元素](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging/)|🟨|[Rust](rust/maximum-element-after-decreasing-and-rearranging/src/lib.rs)|
 |41|[1893. 检查是否区域内所有整数都被覆盖](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|🟩|[Go](golang/check-if-all-the-integers-in-a-range-are-covered/src/main.go)|
 |42|[1929. 数组串联](https://leetcode-cn.com/problems/concatenation-of-array/)|🟩|[Go](golang/concatenation-of-array/src/main.go)|

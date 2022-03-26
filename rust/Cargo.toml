@@ -3,6 +3,7 @@ split-debuginfo = "unpacked"
 
 [workspace]
 members = [
+    "latest-time-by-replacing-hidden-digits",
     "running-sum-of-1d-array",
     "squares-of-a-sorted-array",
     "middle-of-the-linked-list",
