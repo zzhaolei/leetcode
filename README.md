@@ -49,7 +49,7 @@
 |44|[260. 只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii/)|🟨|[Rust](rust/single-number-iii/src/lib.rs)|
 |45|[500. 键盘行](https://leetcode-cn.com/problems/keyboard-row/)|🟩|[Rust](rust/keyboard-row/src/lib.rs)|
 |46|[575. 分糖果](https://leetcode-cn.com/problems/distribute-candies/)|🟩|[Rust](rust/distribute-candies/src/lib.rs)|
-|47|[237. 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|🟩|[Go](golang/delete-node-in-a-linked-list/src/main.go)|
+|47|[237. 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|🟩|[Go](golang/delete-node-in-a-linked-list/src/main.go) ~~Rust~~|
 |48|[598. 范围求和 II](https://leetcode-cn.com/problems/range-addition-ii/)|🟩|[Rust](rust/range-addition-ii/src/lib.rs)|
 |49|[剑指 Offer 28. 对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)|🟩|[Rust](rust/dui-cheng-de-er-cha-shu-lcof/src/lib.rs)|
 |50|[520. 检测大写字母](https://leetcode-cn.com/problems/detect-capital/)|🟩|[Rust](rust/detect-capital/src/lib.rs)|
