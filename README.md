@@ -36,7 +36,7 @@
 |31|[557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)|🟩|[Go](golang/reverse-words-in-a-string-iii/src/main.go) [Rust](rust/reverse-words-in-a-string-iii/src/main.rs)|
 |32|[704. 二分查找](https://leetcode-cn.com/problems/binary-search/)|🟩|[Go](golang/binary-search/src/main.go) [Rust](rust/binary-search/src/main.rs)|
 |33|[724. 寻找数组的中心下标](https://leetcode-cn.com/problems/find-pivot-index/)|🟩|[Rust](rust/find-pivot-index/src/lib.rs)|
-|34|[876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)|🟩|[Go](golang/middle-of-the-linked-list/src/main.go)|
+|34|[876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)|🟩|[Go](golang/middle-of-the-linked-list/src/main.go) [Rust](rust/middle-of-the-linked-list/src/main.rs)|
 |35|[977. 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)|🟩|[Go](golang/squares-of-a-sorted-array/src/main.go)|
 |36|[1047. 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|🟩|[Rust](rust/remove-all-adjacent-duplicates-in-string/src/lib.rs)|
 |37|[1480. 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)|🟩|[Go](golang/running-sum-of-1d-array/src/main.go)|
