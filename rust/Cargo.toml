@@ -72,4 +72,5 @@ members = [
     "generate-parentheses",
     "insert-interval",
     "two-sum-ii-input-array-is-sorted",
+    "majority-element",
 ]
