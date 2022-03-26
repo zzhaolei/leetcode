@@ -3,6 +3,7 @@ split-debuginfo = "unpacked"
 
 [workspace]
 members = [
+    "squares-of-a-sorted-array",
     "middle-of-the-linked-list",
     "binary-search",
     "reverse-words-in-a-string-iii",
