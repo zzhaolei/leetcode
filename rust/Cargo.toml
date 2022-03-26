@@ -3,29 +3,29 @@ split-debuginfo = "unpacked"
 
 [workspace]
 members = [
-    "merge-two-sorted-lists", # 21
-    "remove-duplicates-from-sorted-array", # 26
-    "remove-element", # 27
-    "implement-strstr", # 28
-    "search-insert-position", # 35
-    "count-and-say", # 38
-    "maximum-subarray", # 53
-    "merge-intervals", # 56
-    "remove-duplicates-from-sorted-array-ii", # 80
-    "remove-duplicates-from-sorted-list", # 83
-    "single-number", # 136
-    "single-number-ii", # 137
+    "merge-two-sorted-lists",
+    "remove-duplicates-from-sorted-array",
+    "remove-element",
+    "implement-strstr",
+    "search-insert-position",
+    "count-and-say",
+    "maximum-subarray",
+    "merge-intervals",
+    "remove-duplicates-from-sorted-array-ii",
+    "remove-duplicates-from-sorted-list",
+    "single-number",
+    "single-number-ii",
     "single-number-iii",
-    "number-of-1-bits", # 191
-    "valid-anagram", # 242
-    "missing-number", # 268
-    "intersection-of-two-arrays", # 349
-    "third-maximum-number", # 414
-    "find-pivot-index", # 724
-    "remove-all-adjacent-duplicates-in-string", # 1047
-    "design-parking-system", # 1603
-    "maximum-element-after-decreasing-and-rearranging", # 1846
-    "zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof", # offer 53
+    "number-of-1-bits",
+    "valid-anagram",
+    "missing-number",
+    "intersection-of-two-arrays",
+    "third-maximum-number",
+    "find-pivot-index",
+    "remove-all-adjacent-duplicates-in-string",
+    "design-parking-system",
+    "maximum-element-after-decreasing-and-rearranging",
+    "zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof",
     "keyboard-row",
     "distribute-candies",
     "range-addition-ii",
@@ -74,4 +74,5 @@ members = [
     "two-sum-ii-input-array-is-sorted",
     "majority-element",
     "first-bad-version",
+    "reverse-string",
 ]

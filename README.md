@@ -30,7 +30,7 @@
 |25|[268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/)|🟩|[Go](golang/missing-number/src/main.go) [Rust](rust/missing-number/src/lib.rs)|
 |26|[278. 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/)|🟩|[Go](golang/first-bad-version/src/main.go) [Rust](rust/first-bad-version/src/main.rs)|
 |27|[283. 移动零](https://leetcode-cn.com/problems/m/ove-zeroes/)|🟩|[Go](golang/move-zeroes/src/main.go) [Rust](rust/move-zeroes/src/main.rs)|
-|28|[344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)|🟩|[Go](golang/reverse-string/src/main.go)|
+|28|[344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)|🟩|[Go](golang/reverse-string/src/main.go) [Rust](rust/reverse-string/src/main.rs)|
 |29|[349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)|🟩|[Go](golang/intersection-of-two-arrays/src/main.go) [Rust](rust/intersection-of-two-arrays/src/lib.rs)|
 |30|[414. 第三大的数](https://leetcode-cn.com/problems/third-maximum-number/)|🟩|[Go](golang/third-maximum-number/src/main.go) [Rust](rust/third-maximum-number/src/lib.rs)|
 |31|[557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)|🟩|[Go](golang/reverse-words-in-a-string-iii/src/main.go)|
