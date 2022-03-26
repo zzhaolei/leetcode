@@ -3,6 +3,7 @@ split-debuginfo = "unpacked"
 
 [workspace]
 members = [
+    "binary-search",
     "reverse-words-in-a-string-iii",
     "reverse-string",
     "first-bad-version",
