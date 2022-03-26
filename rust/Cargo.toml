@@ -3,6 +3,7 @@ split-debuginfo = "unpacked"
 
 [workspace]
 members = [
+    "concatenation-of-array",
     "check-if-all-the-integers-in-a-range-are-covered",
     "latest-time-by-replacing-hidden-digits",
     "running-sum-of-1d-array",

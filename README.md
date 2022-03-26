@@ -44,7 +44,7 @@
 |39|[1736. 替换隐藏数字得到的最晚时间](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)|🟩|[Go](golang/latest-time-by-replacing-hidden-digits/src/main.go) [Rust](rust/latest-time-by-replacing-hidden-digits/src/main.rs)|
 |40|[1846. 减小和重新排列数组后的最大元素](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging/)|🟨|[Rust](rust/maximum-element-after-decreasing-and-rearranging/src/lib.rs)|
 |41|[1893. 检查是否区域内所有整数都被覆盖](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|🟩|[Go](golang/check-if-all-the-integers-in-a-range-are-covered/src/main.go) [Rust](rust/check-if-all-the-integers-in-a-range-are-covered/src/main.rs)|
-|42|[1929. 数组串联](https://leetcode-cn.com/problems/concatenation-of-array/)|🟩|[Go](golang/concatenation-of-array/src/main.go)|
+|42|[1929. 数组串联](https://leetcode-cn.com/problems/concatenation-of-array/)|🟩|[Go](golang/concatenation-of-array/src/main.go) [rust](rust/concatenation-of-array/src/main.rs)|
 |43|[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|🟩|[Rust](rust/maximum-subarray/src/lib.rs)|
 |44|[260. 只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii/)|🟨|[Rust](rust/single-number-iii/src/lib.rs)|
 |45|[500. 键盘行](https://leetcode-cn.com/problems/keyboard-row/)|🟩|[Rust](rust/keyboard-row/src/lib.rs)|
