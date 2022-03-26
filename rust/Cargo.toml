@@ -69,5 +69,6 @@ members = [
     "fan-zhuan-dan-ci-shun-xu-lcof",
     "is-unique-lcci",
     "lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof",
-    "generate-parentheses"
+    "generate-parentheses",
+    "insert-interval",
 ]

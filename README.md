@@ -16,7 +16,7 @@
 |11|[38. 外观数列](https://leetcode-cn.com/problems/count-and-say/)|🟨|[Go](golang/count-and-say/src/main.go) [Rust](rust/count-and-say/src/lib.rs)|
 |12|[剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)|🟩|[Go](golang/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/src/main.go) [Rust](rust/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/src/lib.rs)|
 |13|[56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)|🟨|[Go](golang/merge-intervals/src/main.go) [Rust](rust/merge-intervals/src/lib.rs)|
-|14|[57. 插入区间](https://leetcode-cn.com/problems/insert-interval/)|🟨|[Go](golang/insert-interval/src/main.go)|
+|14|[57. 插入区间](https://leetcode-cn.com/problems/insert-interval/)|🟨|[Go](golang/insert-interval/src/main.go) [Rust](rust/insert-interval/src/main.rs)|
 |15|[剑指 Offer 52. 两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|🟩|[Go](golang/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/src/main.go)|
 |16|[80. 删除有序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)|🟨|[Rust](rust/remove-duplicates-from-sorted-array-ii/src/lib.rs)|
 |17|[83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|🟩|[Rust](rust/remove-duplicates-from-sorted-list/src/lib.rs)|
