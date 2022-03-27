@@ -83,6 +83,6 @@
 |78|[350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)|🟩|[Rust](rust/intersection-of-two-arrays-ii/src/main.rs)|
 |79|[1. 两数之和](https://leetcode-cn.com/problems/two-sum/)|🟩|[Rust](rust/two-sum/src/main.rs)|
 |80|[剑指 Offer 58 - I. 翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)|🟩|[Rust](rust/fan-zhuan-dan-ci-shun-xu-lcof/src/main.rs)|
-|81|[2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)|🟩|[Go](golang/add-two-numbers/src/main.go)|
+|81|[2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)|🟩|[Go](golang/add-two-numbers/src/main.go) [Rust](rust/add-two-numbers/src/main.rs)|
 |82|[面试题 01.01. 判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/)|🟩|[Go](golang/is-unique-lcci/src/main.go) [Rust](rust/is-unique-lcci/src/main.rs)|
 |83|[剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)|🟩|[Go](golang/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/src/main.go) [Rust](rust/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/src/main.rs)|
