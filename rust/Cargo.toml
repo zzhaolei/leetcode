@@ -3,6 +3,7 @@ split-debuginfo = "unpacked"
 
 [workspace]
 members = [
+    "binary-number-with-alternating-bits",
     "add-two-numbers",
     "concatenation-of-array",
     "check-if-all-the-integers-in-a-range-are-covered",
