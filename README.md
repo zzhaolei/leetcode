@@ -87,3 +87,4 @@
 |82|[面试题 01.01. 判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/)|🟩|[Go](golang/is-unique-lcci/src/main.go) [Rust](rust/is-unique-lcci/src/main.rs)|
 |83|[剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)|🟩|[Go](golang/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/src/main.go) [Rust](rust/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/src/main.rs)|
 |84|[693. 交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)|🟩|[Rust](rust/binary-number-with-alternating-bits/src/main.rs)|
+|85|[728. 自除数](https://leetcode-cn.com/problems/self-dividing-numbers/)|🟩|[Rust](rust/self-dividing-numbers/src/main.rs)|
