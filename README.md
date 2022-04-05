@@ -91,3 +91,4 @@
 |86|[762. 二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/)|🟩|[Rust](rust/prime-number-of-set-bits-in-binary-representation/src/main.rs)|
 |87|[9. 回文数](https://leetcode-cn.com/problems/palindrome-number/)|🟩|[Rust](rust/palindrome-number/src/main.rs)|
 |89|[13. 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)|🟩|[Rust](rust/roman-to-integer/src/main.rs)|
+|90|[14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)|🟩|[Rust](rust/longest-common-prefix/src/main.rs)|

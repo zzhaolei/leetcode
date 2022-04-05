@@ -3,6 +3,7 @@ split-debuginfo = "unpacked"
 
 [workspace]
 members = [
+    "longest-common-prefix",
     "roman-to-integer",
     "palindrome-number",
     "prime-number-of-set-bits-in-binary-representation",
