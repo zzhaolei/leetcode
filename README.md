@@ -1,11 +1,14 @@
 # 解决方案
-> 🟩 简单 🟨 中等 🟥 困难
+> 全部题目：97
+> - 🟥 困难：1
+> - 🟨 中等：23
+> - 🟩 简单：73
 
 |序号|题目|难度|解答|
 |---|---|---|---|
-|1|[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|🟩|[Go](golang/longest-substring-without-repeating-characters/src/main.go) [Rust](rust/longest-substring-without-repeating-characters/src/main.rs)|
+|1|[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|🟨|[Go](golang/longest-substring-without-repeating-characters/src/main.go) [Rust](rust/longest-substring-without-repeating-characters/src/main.rs)|
 |2|[4. 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)|🟥|[Go](golang/median-of-two-sorted-arrays/src/main.go) [Rust](rust/median-of-two-sorted-arrays/src/main.rs)|
-|3|[7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)|🟩|[Go](golang/reverse-integer/src/main.go) [Rust](rust/reverse-integer/src/main.rs)|
+|3|[7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)|🟨|[Go](golang/reverse-integer/src/main.go) [Rust](rust/reverse-integer/src/main.rs)|
 |4|[19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|🟨|[Go](golang/remove-nth-node-from-end-of-list/src/main.go) [Rust](rust/remove-nth-node-from-end-of-list/src/main.rs)|
 |5|[21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|🟩|[Go](golang/merge-two-sorted-lists/src/main.go) [Rust](rust/merge-two-sorted-lists/src/lib.rs)|
 |6|[22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)|🟨|[Rust](rust/generate-parentheses/src/main.rs)|
@@ -22,9 +25,9 @@
 |17|[83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|🟩|[Rust](rust/remove-duplicates-from-sorted-list/src/lib.rs)|
 |18|[136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)|🟩|[Go](golang/single-number/src/main.go) [Rust](rust/single-number/src/lib.rs)|
 |19|[137. 只出现一次的数字 II](https://leetcode-cn.com/problems/single-number-ii/)|🟨|[Rust](rust/single-number-ii/src/lib.rs)|
-|20|[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|🟩|[Go](golang/two-sum-ii-input-array-is-sorted/src/main.go) [Rust](rust/two-sum-ii-input-array-is-sorted/src/main.rs)|
+|20|[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|🟨|[Go](golang/two-sum-ii-input-array-is-sorted/src/main.go) [Rust](rust/two-sum-ii-input-array-is-sorted/src/main.rs)|
 |21|[169. 多数元素](https://leetcode-cn.com/problems/majority-element/)|🟩|[Go](golang/majority-element/src/main.go) [Rust](rust/majority-element/src/main.rs)|
-|22|[189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/)|🟨|[Go](golang/rotate-array/src/main.go) [Rust](rust/rotate-array/src/main.rs)|
+|22|[189. 轮转数组](https://leetcode-cn.com/problems/rotate-array/)|🟨|[Go](golang/rotate-array/src/main.go) [Rust](rust/rotate-array/src/main.rs)|
 |23|[191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)|🟩|[Rust](rust/number-of-1-bits/src/lib.rs)|
 |24|[242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)|🟩|[Go](golang/valid-anagram/src/main.go) [Rust](rust/valid-anagram/src/lib.rs)|
 |25|[268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/)|🟩|[Go](golang/missing-number/src/main.go) [Rust](rust/missing-number/src/lib.rs)|
@@ -45,7 +48,7 @@
 |40|[1846. 减小和重新排列数组后的最大元素](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging/)|🟨|[Rust](rust/maximum-element-after-decreasing-and-rearranging/src/lib.rs)|
 |41|[1893. 检查是否区域内所有整数都被覆盖](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|🟩|[Go](golang/check-if-all-the-integers-in-a-range-are-covered/src/main.go) [Rust](rust/check-if-all-the-integers-in-a-range-are-covered/src/main.rs)|
 |42|[1929. 数组串联](https://leetcode-cn.com/problems/concatenation-of-array/)|🟩|[Go](golang/concatenation-of-array/src/main.go) [rust](rust/concatenation-of-array/src/main.rs)|
-|43|[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|🟩|[Rust](rust/maximum-subarray/src/lib.rs)|
+|43|[53. 最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/)|🟩|[Rust](rust/maximum-subarray/src/lib.rs)|
 |44|[260. 只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii/)|🟨|[Rust](rust/single-number-iii/src/lib.rs)|
 |45|[500. 键盘行](https://leetcode-cn.com/problems/keyboard-row/)|🟩|[Rust](rust/keyboard-row/src/lib.rs)|
 |46|[575. 分糖果](https://leetcode-cn.com/problems/distribute-candies/)|🟩|[Rust](rust/distribute-candies/src/lib.rs)|
@@ -64,7 +67,7 @@
 |59|[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)|🟩|[Rust](rust/reverse-linked-list/src/main.rs)|
 |60|[1290. 二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|🟩|[Rust](rust/convert-binary-number-in-a-linked-list-to-integer/src/main.rs)|
 |61|[2047. 句子中的有效单词数](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/)|🟩|[Rust](rust/number-of-valid-words-in-a-sentence/src/main.rs)|
-|62|[69. Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)|🟩|[Rust](rust/sqrtx/src/main.rs)|
+|62|[69. x 的平方根 ](https://leetcode-cn.com/problems/sqrtx/)|🟩|[Rust](rust/sqrtx/src/main.rs)|
 |63|[1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|🟩|[Rust](rust/number-of-steps-to-reduce-a-number-to-zero/src/main.rs)|
 |64|[2000. 反转单词前缀](https://leetcode-cn.com/problems/reverse-prefix-of-word/)|🟩|[Rust](rust/reverse-prefix-of-word/src/main.rs)|
 |65|[1748. 唯一元素的和](https://leetcode-cn.com/problems/sum-of-unique-elements/)|🟩|[Rust](rust/sum-of-unique-elements/src/main.rs)|
@@ -73,17 +76,17 @@
 |68|[540. 有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)|🟨|[Rust](rust/single-element-in-a-sorted-array/src/main.rs)|
 |69|[1380. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)|🟩|[Rust](rust/lucky-numbers-in-a-matrix/src/main.rs)|
 |70|[1791. 找出星型图的中心节点](https://leetcode-cn.com/problems/find-center-of-star-graph/)|🟩|[Rust](rust/find-center-of-star-graph/src/main.rs)|
-|71|[717. 1比特与2比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/)|🟩|[Rust](rust/one-bit-and-2-bit-characters/src/main.rs)|
+|71|[717. 1 比特与 2 比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/)|🟩|[Rust](rust/one-bit-and-2-bit-characters/src/main.rs)|
 |72|[232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)|🟩|[Rust](rust/implement-queue-using-stacks/src/main.rs)|
 |73|[509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)|🟩|[Rust](rust/fibonacci-number/src/main.rs)|
-|74|[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|🟩|[Rust](rust/best-time-to-buy-and-sell-stock-ii/src/main.rs)|
+|74|[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|🟨|[Rust](rust/best-time-to-buy-and-sell-stock-ii/src/main.rs)|
 |75|[217. 存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)|🟩|[Rust](rust/contains-duplicate/src/main.rs)|
 |76|[917. 仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/)|🟩|[Rust](rust/reverse-only-letters/src/main.rs)|
 |77|[746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|🟩|[Rust](rust/min-cost-climbing-stairs/src/main.rs)|
 |78|[350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)|🟩|[Rust](rust/intersection-of-two-arrays-ii/src/main.rs)|
 |79|[1. 两数之和](https://leetcode-cn.com/problems/two-sum/)|🟩|[Rust](rust/two-sum/src/main.rs)|
 |80|[剑指 Offer 58 - I. 翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)|🟩|[Rust](rust/fan-zhuan-dan-ci-shun-xu-lcof/src/main.rs)|
-|81|[2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)|🟩|[Go](golang/add-two-numbers/src/main.go) [Rust](rust/add-two-numbers/src/main.rs)|
+|81|[2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)|🟨|[Go](golang/add-two-numbers/src/main.go) [Rust](rust/add-two-numbers/src/main.rs)|
 |82|[面试题 01.01. 判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/)|🟩|[Go](golang/is-unique-lcci/src/main.go) [Rust](rust/is-unique-lcci/src/main.rs)|
 |83|[剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)|🟩|[Go](golang/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/src/main.go) [Rust](rust/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/src/main.rs)|
 |84|[693. 交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)|🟩|[Rust](rust/binary-number-with-alternating-bits/src/main.rs)|
@@ -91,4 +94,12 @@
 |86|[762. 二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/)|🟩|[Rust](rust/prime-number-of-set-bits-in-binary-representation/src/main.rs)|
 |87|[9. 回文数](https://leetcode-cn.com/problems/palindrome-number/)|🟩|[Rust](rust/palindrome-number/src/main.rs)|
 |89|[13. 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)|🟩|[Rust](rust/roman-to-integer/src/main.rs)|
-|90|[14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)|🟩|[Rust](rust/longest-common-prefix/src/main.rs)|
+|89|[14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)|🟩|[Rust](rust/longest-common-prefix/src/main.rs)|
+|90|[20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)|🟩|[Rust](rust/valid-parentheses/src/main.rs)|
+|91|[31. 下一个排列](https://leetcode-cn.com/problems/next-permutation/)|🟨|[Rust](rust/next-permutation/src/main.rs)|
+|92|[482. 密钥格式化](https://leetcode-cn.com/problems/license-key-formatting/)|🟩|[Rust](rust/license-key-formatting/src/main.rs)|
+|93|[844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/)|🟩|[Rust](rust/backspace-string-compare/src/main.rs)|
+|94|[912. 排序数组](https://leetcode-cn.com/problems/sort-an-array/)|🟨|[Rust](rust/sort-an-array/src/main.rs)|
+|95|[面试题 01.05. 一次编辑](https://leetcode-cn.com/problems/one-away-lcci/)|🟨|[Rust](rust/one-away-lcci/src/main.rs)|
+|96|[941. 有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/)|🟩|[Rust](rust/valid-mountain-array/src/main.rs)|
+|97|[33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|🟨|[Rust](rust/search-in-rotated-sorted-array/src/main.rs)|
