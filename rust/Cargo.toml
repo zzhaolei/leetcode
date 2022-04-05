@@ -3,6 +3,7 @@ split-debuginfo = "unpacked"
 
 [workspace]
 members = [
+    "palindrome-number",
     "prime-number-of-set-bits-in-binary-representation",
     "self-dividing-numbers",
     "binary-number-with-alternating-bits",

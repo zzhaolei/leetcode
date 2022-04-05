@@ -89,3 +89,4 @@
 |84|[693. 交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)|🟩|[Rust](rust/binary-number-with-alternating-bits/src/main.rs)|
 |85|[728. 自除数](https://leetcode-cn.com/problems/self-dividing-numbers/)|🟩|[Rust](rust/self-dividing-numbers/src/main.rs)|
 |86|[762. 二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/)|🟩|[Rust](rust/prime-number-of-set-bits-in-binary-representation/src/main.rs)|
+|87|[9. 回文数](https://leetcode-cn.com/problems/palindrome-number/)|🟩|[Rust](rust/palindrome-number/src/main.rs)|
