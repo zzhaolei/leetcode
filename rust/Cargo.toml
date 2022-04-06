@@ -6,6 +6,7 @@ strip = true
 
 [workspace]
 members = [
+    "one-away-lcci",
     "sort-an-array",
     "backspace-string-compare",
     "license-key-formatting",
