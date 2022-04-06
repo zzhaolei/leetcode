@@ -6,6 +6,7 @@ strip = true
 
 [workspace]
 members = [
+    "license-key-formatting",
     "next-permutation",
     "valid-parentheses",
     "longest-common-prefix",
