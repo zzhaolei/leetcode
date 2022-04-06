@@ -8,12 +8,10 @@ impl Solution {
             for i in s.chars().rev() {
                 if i == '#' {
                     count += 1;
+                } else if count != 0 {
+                    count -= 1;
                 } else {
-                    if count != 0 {
-                        count -= 1;
-                    } else {
-                        ans.push(i);
-                    }
+                    ans.push(i);
                 }
             }
             ans
