@@ -1,6 +1,9 @@
 [profile.dev]
 split-debuginfo = "unpacked"
 
+[profile.release]
+strip = true
+
 [workspace]
 members = [
     "valid-parentheses",
