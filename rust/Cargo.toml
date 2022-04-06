@@ -6,6 +6,7 @@ strip = true
 
 [workspace]
 members = [
+    "search-in-rotated-sorted-array",
     "valid-mountain-array",
     "one-away-lcci",
     "sort-an-array",
