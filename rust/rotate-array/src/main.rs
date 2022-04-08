@@ -9,7 +9,7 @@ impl Solution {
     }
 
     #[allow(unused)]
-    fn impl2(nums: &mut Vec<i32>, k: i32) {
+    fn impl2(nums: &mut [i32], k: i32) {
         let i = nums.len() as i32;
         nums.rotate_right(k.rem_euclid(i) as usize);
     }

@@ -1,12 +1,12 @@
 struct Solution;
 
 impl Solution {
-    fn impl1(s: &mut Vec<char>) {
+    fn impl1(s: &mut [char]) {
         s.reverse();
     }
 
     #[allow(unused)]
-    fn impl2(s: &mut Vec<char>) {
+    fn impl2(s: &mut [char]) {
         let (mut left, mut right) = (0, s.len() - 1);
         while left < right {
             (s[left], s[right]) = (s[right], s[left]);
@@ -15,7 +15,7 @@ impl Solution {
         }
     }
 
-    pub fn reverse_string(s: &mut Vec<char>) {
+    pub fn reverse_string(s: &mut [char]) {
         Solution::impl1(s);
     }
 }
