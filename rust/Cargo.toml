@@ -1,104 +1,205 @@
+[package]
+name = "rust-leetcode"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
 [profile.dev]
 split-debuginfo = "unpacked"
 
 [profile.release]
 strip = true
 
-[workspace]
-members = [
-    "search-in-rotated-sorted-array",
-    "valid-mountain-array",
-    "one-away-lcci",
-    "sort-an-array",
-    "backspace-string-compare",
-    "license-key-formatting",
-    "next-permutation",
-    "valid-parentheses",
-    "longest-common-prefix",
-    "roman-to-integer",
-    "palindrome-number",
-    "prime-number-of-set-bits-in-binary-representation",
-    "self-dividing-numbers",
-    "binary-number-with-alternating-bits",
-    "add-two-numbers",
-    "concatenation-of-array",
-    "check-if-all-the-integers-in-a-range-are-covered",
-    "latest-time-by-replacing-hidden-digits",
-    "running-sum-of-1d-array",
-    "squares-of-a-sorted-array",
-    "middle-of-the-linked-list",
-    "binary-search",
-    "reverse-words-in-a-string-iii",
-    "reverse-string",
-    "first-bad-version",
-    "majority-element",
-    "two-sum-ii-input-array-is-sorted",
-    "insert-interval",
-    "generate-parentheses",
-    "lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof",
-    "is-unique-lcci",
-    "fan-zhuan-dan-ci-shun-xu-lcof",
-    "two-sum",
-    "intersection-of-two-arrays-ii",
-    "min-cost-climbing-stairs",
-    "reverse-only-letters",
-    "contains-duplicate",
-    "rotate-array",
-    "best-time-to-buy-and-sell-stock-ii",
-    "fibonacci-number",
-    "implement-queue-using-stacks",
-    "one-bit-and-2-bit-characters",
-    "find-center-of-star-graph",
-    "lucky-numbers-in-a-matrix",
-    "single-element-in-a-sorted-array",
-    "maximum-number-of-balloons",
-    "count-number-of-pairs-with-absolute-difference-k",
-    "sum-of-unique-elements",
-    "move-zeroes",
-    "reverse-prefix-of-word",
-    "number-of-steps-to-reduce-a-number-to-zero",
-    "sqrtx",
-    "number-of-valid-words-in-a-sentence",
-    "remove-nth-node-from-end-of-list",
-    "convert-binary-number-in-a-linked-list-to-integer",
-    "reverse-linked-list",
-    "reverse-integer",
-    "median-of-two-sorted-arrays",
-    "longest-substring-without-repeating-characters",
-    "add-binary",
-    "plus-one",
-    "palindrome-linked-list",
-    "length-of-last-word",
-    "string-to-integer-atoi",
-    "zigzag-conversion",
-    "longest-palindromic-substring",
-    "contains-duplicate-ii",
-    "detect-capital",
-    "dui-cheng-de-er-cha-shu-lcof",
-    "range-addition-ii",
-    "distribute-candies",
-    "keyboard-row",
-    "zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof",
-    "maximum-element-after-decreasing-and-rearranging",
-    "design-parking-system",
-    "remove-all-adjacent-duplicates-in-string",
-    "find-pivot-index",
-    "third-maximum-number",
-    "intersection-of-two-arrays",
-    "missing-number",
-    "valid-anagram",
-    "number-of-1-bits",
-    "single-number-iii",
-    "single-number-ii",
-    "single-number",
-    "remove-duplicates-from-sorted-list",
-    "remove-duplicates-from-sorted-array-ii",
-    "merge-intervals",
-    "maximum-subarray",
-    "count-and-say",
-    "search-insert-position",
-    "implement-strstr",
-    "remove-element",
-    "remove-duplicates-from-sorted-array",
-    "merge-two-sorted-lists",
-]
+[[bin]]
+name = "add-binary"
+[[bin]]
+name = "add-two-numbers"
+[[bin]]
+name = "backspace-string-compare"
+[[bin]]
+name = "best-time-to-buy-and-sell-stock-ii"
+[[bin]]
+name = "binary-number-with-alternating-bits"
+[[bin]]
+name = "binary-search"
+[[bin]]
+name = "check-if-all-the-integers-in-a-range-are-covered"
+[[bin]]
+name = "concatenation-of-array"
+[[bin]]
+name = "contains-duplicate"
+[[bin]]
+name = "convert-binary-number-in-a-linked-list-to-integer"
+[[bin]]
+name = "count-number-of-pairs-with-absolute-difference-k"
+[[bin]]
+name = "fan-zhuan-dan-ci-shun-xu-lcof"
+[[bin]]
+name = "fibonacci-number"
+[[bin]]
+name = "find-center-of-star-graph"
+[[bin]]
+name = "first-bad-version"
+[[bin]]
+name = "generate-parentheses"
+[[bin]]
+name = "implement-queue-using-stacks"
+[[bin]]
+name = "insert-interval"
+[[bin]]
+name = "intersection-of-two-arrays-ii"
+[[bin]]
+name = "is-unique-lcci"
+[[bin]]
+name = "latest-time-by-replacing-hidden-digits"
+[[bin]]
+name = "length-of-last-word"
+[[bin]]
+name = "lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof"
+[[bin]]
+name = "license-key-formatting"
+[[bin]]
+name = "longest-common-prefix"
+[[bin]]
+name = "longest-substring-without-repeating-characters"
+[[bin]]
+name = "lucky-numbers-in-a-matrix"
+[[bin]]
+name = "majority-element"
+[[bin]]
+name = "maximum-number-of-balloons"
+[[bin]]
+name = "median-of-two-sorted-arrays"
+[[bin]]
+name = "middle-of-the-linked-list"
+[[bin]]
+name = "min-cost-climbing-stairs"
+[[bin]]
+name = "move-zeroes"
+[[bin]]
+name = "next-permutation"
+[[bin]]
+name = "number-of-steps-to-reduce-a-number-to-zero"
+[[bin]]
+name = "number-of-valid-words-in-a-sentence"
+[[bin]]
+name = "one-away-lcci"
+[[bin]]
+name = "one-bit-and-2-bit-characters"
+[[bin]]
+name = "palindrome-linked-list"
+[[bin]]
+name = "palindrome-number"
+[[bin]]
+name = "plus-one"
+[[bin]]
+name = "prime-number-of-set-bits-in-binary-representation"
+[[bin]]
+name = "remove-nth-node-from-end-of-list"
+[[bin]]
+name = "reverse-integer"
+[[bin]]
+name = "reverse-linked-list"
+[[bin]]
+name = "reverse-only-letters"
+[[bin]]
+name = "reverse-prefix-of-word"
+[[bin]]
+name = "reverse-string"
+[[bin]]
+name = "reverse-words-in-a-string-iii"
+[[bin]]
+name = "roman-to-integer"
+[[bin]]
+name = "rotate-array"
+[[bin]]
+name = "running-sum-of-1d-array"
+[[bin]]
+name = "search-in-rotated-sorted-array"
+[[bin]]
+name = "self-dividing-numbers"
+[[bin]]
+name = "single-element-in-a-sorted-array"
+[[bin]]
+name = "sort-an-array"
+[[bin]]
+name = "sqrtx"
+[[bin]]
+name = "squares-of-a-sorted-array"
+[[bin]]
+name = "string-to-integer-atoi"
+[[bin]]
+name = "sum-of-unique-elements"
+[[bin]]
+name = "two-sum"
+[[bin]]
+name = "two-sum-ii-input-array-is-sorted"
+[[bin]]
+name = "valid-mountain-array"
+[[bin]]
+name = "valid-parentheses"
+[[bin]]
+name = "zigzag-conversion"
+[[bin]]
+name = "contains-duplicate-ii"
+[[bin]]
+name = "count-and-say"
+[[bin]]
+name = "design-parking-system"
+[[bin]]
+name = "detect-capital"
+[[bin]]
+name = "distribute-candies"
+[[bin]]
+name = "dui-cheng-de-er-cha-shu-lcof"
+[[bin]]
+name = "find-pivot-index"
+[[bin]]
+name = "implement-strstr"
+[[bin]]
+name = "intersection-of-two-arrays"
+[[bin]]
+name = "keyboard-row"
+[[bin]]
+name = "longest-palindromic-substring"
+[[bin]]
+name = "maximum-element-after-decreasing-and-rearranging"
+[[bin]]
+name = "maximum-subarray"
+[[bin]]
+name = "merge-intervals"
+[[bin]]
+name = "merge-two-sorted-lists"
+[[bin]]
+name = "missing-number"
+[[bin]]
+name = "number-of-1-bits"
+[[bin]]
+name = "range-addition-ii"
+[[bin]]
+name = "remove-all-adjacent-duplicates-in-string"
+[[bin]]
+name = "remove-duplicates-from-sorted-array"
+[[bin]]
+name = "remove-duplicates-from-sorted-array-ii"
+[[bin]]
+name = "remove-duplicates-from-sorted-list"
+[[bin]]
+name = "remove-element"
+[[bin]]
+name = "search-insert-position"
+[[bin]]
+name = "single-number"
+[[bin]]
+name = "single-number-ii"
+[[bin]]
+name = "single-number-iii"
+[[bin]]
+name = "third-maximum-number"
+[[bin]]
+name = "valid-anagram"
+[[bin]]
+name = "zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof"
