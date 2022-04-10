@@ -203,3 +203,5 @@ name = "third-maximum-number"
 name = "valid-anagram"
 [[bin]]
 name = "zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof"
+[[bin]]
+name = "unique-morse-code-words"

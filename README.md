@@ -1,8 +1,8 @@
 # 解决方案
-> 全部题目：97
+> 全部题目：98
 > - 🟥 困难：1
 > - 🟨 中等：23
-> - 🟩 简单：73
+> - 🟩 简单：74
 
 |序号|题目|难度|解答|
 |---|---|---|---|
@@ -103,3 +103,4 @@
 |95|[面试题 01.05. 一次编辑](https://leetcode-cn.com/problems/one-away-lcci/)|🟨|[Rust](rust/src/bin/one-away-lcci.rs)|
 |96|[941. 有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/)|🟩|[Rust](rust/src/bin/valid-mountain-array.rs)|
 |97|[33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|🟨|[Rust](rust/src/bin/search-in-rotated-sorted-array.rs)|
+|98|[804. 唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)|🟨|[Rust](rust/src/bin/unique-morse-code-words.rs)|
