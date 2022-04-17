@@ -1,8 +1,8 @@
 # 解决方案
-> 全部题目：98
+> 全部题目：99
 > - 🟥 困难：1
 > - 🟨 中等：23
-> - 🟩 简单：74
+> - 🟩 简单：75
 
 |序号|题目|难度|解答|
 |---|---|---|---|
@@ -104,3 +104,4 @@
 |96|[941. 有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/)|🟩|[Rust](rust/src/bin/valid-mountain-array.rs)|
 |97|[33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|🟨|[Rust](rust/src/bin/search-in-rotated-sorted-array.rs)|
 |98|[804. 唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)|🟨|[Rust](rust/src/bin/unique-morse-code-words.rs)|
+|99|[819. 最常见的单词](https://leetcode-cn.com/problems/most-common-word/)|🟩|[Rust](rust/src/bin/most-common-word.rs)|
