@@ -1,7 +1,7 @@
 # 解决方案
-> 全部题目：99
+> 全部题目：100
 > - 🟥 困难：1
-> - 🟨 中等：23
+> - 🟨 中等：24
 > - 🟩 简单：75
 
 |序号|题目|难度|解答|
@@ -105,3 +105,4 @@
 |97|[33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|🟨|[Rust](rust/src/bin/search-in-rotated-sorted-array.rs)|
 |98|[804. 唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)|🟨|[Rust](rust/src/bin/unique-morse-code-words.rs)|
 |99|[819. 最常见的单词](https://leetcode-cn.com/problems/most-common-word/)|🟩|[Rust](rust/src/bin/most-common-word.rs)|
+|100|[386. 字典序排数](https://leetcode-cn.com/problems/lexicographical-numbers/)|🟨|[Rust](rust/src/bin/lexicographical-numbers.rs)|
