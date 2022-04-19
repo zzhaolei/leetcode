@@ -1,8 +1,8 @@
 # 解决方案
-> 全部题目：100
+> 全部题目：101
 > - 🟥 困难：1
 > - 🟨 中等：24
-> - 🟩 简单：75
+> - 🟩 简单：76
 
 |序号|题目|难度|解答|
 |---|---|---|---|
@@ -106,3 +106,4 @@
 |98|[804. 唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)|🟨|[Rust](rust/src/bin/unique-morse-code-words.rs)|
 |99|[819. 最常见的单词](https://leetcode-cn.com/problems/most-common-word/)|🟩|[Rust](rust/src/bin/most-common-word.rs)|
 |100|[386. 字典序排数](https://leetcode-cn.com/problems/lexicographical-numbers/)|🟨|[Rust](rust/src/bin/lexicographical-numbers.rs)|
+|101|[821. 字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)|🟩|[Rust](rust/src/bin/shortest-distance-to-a-character.rs)|

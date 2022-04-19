@@ -209,3 +209,5 @@ name = "unique-morse-code-words"
 name = "most-common-word"
 [[bin]]
 name = "lexicographical-numbers"
+[[bin]]
+name = "shortest-distance-to-a-character"
