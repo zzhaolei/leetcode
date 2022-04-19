@@ -103,7 +103,7 @@
 |95|[面试题 01.05. 一次编辑](https://leetcode-cn.com/problems/one-away-lcci/)|🟨|[Rust](rust/src/bin/one-away-lcci.rs)|
 |96|[941. 有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/)|🟩|[Rust](rust/src/bin/valid-mountain-array.rs)|
 |97|[33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|🟨|[Rust](rust/src/bin/search-in-rotated-sorted-array.rs)|
-|98|[804. 唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)|🟨|[Rust](rust/src/bin/unique-morse-code-words.rs)|
+|98|[804. 唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)|🟩|[Rust](rust/src/bin/unique-morse-code-words.rs)|
 |99|[819. 最常见的单词](https://leetcode-cn.com/problems/most-common-word/)|🟩|[Rust](rust/src/bin/most-common-word.rs)|
 |100|[386. 字典序排数](https://leetcode-cn.com/problems/lexicographical-numbers/)|🟨|[Rust](rust/src/bin/lexicographical-numbers.rs)|
 |101|[821. 字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)|🟩|[Rust](rust/src/bin/shortest-distance-to-a-character.rs)|
