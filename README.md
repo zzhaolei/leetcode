@@ -1,8 +1,8 @@
 # 解决方案
-> 全部题目：103
+> 全部题目：104
 > - 🟥 困难：1
 > - 🟨 中等：24
-> - 🟩 简单：78
+> - 🟩 简单：79
 
 |序号|题目|难度|解答|
 |---|---|---|---|
@@ -109,3 +109,4 @@
 |101|[821. 字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)|🟩|[Rust](rust/src/bin/shortest-distance-to-a-character.rs)|
 |102|[485. 最大连续 1 的个数](https://leetcode.cn/problems/max-consecutive-ones/)|🟩|[Rust](rust/src/bin/max-consecutive-ones.rs)|
 |103|[929. 独特的电子邮件地址](https://leetcode.cn/problems/unique-email-addresses/)|🟩|[Rust](rust/src/bin/unique-email-addresses.rs)|
+|104|[205. 同构字符串](https://leetcode.cn/problems/isomorphic-strings/)|🟩|[Rust](rust/src/bin/isomorphic-strings.rs) [Go](golang/isomorphic-strings/main.go)|
