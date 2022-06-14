@@ -1,8 +1,8 @@
 # 解决方案
-> 全部题目：104
+> 全部题目：105
 > - 🟥 困难：1
 > - 🟨 中等：24
-> - 🟩 简单：79
+> - 🟩 简单：80
 
 |序号|题目|难度|解答|
 |---|---|---|---|
@@ -110,3 +110,4 @@
 |102|[485. 最大连续 1 的个数](https://leetcode.cn/problems/max-consecutive-ones/)|🟩|[Rust](rust/src/bin/max-consecutive-ones.rs)|
 |103|[929. 独特的电子邮件地址](https://leetcode.cn/problems/unique-email-addresses/)|🟩|[Rust](rust/src/bin/unique-email-addresses.rs)|
 |104|[205. 同构字符串](https://leetcode.cn/problems/isomorphic-strings/)|🟩|[Rust](rust/src/bin/isomorphic-strings.rs) [Go](golang/isomorphic-strings/main.go)|
+|105|[387. 字符串中的第一个唯一字符](https://leetcode.cn/problems/first-unique-character-in-a-string/)|🟩|[Rust](rust/src/bin/first-unique-character-in-a-string.rs)|
