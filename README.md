@@ -90,6 +90,7 @@
 [941. 有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/)|🟩|[Rust](rust/src/bin/valid-mountain-array.rs)|
 [977. 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)|🟩|[Go](golang/squares-of-a-sorted-array/main.go) [Rust](rust/src/bin/squares-of-a-sorted-array.rs)|
 [1047. 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|🟩|[Rust](rust/src/bin/remove-all-adjacent-duplicates-in-string.rs)|
+[1108. IP 地址无效化](https://leetcode.cn/problems/defanging-an-ip-address/)|🟩|[Rust](rust/src/bin/defanging-an-ip-address.rs)|
 [1189. “气球” 的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balloons/)|🟩|[Rust](rust/src/bin/maximum-number-of-balloons.rs)|
 [1290. 二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|🟩|[Rust](rust/src/bin/convert-binary-number-in-a-linked-list-to-integer.rs)|
 [1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|🟩|[Rust](rust/src/bin/number-of-steps-to-reduce-a-number-to-zero.rs)|
