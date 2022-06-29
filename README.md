@@ -1,8 +1,8 @@
 # 解决方案
-> 全部题目：106
+> 全部题目：108
 > - 🟥 困难：1
-> - 🟨 中等：25
-> - 🟩 简单：80
+> - 🟨 中等：26
+> - 🟩 简单：81
 
 |题目|难度|解答|
 |---|---|---|
@@ -68,6 +68,7 @@
 [500. 键盘行](https://leetcode-cn.com/problems/keyboard-row/)|🟩|[Rust](rust/src/bin/keyboard-row.rs)|
 [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)|🟩|[Rust](rust/src/bin/fibonacci-number.rs)|
 [520. 检测大写字母](https://leetcode-cn.com/problems/detect-capital/)|🟩|[Rust](rust/src/bin/detect-capital.rs)|
+[535. TinyURL 的加密与解密](https://leetcode.cn/problems/encode-and-decode-tinyurl/)|🟨|[Rust](rust/src/bin/encode-and-decode-tinyurl.rs)|
 [540. 有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)|🟨|[Rust](rust/src/bin/single-element-in-a-sorted-array.rs)|
 [557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)|🟩|[Go](golang/reverse-words-in-a-string-iii/main.go) [Rust](rust/src/bin/reverse-words-in-a-string-iii.rs)|
 [575. 分糖果](https://leetcode-cn.com/problems/distribute-candies/)|🟩|[Rust](rust/src/bin/distribute-candies.rs)|
