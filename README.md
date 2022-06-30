@@ -1,8 +1,8 @@
 # 解决方案
-> 全部题目：108
+> 全部题目：109
 > - 🟥 困难：1
 > - 🟨 中等：26
-> - 🟩 简单：81
+> - 🟩 简单：82
 
 |题目|难度|解答|
 |---|---|---|
@@ -35,7 +35,8 @@
 [58. 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)|🟩|[Rust](rust/src/bin/length-of-last-word.rs)|
 [66. 加一](https://leetcode-cn.com/problems/plus-one/)|🟩|[Rust](rust/src/bin/plus-one.rs)|
 [67. 二进制求和](https://leetcode-cn.com/problems/add-binary/)|🟩|[Rust](rust/src/bin/add-binary.rs)|
-[69. x 的平方根 ](https://leetcode-cn.com/problems/sqrtx/)|🟩|[Rust](rust/src/bin/sqrtx.rs)|
+[69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)|🟩|[Rust](rust/src/bin/sqrtx.rs)|
+[70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/)|🟩|[Rust](rust/src/bin/climbing-stairs.rs)|
 [80. 删除有序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)|🟨|[Rust](rust/src/bin/remove-duplicates-from-sorted-array-ii.rs)|
 [83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|🟩|[Rust](rust/src/bin/remove-duplicates-from-sorted-list.rs)|
 [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|🟨|[Rust](rust/src/bin/best-time-to-buy-and-sell-stock-ii.rs)|
