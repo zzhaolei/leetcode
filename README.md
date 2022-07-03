@@ -1,8 +1,8 @@
 # 解决方案
-> 全部题目：109
+> 全部题目：110
 > - 🟥 困难：1
 > - 🟨 中等：26
-> - 🟩 简单：82
+> - 🟩 简单：83
 
 |题目|难度|解答|
 |---|---|---|
@@ -45,6 +45,7 @@
 [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|🟨|[Go](golang/two-sum-ii-input-array-is-sorted/main.go) [Rust](rust/src/bin/two-sum-ii-input-array-is-sorted.rs)|
 [169. 多数元素](https://leetcode-cn.com/problems/majority-element/)|🟩|[Go](golang/majority-element/main.go) [Rust](rust/src/bin/majority-element.rs)|
 [189. 轮转数组](https://leetcode-cn.com/problems/rotate-array/)|🟨|[Go](golang/rotate-array/main.go) [Rust](rust/src/bin/rotate-array.rs)|
+[190. 颠倒二进制位](https://leetcode.cn/problems/reverse-bits/)|🟩|[Rust](rust/src/bin/reverse-bits.rs)|
 [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)|🟩|[Rust](rust/src/bin/number-of-1-bits.rs)|
 [205. 同构字符串](https://leetcode.cn/problems/isomorphic-strings/)|🟩|[Rust](rust/src/bin/isomorphic-strings.rs) [Go](golang/isomorphic-strings/main.go)|
 [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)|🟩|[Rust](rust/src/bin/reverse-linked-list.rs)|
