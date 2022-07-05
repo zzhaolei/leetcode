@@ -30,3 +30,17 @@ fn main() {
     println!("{}", Solution::search(vec![1, 0, 3, 5, 9, 12], 2));
     println!("{}", Solution::search(vec![5], -5));
 }
+
+#[cfg(test)]
+mod tests {
+    use crate::Solution;
+
+    #[test]
+    fn test() {
+        assert_eq!(Solution::search(vec![-1, 0, 3, 5, 9, 12], 9), 4);
+        assert_eq!(Solution::search(vec![-1, 0, 3, 5, 9, 12], 10), -1);
+        assert_eq!(Solution::search(vec![-1, 0, 3, 5, 9, 12], 12), 5);
+        assert_eq!(Solution::search(vec![1, 0, 3, 5, 9, 12], 2), -1);
+        assert_eq!(Solution::search(vec![5], -5), -1);
+    }
+}
