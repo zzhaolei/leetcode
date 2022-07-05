@@ -1,7 +1,7 @@
 # 解决方案
-> 全部题目：111
+> 全部题目：112
 > - 🟥 困难：1
-> - 🟨 中等：26
+> - 🟨 中等：27
 > - 🟩 简单：84
 
 |题目|难度|解答|
@@ -80,6 +80,7 @@
 [717. 1 比特与 2 比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/)|🟩|[Rust](rust/src/bin/one-bit-and-2-bit-characters.rs)|
 [724. 寻找数组的中心下标](https://leetcode-cn.com/problems/find-pivot-index/)|🟩|[Rust](rust/src/bin/find-pivot-index.rs)|
 [728. 自除数](https://leetcode-cn.com/problems/self-dividing-numbers/)|🟩|[Rust](rust/src/bin/self-dividing-numbers.rs)|
+[729. 我的日程安排表 I](https://leetcode.cn/problems/my-calendar-i/)|🟨|[Rust](rust/src/bin/my-calendar-i.rs)|
 [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|🟩|[Rust](rust/src/bin/min-cost-climbing-stairs.rs)|
 [762. 二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/)|🟩|[Rust](rust/src/bin/prime-number-of-set-bits-in-binary-representation.rs)|
 [804. 唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)|🟩|[Rust](rust/src/bin/unique-morse-code-words.rs)|
