@@ -32,3 +32,17 @@ fn main() {
     let code = Codec::new();
     println!("{}", code.decode(code.encode("1".to_string())));
 }
+
+#[cfg(test)]
+mod tests {
+    use crate::Codec;
+
+    #[test]
+    fn test() {
+        let code = Codec::new();
+        let encode = code.encode("1".to_string());
+        assert_eq!(encode, "1");
+        let decode = code.decode(encode);
+        assert_eq!(decode, "1");
+    }
+}

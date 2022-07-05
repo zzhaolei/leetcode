@@ -32,3 +32,14 @@ fn main() {
     let s = Solution;
     println!("{}", s.first_bad_version(5));
 }
+
+#[cfg(test)]
+mod tests {
+    use crate::Solution;
+
+    #[test]
+    fn test() {
+        let s = Solution;
+        assert_eq!(s.first_bad_version(5), 0);
+    }
+}

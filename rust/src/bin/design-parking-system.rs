@@ -44,4 +44,20 @@ impl ParkingSystem {
  * let ret_1: bool = obj.add_car(carType);
  */
 
-fn main() {}
+fn main() {
+    let mut obj = ParkingSystem::new(1, 1, 0);
+    println!("{}", obj.add_car(1));
+}
+
+#[cfg(test)]
+mod tests {
+    use crate::ParkingSystem;
+
+    #[test]
+    fn test() {
+        let mut obj = ParkingSystem::new(1, 1, 0);
+        assert!(obj.add_car(1));
+        assert!(obj.add_car(2));
+        assert!(!obj.add_car(3));
+    }
+}

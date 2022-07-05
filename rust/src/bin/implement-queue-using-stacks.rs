@@ -44,5 +44,22 @@ impl MyQueue {
  */
 
 fn main() {
-    println!("Hello, world!");
+    let mut obj = MyQueue::new();
+    obj.push(1);
+    obj.push(2);
+}
+
+#[cfg(test)]
+mod tests {
+    use crate::MyQueue;
+
+    #[test]
+    fn test() {
+        let mut obj = MyQueue::new();
+        obj.push(1);
+        obj.push(2);
+        assert_eq!(obj.peek(), 1);
+        assert_eq!(obj.pop(), 1);
+        assert_eq!(obj.empty(), false);
+    }
 }

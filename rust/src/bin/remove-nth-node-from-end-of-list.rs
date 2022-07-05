@@ -42,3 +42,13 @@ impl Solution {
 fn main() {
     println!("{:?}", Solution::remove_nth_from_end(None, 0));
 }
+
+#[cfg(test)]
+mod tests {
+    use crate::Solution;
+
+    #[test]
+    fn test() {
+        assert_eq!(Solution::remove_nth_from_end(None, 0), None);
+    }
+}
