@@ -1,7 +1,7 @@
 # 解决方案
-> 全部题目：112
-> - 🟥 困难：1
-> - 🟨 中等：27
+> 全部题目：114
+> - 🟥 困难：2
+> - 🟨 中等：28
 > - 🟩 简单：84
 
 |题目|难度|解答|
@@ -75,11 +75,13 @@
 [557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)|🟩|[Go](golang/reverse-words-in-a-string-iii/main.go) [Rust](rust/src/bin/reverse-words-in-a-string-iii.rs)|
 [575. 分糖果](https://leetcode-cn.com/problems/distribute-candies/)|🟩|[Rust](rust/src/bin/distribute-candies.rs)|
 [598. 范围求和 II](https://leetcode-cn.com/problems/range-addition-ii/)|🟩|[Rust](rust/src/bin/range-addition-ii.rs)|
+[648. 单词替换](https://leetcode.cn/problems/replace-words/)|🟨|[Rust](rust/src/bin/replace-words.rs)|
 [693. 交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)|🟩|[Rust](rust/src/bin/binary-number-with-alternating-bits.rs)|
 [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)|🟩|[Go](golang/binary-search/main.go) [Rust](rust/src/bin/binary-search.rs)|
 [717. 1 比特与 2 比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/)|🟩|[Rust](rust/src/bin/one-bit-and-2-bit-characters.rs)|
 [724. 寻找数组的中心下标](https://leetcode-cn.com/problems/find-pivot-index/)|🟩|[Rust](rust/src/bin/find-pivot-index.rs)|
 [728. 自除数](https://leetcode-cn.com/problems/self-dividing-numbers/)|🟩|[Rust](rust/src/bin/self-dividing-numbers.rs)|
+[736. Lisp 语法解析](https://leetcode.cn/problems/parse-lisp-expression/)|🟥|unsolved|
 [729. 我的日程安排表 I](https://leetcode.cn/problems/my-calendar-i/)|🟨|[Rust](rust/src/bin/my-calendar-i.rs)|
 [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|🟩|[Rust](rust/src/bin/min-cost-climbing-stairs.rs)|
 [762. 二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/)|🟩|[Rust](rust/src/bin/prime-number-of-set-bits-in-binary-representation.rs)|
