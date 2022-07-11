@@ -1,7 +1,7 @@
 # 解决方案
-> 全部题目：114
+> 全部题目：115
 > - 🟥 困难：2
-> - 🟨 中等：28
+> - 🟨 中等：29
 > - 🟩 简单：84
 
 |题目|难度|解答|
@@ -76,6 +76,7 @@
 [575. 分糖果](https://leetcode-cn.com/problems/distribute-candies/)|🟩|[Rust](rust/src/bin/distribute-candies.rs)|
 [598. 范围求和 II](https://leetcode-cn.com/problems/range-addition-ii/)|🟩|[Rust](rust/src/bin/range-addition-ii.rs)|
 [648. 单词替换](https://leetcode.cn/problems/replace-words/)|🟨|[Rust](rust/src/bin/replace-words.rs)|
+[676. 实现一个魔法字典](https://leetcode.cn/problems/implement-magic-dictionary/)|🟨|[Rust](rust/src/bin/implement-magic-dictionary.rs)|
 [693. 交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)|🟩|[Rust](rust/src/bin/binary-number-with-alternating-bits.rs)|
 [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)|🟩|[Go](golang/binary-search/main.go) [Rust](rust/src/bin/binary-search.rs)|
 [717. 1 比特与 2 比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/)|🟩|[Rust](rust/src/bin/one-bit-and-2-bit-characters.rs)|
