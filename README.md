@@ -1,7 +1,7 @@
 # 解决方案
-> 全部题目：117
+> 全部题目：118
 > - 🟩 简单：85
-> - 🟥 困难：2
+> - 🟥 困难：3
 > - 🟨 中等：30
 
 |题目|难度|解答|
@@ -83,8 +83,9 @@
 [724. 寻找数组的中心下标](https://leetcode-cn.com/problems/find-pivot-index/)|🟩|[Rust](rust/src/bin/find-pivot-index.rs)|
 [728. 自除数](https://leetcode-cn.com/problems/self-dividing-numbers/)|🟩|[Rust](rust/src/bin/self-dividing-numbers.rs)|
 [735. 行星碰撞](https://leetcode.cn/problems/asteroid-collision/)|🟨|[Rust](rust/src/bin/asteroid-collision.rs)|
-[736. Lisp 语法解析](https://leetcode.cn/problems/parse-lisp-expression/)|🟥|unsolved|
+[736. Lisp 语法解析](https://leetcode.cn/problems/parse-lisp-expression/)|🟥|**unsolved**|
 [729. 我的日程安排表 I](https://leetcode.cn/problems/my-calendar-i/)|🟨|[Rust](rust/src/bin/my-calendar-i.rs)|
+[745. 前缀和后缀搜索](https://leetcode.cn/problems/prefix-and-suffix-search/)|🟥|**unsolved**|
 [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|🟩|[Rust](rust/src/bin/min-cost-climbing-stairs.rs)|
 [762. 二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/)|🟩|[Rust](rust/src/bin/prime-number-of-set-bits-in-binary-representation.rs)|
 [804. 唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)|🟩|[Rust](rust/src/bin/unique-morse-code-words.rs)|
