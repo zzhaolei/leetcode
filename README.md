@@ -1,6 +1,6 @@
 # 解决方案
-> 全部题目：118
-> - 🟩 简单：85
+> 全部题目：119
+> - 🟩 简单：86
 > - 🟥 困难：3
 > - 🟨 中等：30
 
@@ -119,6 +119,7 @@
 [2047. 句子中的有效单词数](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/)|🟩|[Rust](rust/src/bin/number-of-valid-words-in-a-sentence.rs)|
 [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)|🟩|[Go](golang/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/main.go) [Rust](rust/src/bin/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.rs)|
 [剑指 Offer 28. 对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)|🟩|[Rust](rust/src/bin/dui-cheng-de-er-cha-shu-lcof.rs)|
+[剑指 Offer II 041. 滑动窗口的平均值](https://leetcode.cn/problems/qIsx9U/)|🟩|[Rust](rust/src/bin/qIsx9U.rs)|
 [剑指 Offer 52. 两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|🟩|[Go](golang/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/main.go) ~~Rust~~|
 [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)|🟩|[Go](golang/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/main.go) [Rust](rust/src/bin/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.rs)|
 [剑指 Offer 58 - I. 翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)|🟩|[Rust](rust/src/bin/fan-zhuan-dan-ci-shun-xu-lcof.rs)|
