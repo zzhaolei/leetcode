@@ -1,7 +1,7 @@
 # 解决方案
-> 全部题目：120
+> 全部题目：121
 > - 🟩 简单：86
-> - 🟥 困难：3
+> - 🟥 困难：4
 > - 🟨 中等：31
 
 |题目|难度|解答|
@@ -103,6 +103,7 @@
 [1108. IP 地址无效化](https://leetcode.cn/problems/defanging-an-ip-address/)|🟩|[Rust](rust/src/bin/defanging-an-ip-address.rs)|
 [1189. “气球” 的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balloons/)|🟩|[Rust](rust/src/bin/maximum-number-of-balloons.rs)|
 [1200. 最小绝对差](https://leetcode.cn/problems/minimum-absolute-difference/)|🟩|[Rust](rust/src/bin/minimum-absolute-difference.rs)|
+[1206. 设计跳表](https://leetcode.cn/problems/design-skiplist/)|🟩|[Rust](rust/src/bin/design-skiplist.rs)|
 [1252. 奇数值单元格的数目](https://leetcode.cn/problems/cells-with-odd-values-in-a-matrix/)|🟩|[Rust](rust/src/bin/cells-with-odd-values-in-a-matrix.rs)|
 [1290. 二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|🟩|[Rust](rust/src/bin/convert-binary-number-in-a-linked-list-to-integer.rs)|
 [1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|🟩|[Rust](rust/src/bin/number-of-steps-to-reduce-a-number-to-zero.rs)|
