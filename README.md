@@ -1,6 +1,6 @@
 # 解决方案
-> 全部题目：121
-> - 🟩 简单：86
+> 全部题目：122
+> - 🟩 简单：87
 > - 🟥 困难：4
 > - 🟨 中等：31
 
@@ -106,6 +106,7 @@
 [1206. 设计跳表](https://leetcode.cn/problems/design-skiplist/)|🟩|[Rust](rust/src/bin/design-skiplist.rs)|
 [1252. 奇数值单元格的数目](https://leetcode.cn/problems/cells-with-odd-values-in-a-matrix/)|🟩|[Rust](rust/src/bin/cells-with-odd-values-in-a-matrix.rs)|
 [1290. 二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|🟩|[Rust](rust/src/bin/convert-binary-number-in-a-linked-list-to-integer.rs)|
+[1331. 数组序号转换](https://leetcode.cn/problems/rank-transform-of-an-array/)|🟩|[Rust](rust/src/bin/rank-transform-of-an-array.rs)|
 [1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|🟩|[Rust](rust/src/bin/number-of-steps-to-reduce-a-number-to-zero.rs)|
 [1380. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)|🟩|[Rust](rust/src/bin/lucky-numbers-in-a-matrix.rs)|
 [1480. 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)|🟩|[Go](golang/running-sum-of-1d-array/main.go) [Rust](rust/src/bin/running-sum-of-1d-array.rs)|
