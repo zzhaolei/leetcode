@@ -108,6 +108,7 @@
 [1290. 二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|🟩|[Rust](rust/src/bin/convert-binary-number-in-a-linked-list-to-integer.rs)|
 [1331. 数组序号转换](https://leetcode.cn/problems/rank-transform-of-an-array/)|🟩|[Rust](rust/src/bin/rank-transform-of-an-array.rs)|
 [1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|🟩|[Rust](rust/src/bin/number-of-steps-to-reduce-a-number-to-zero.rs)|
+[1374. 生成每种字符都是奇数个的字符串](https://leetcode.cn/problems/generate-a-string-with-characters-that-have-odd-counts/)|🟩|[Rust](rust/src/bin/generate-a-string-with-characters-that-have-odd-counts.rs)|
 [1380. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)|🟩|[Rust](rust/src/bin/lucky-numbers-in-a-matrix.rs)|
 [1480. 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)|🟩|[Go](golang/running-sum-of-1d-array/main.go) [Rust](rust/src/bin/running-sum-of-1d-array.rs)|
 [1603. 设计停车系统](https://leetcode-cn.com/problems/design-parking-system/)|🟩|[Rust](rust/src/bin/design-parking-system.rs)|
