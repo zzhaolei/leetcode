@@ -1,8 +1,8 @@
 # 解决方案
-> 全部题目：122
-> - 🟩 简单：87
+> 全部题目：124
+> - 🟩 简单：88
 > - 🟥 困难：4
-> - 🟨 中等：31
+> - 🟨 中等：32
 
 |题目|难度|解答|
 |---|---|---|
@@ -29,7 +29,7 @@
 [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)|🟩|[Go](golang/search-insert-position/main.go) [Rust](rust/src/bin/search-insert-position.rs)|
 [38. 外观数列](https://leetcode-cn.com/problems/count-and-say/)|🟨|[Go](golang/count-and-say/main.go) [Rust](rust/src/bin/count-and-say.rs)|
 [50. Pow(x, n)](https://leetcode.cn/problems/powx-n/)|🟨|[Rust](rust/src/bin/powx-n.rs)|
-[53. 最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/)|🟩|[Rust](rust/src/bin/maximum-subarray.rs)|
+[53. 最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/)|🟨|[Rust](rust/src/bin/maximum-subarray.rs)|
 [56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)|🟨|[Go](golang/merge-intervals/main.go) [Rust](rust/src/bin/merge-intervals.rs)|
 [57. 插入区间](https://leetcode-cn.com/problems/insert-interval/)|🟨|[Go](golang/insert-interval/main.go) [Rust](rust/src/bin/insert-interval.rs)|
 [58. 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)|🟩|[Rust](rust/src/bin/length-of-last-word.rs)|
@@ -83,9 +83,9 @@
 [717. 1 比特与 2 比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/)|🟩|[Rust](rust/src/bin/one-bit-and-2-bit-characters.rs)|
 [724. 寻找数组的中心下标](https://leetcode-cn.com/problems/find-pivot-index/)|🟩|[Rust](rust/src/bin/find-pivot-index.rs)|
 [728. 自除数](https://leetcode-cn.com/problems/self-dividing-numbers/)|🟩|[Rust](rust/src/bin/self-dividing-numbers.rs)|
+[729. 我的日程安排表 I](https://leetcode.cn/problems/my-calendar-i/)|🟨|[Rust](rust/src/bin/my-calendar-i.rs)|
 [735. 行星碰撞](https://leetcode.cn/problems/asteroid-collision/)|🟨|[Rust](rust/src/bin/asteroid-collision.rs)|
 [736. Lisp 语法解析](https://leetcode.cn/problems/parse-lisp-expression/)|🟥|**unsolved**|
-[729. 我的日程安排表 I](https://leetcode.cn/problems/my-calendar-i/)|🟨|[Rust](rust/src/bin/my-calendar-i.rs)|
 [745. 前缀和后缀搜索](https://leetcode.cn/problems/prefix-and-suffix-search/)|🟥|**unsolved**|
 [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|🟩|[Rust](rust/src/bin/min-cost-climbing-stairs.rs)|
 [762. 二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/)|🟩|[Rust](rust/src/bin/prime-number-of-set-bits-in-binary-representation.rs)|
@@ -103,13 +103,14 @@
 [1108. IP 地址无效化](https://leetcode.cn/problems/defanging-an-ip-address/)|🟩|[Rust](rust/src/bin/defanging-an-ip-address.rs)|
 [1189. “气球” 的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balloons/)|🟩|[Rust](rust/src/bin/maximum-number-of-balloons.rs)|
 [1200. 最小绝对差](https://leetcode.cn/problems/minimum-absolute-difference/)|🟩|[Rust](rust/src/bin/minimum-absolute-difference.rs)|
-[1206. 设计跳表](https://leetcode.cn/problems/design-skiplist/)|🟩|[Rust](rust/src/bin/design-skiplist.rs)|
+[1206. 设计跳表](https://leetcode.cn/problems/design-skiplist/)|🟥|[Rust](rust/src/bin/design-skiplist.rs)|
 [1252. 奇数值单元格的数目](https://leetcode.cn/problems/cells-with-odd-values-in-a-matrix/)|🟩|[Rust](rust/src/bin/cells-with-odd-values-in-a-matrix.rs)|
 [1290. 二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|🟩|[Rust](rust/src/bin/convert-binary-number-in-a-linked-list-to-integer.rs)|
 [1331. 数组序号转换](https://leetcode.cn/problems/rank-transform-of-an-array/)|🟩|[Rust](rust/src/bin/rank-transform-of-an-array.rs)|
 [1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|🟩|[Rust](rust/src/bin/number-of-steps-to-reduce-a-number-to-zero.rs)|
 [1374. 生成每种字符都是奇数个的字符串](https://leetcode.cn/problems/generate-a-string-with-characters-that-have-odd-counts/)|🟩|[Rust](rust/src/bin/generate-a-string-with-characters-that-have-odd-counts.rs)|
 [1380. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)|🟩|[Rust](rust/src/bin/lucky-numbers-in-a-matrix.rs)|
+[1403. 非递增顺序的最小子序列](https://leetcode.cn/problems/minimum-subsequence-in-non-increasing-order/)|🟩|[Rust](rust/src/bin/minimum-subsequence-in-non-increasing-order.rs)|
 [1480. 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)|🟩|[Go](golang/running-sum-of-1d-array/main.go) [Rust](rust/src/bin/running-sum-of-1d-array.rs)|
 [1603. 设计停车系统](https://leetcode-cn.com/problems/design-parking-system/)|🟩|[Rust](rust/src/bin/design-parking-system.rs)|
 [1736. 替换隐藏数字得到的最晚时间](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)|🟩|[Go](golang/latest-time-by-replacing-hidden-digits/main.go) [Rust](rust/src/bin/latest-time-by-replacing-hidden-digits.rs)|
