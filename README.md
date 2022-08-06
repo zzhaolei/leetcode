@@ -1,6 +1,6 @@
 # 解决方案
-> 全部题目：124
-> - 🟩 简单：88
+> 全部题目：125
+> - 🟩 简单：89
 > - 🟥 困难：4
 > - 🟨 中等：32
 
@@ -113,6 +113,7 @@
 [1374. 生成每种字符都是奇数个的字符串](https://leetcode.cn/problems/generate-a-string-with-characters-that-have-odd-counts/)|🟩|[🦀](rust/src/bin/generate-a-string-with-characters-that-have-odd-counts.rs)|
 [1380. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)|🟩|[🦀](rust/src/bin/lucky-numbers-in-a-matrix.rs)|
 [1403. 非递增顺序的最小子序列](https://leetcode.cn/problems/minimum-subsequence-in-non-increasing-order/)|🟩|[🦀](rust/src/bin/minimum-subsequence-in-non-increasing-order.rs)|
+[1408. 数组中的字符串匹配](https://leetcode.cn/problems/string-matching-in-an-array/)|🟩|[🦀](rust/src/bin/string-matching-in-an-array.rs)|
 [1480. 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)|🟩|[🦀](rust/src/bin/running-sum-of-1d-array.rs) [🐹](golang/running-sum-of-1d-array/main.go)|
 [1603. 设计停车系统](https://leetcode-cn.com/problems/design-parking-system/)|🟩|[🦀](rust/src/bin/design-parking-system.rs)|
 [1736. 替换隐藏数字得到的最晚时间](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)|🟩|[🦀](rust/src/bin/latest-time-by-replacing-hidden-digits.rs) [🐹](golang/latest-time-by-replacing-hidden-digits/main.go)|
