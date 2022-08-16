@@ -22,11 +22,11 @@ mod tests {
 
     #[test]
     fn detect_capital_use() {
-        assert_eq!(Solution::detect_capital_use(String::from("")), true);
-        assert_eq!(Solution::detect_capital_use(String::from("Zhao")), true);
-        assert_eq!(Solution::detect_capital_use(String::from("zHao")), false);
-        assert_eq!(Solution::detect_capital_use(String::from("zhao")), true);
-        assert_eq!(Solution::detect_capital_use(String::from("ZHAO")), true);
+        assert!(Solution::detect_capital_use(String::from("")));
+        assert!(Solution::detect_capital_use(String::from("Zhao")));
+        assert!(!Solution::detect_capital_use(String::from("zHao")));
+        assert!(Solution::detect_capital_use(String::from("zhao")));
+        assert!(Solution::detect_capital_use(String::from("ZHAO")));
     }
 }
 fn main() {}

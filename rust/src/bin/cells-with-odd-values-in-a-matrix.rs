@@ -10,8 +10,8 @@ impl Solution {
             for (j, v) in matrix.iter_mut().enumerate() {
                 v[b] += 1;
                 if j == a {
-                    for k in 0..v.len() {
-                        v[k] += 1;
+                    for k in v.iter_mut() {
+                        *k += 1;
                     }
                 }
             }

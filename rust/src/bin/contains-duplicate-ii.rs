@@ -54,16 +54,16 @@ mod tests {
         // Solution::test("");
 
         s.test();
-        assert_eq!(Solution::impl1(vec![1, 2, 3, 1], 3), true);
-        assert_eq!(Solution::impl1(vec![1, 0, 1, 1], 1), true);
-        assert_eq!(Solution::impl1(vec![1, 2, 3, 1, 2, 3], 2), false);
+        assert!(Solution::impl1(vec![1, 2, 3, 1], 3));
+        assert!(Solution::impl1(vec![1, 0, 1, 1], 1));
+        assert!(!Solution::impl1(vec![1, 2, 3, 1, 2, 3], 2));
     }
 
     #[test]
     fn test_impl2() {
-        assert_eq!(Solution::impl2(vec![1, 2, 3, 1], 3), true);
-        assert_eq!(Solution::impl2(vec![1, 0, 1, 1], 1), true);
-        assert_eq!(Solution::impl2(vec![1, 2, 3, 1, 2, 3], 2), false);
+        assert!(Solution::impl2(vec![1, 2, 3, 1], 3));
+        assert!(Solution::impl2(vec![1, 0, 1, 1], 1));
+        assert!(!Solution::impl2(vec![1, 2, 3, 1, 2, 3], 2));
     }
 }
 fn main() {}

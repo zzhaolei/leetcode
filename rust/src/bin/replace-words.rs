@@ -3,7 +3,7 @@ struct Solution;
 impl Solution {
     pub fn replace_words(dictionary: Vec<String>, sentence: String) -> String {
         let mut ans = String::new();
-        for mut i in sentence.trim().split_ascii_whitespace().into_iter() {
+        for mut i in sentence.trim().split_ascii_whitespace() {
             for j in dictionary.iter() {
                 if i.starts_with(j) {
                     i = i.min(j);

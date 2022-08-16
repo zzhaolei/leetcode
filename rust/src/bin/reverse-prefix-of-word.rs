@@ -15,7 +15,7 @@ impl Solution {
     #[allow(unused)]
     pub fn impl2(word: String, ch: char) -> String {
         if let Some(i) = word.find(ch) {
-            (&word[..=i]).chars().rev().collect::<String>() + &word[i + 1..].to_string()
+            (&word[..=i]).chars().rev().collect::<String>() + &word[i + 1..]
         } else {
             word
         }

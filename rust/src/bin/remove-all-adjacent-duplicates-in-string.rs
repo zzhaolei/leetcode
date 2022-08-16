@@ -11,7 +11,7 @@ impl Solution {
         }
         let mut s = s;
 
-        let result = loop {
+        loop {
             let mut result = String::new();
             let mut dup = false;
             let mut i_c: Option<char> = None;
@@ -36,9 +36,7 @@ impl Solution {
                 break result;
             }
             s = result;
-        };
-
-        result
+        }
     }
 
     pub fn impl_2(s: String) -> String {

@@ -27,13 +27,15 @@ mod tests {
 
     #[test]
     fn test() {
-        assert_eq!(
-            Solution::is_covered(vec![vec![1, 2], vec![3, 4], vec![5, 6]], 2, 5),
-            true
-        );
-        assert_eq!(
-            Solution::is_covered(vec![vec![1, 10], vec![10, 20]], 21, 21),
-            false
-        );
+        assert!(Solution::is_covered(
+            vec![vec![1, 2], vec![3, 4], vec![5, 6]],
+            2,
+            5
+        ),);
+        assert!(!Solution::is_covered(
+            vec![vec![1, 10], vec![10, 20]],
+            21,
+            21
+        ),);
     }
 }

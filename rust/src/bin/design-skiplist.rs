@@ -37,7 +37,7 @@ impl Skiplist {
         if *v == 0 {
             self.skip_list.remove(&num);
         }
-        return true;
+        true
     }
 }
 

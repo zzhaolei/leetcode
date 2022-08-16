@@ -20,7 +20,7 @@ impl Solution {
         let mut s = String::new();
         let mut head = head;
         while let Some(node) = head {
-            s.push_str(&format!("{}", node.val));
+            s.push_str(&node.val.to_string());
             head = node.next;
         }
         i32::from_str_radix(&s, 2).unwrap_or(0)

@@ -10,7 +10,7 @@ impl Solution {
 
         for i in 0..nums.len() {
             let mut v = nums[i];
-            if let Some(_) = store.get(&v) {
+            if store.get(&v).is_some() {
                 continue;
             }
             loop {

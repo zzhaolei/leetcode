@@ -23,10 +23,10 @@ mod tests {
 
     #[test]
     fn test_impl1() {
-        assert_eq!(Solution::is_unique("leetcode".to_string()), false);
-        assert_eq!(Solution::is_unique("lei".to_string()), true);
-        assert_eq!(Solution::is_unique("lei11".to_string()), false);
-        assert_eq!(Solution::is_unique("Aa".to_string()), true);
-        assert_eq!(Solution::is_unique("AA".to_string()), false);
+        assert!(!Solution::is_unique("leetcode".to_string()));
+        assert!(Solution::is_unique("lei".to_string()));
+        assert!(!Solution::is_unique("lei11".to_string()));
+        assert!(Solution::is_unique("Aa".to_string()));
+        assert!(!Solution::is_unique("AA".to_string()));
     }
 }

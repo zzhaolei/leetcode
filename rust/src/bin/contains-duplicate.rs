@@ -57,29 +57,29 @@ mod tests {
 
     #[test]
     fn test_impl1() {
-        assert_eq!(Solution::impl1(vec![1, 2, 3, 1]), true);
-        assert_eq!(Solution::impl1(vec![1, 2, 3, 4]), false);
-        assert_eq!(Solution::impl1(vec![1, 1, 1, 3, 3, 4, 3, 2, 4, 2]), true);
+        assert!(Solution::impl1(vec![1, 2, 3, 1]));
+        assert!(!Solution::impl1(vec![1, 2, 3, 4]));
+        assert!(Solution::impl1(vec![1, 1, 1, 3, 3, 4, 3, 2, 4, 2]));
     }
 
     #[test]
     fn test_impl2() {
-        assert_eq!(Solution::impl2(vec![1, 2, 3, 1]), true);
-        assert_eq!(Solution::impl2(vec![1, 2, 3, 4]), false);
-        assert_eq!(Solution::impl2(vec![1, 1, 1, 3, 3, 4, 3, 2, 4, 2]), true);
+        assert!(Solution::impl2(vec![1, 2, 3, 1]));
+        assert!(!Solution::impl2(vec![1, 2, 3, 4]));
+        assert!(Solution::impl2(vec![1, 1, 1, 3, 3, 4, 3, 2, 4, 2]));
     }
 
     #[test]
     fn test_impl3() {
-        assert_eq!(Solution::impl3(vec![1, 2, 3, 1]), true);
-        assert_eq!(Solution::impl3(vec![1, 2, 3, 4]), false);
-        assert_eq!(Solution::impl3(vec![1, 1, 1, 3, 3, 4, 3, 2, 4, 2]), true);
+        assert!(Solution::impl3(vec![1, 2, 3, 1]));
+        assert!(!Solution::impl3(vec![1, 2, 3, 4]));
+        assert!(Solution::impl3(vec![1, 1, 1, 3, 3, 4, 3, 2, 4, 2]));
     }
 
     #[test]
     fn test_impl4() {
-        assert_eq!(Solution::impl4(vec![1, 2, 3, 1]), true);
-        assert_eq!(Solution::impl4(vec![1, 2, 3, 4]), false);
-        assert_eq!(Solution::impl4(vec![1, 1, 1, 3, 3, 4, 3, 2, 4, 2]), true);
+        assert!(Solution::impl4(vec![1, 2, 3, 1]));
+        assert!(!Solution::impl4(vec![1, 2, 3, 4]));
+        assert!(Solution::impl4(vec![1, 1, 1, 3, 3, 4, 3, 2, 4, 2]));
     }
 }

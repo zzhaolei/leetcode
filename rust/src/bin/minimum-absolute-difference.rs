@@ -1,3 +1,5 @@
+use std::cmp::Ordering;
+
 struct Solution;
 
 impl Solution {
@@ -35,11 +37,15 @@ impl Solution {
         for i in arr.windows(2) {
             let i = i.to_vec();
             let v = i[1] - i[0];
-            if v < min {
-                ans = vec![i];
-                min = v;
-            } else if v == min {
-                ans.push(i);
+            match v.cmp(&min) {
+                Ordering::Less => {
+                    ans = vec![i];
+                    min = v;
+                }
+                Ordering::Equal => {
+                    ans.push(i);
+                }
+                _ => {}
             }
         }
         ans

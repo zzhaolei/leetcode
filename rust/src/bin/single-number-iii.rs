@@ -58,8 +58,8 @@ mod tests {
     fn impl_1() {
         let r = Solution::impl_1(vec![1, 2, 3, 4, 2, 1]);
         assert_eq!(r.len(), 2);
-        assert_eq!(r.contains(&3), true);
-        assert_eq!(r.contains(&4), true);
+        assert!(r.contains(&3));
+        assert!(r.contains(&4));
     }
 
     #[test]
@@ -67,8 +67,8 @@ mod tests {
         let r = Solution::impl_2(vec![1, 2, 1, 3, 2, 5]);
         println!("{:?}", r);
         assert_eq!(r.len(), 2);
-        assert_eq!(r.contains(&3), true);
-        assert_eq!(r.contains(&5), true);
+        assert!(r.contains(&3));
+        assert!(r.contains(&5));
     }
 }
 fn main() {}

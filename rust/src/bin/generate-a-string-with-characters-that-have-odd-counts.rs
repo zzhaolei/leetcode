@@ -4,10 +4,10 @@ impl Solution {
     pub fn generate_the_string(n: i32) -> String {
         let n = n as usize;
         if n % 2 != 0 {
-            std::iter::repeat("a").take(n).collect::<String>()
+            "a".repeat(n)
         } else {
             let mut ans = String::with_capacity(n);
-            ans.push_str(&std::iter::repeat("a").take(n - 1).collect::<String>());
+            ans.push_str(&"a".repeat(n - 1));
             ans.push('b');
             ans
         }

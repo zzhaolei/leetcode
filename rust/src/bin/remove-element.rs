@@ -48,9 +48,9 @@ mod tests {
 
     #[test]
     fn impl_2() {
-        let s = Solution::impl_2(&mut vec![0, 1, 2, 2, 3, 0, 4, 2], 2);
+        let s = Solution::impl_2(&mut [0, 1, 2, 2, 3, 0, 4, 2], 2);
         assert_eq!(s, 5);
-        let s = Solution::impl_2(&mut vec![0, 1, 2, 2, 2, 3, 0, 4, 2], 2);
+        let s = Solution::impl_2(&mut [0, 1, 2, 2, 2, 3, 0, 4, 2], 2);
         assert_eq!(s, 5);
     }
 }
