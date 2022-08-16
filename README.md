@@ -1,6 +1,6 @@
 # 解决方案
-> 全部题目：127
-> - 🟩 简单：91
+> 全部题目：128
+> - 🟩 简单：92
 > - 🟥 困难：4
 > - 🟨 中等：32
 
@@ -118,6 +118,7 @@
 [1422. 分割字符串的最大得分](https://leetcode.cn/problems/maximum-score-after-splitting-a-string/)|🟩|[🦀](rust/src/bin/maximum-score-after-splitting-a-string.rs)|
 [1480. 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)|🟩|[🦀](rust/src/bin/running-sum-of-1d-array.rs) [🐹](golang/running-sum-of-1d-array/main.go)|
 [1603. 设计停车系统](https://leetcode-cn.com/problems/design-parking-system/)|🟩|[🦀](rust/src/bin/design-parking-system.rs)|
+[1656. 设计有序流](https://leetcode.cn/problems/design-an-ordered-stream/)|🟩|[🦀](rust/src/bin/design-an-ordered-stream.rs)|
 [1736. 替换隐藏数字得到的最晚时间](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)|🟩|[🦀](rust/src/bin/latest-time-by-replacing-hidden-digits.rs) [🐹](golang/latest-time-by-replacing-hidden-digits/main.go)|
 [1748. 唯一元素的和](https://leetcode-cn.com/problems/sum-of-unique-elements/)|🟩|[🦀](rust/src/bin/sum-of-unique-elements.rs)|
 [1791. 找出星型图的中心节点](https://leetcode-cn.com/problems/find-center-of-star-graph/)|🟩|[🦀](rust/src/bin/find-center-of-star-graph.rs)|
