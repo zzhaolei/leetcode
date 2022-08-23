@@ -1,6 +1,6 @@
 # 解决方案
-> 全部题目：129
-> - 🟩 简单：93
+> 全部题目：130
+> - 🟩 简单：94
 > - 🟥 困难：4
 > - 🟨 中等：32
 
@@ -61,6 +61,7 @@
 [268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/)|🟩|[🦀](rust/src/bin/missing-number.rs) [🐹](golang/missing-number/main.go)|
 [278. 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/)|🟩|[🦀](rust/src/bin/first-bad-version.rs) [🐹](golang/first-bad-version/main.go)|
 [283. 移动零](https://leetcode-cn.com/problems/m/ove-zeroes/)|🟩|[🦀](rust/src/bin/move-zeroes.rs) [🐹](golang/move-zeroes/main.go)|
+[290. 单词规律](https://leetcode.cn/problems/word-pattern/)|🟩|[🦀](rust/src/bin/word-pattern.rs)|
 [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)|🟩|[🦀](rust/src/bin/reverse-string.rs) [🐹](golang/reverse-string/main.go)|
 [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)|🟩|[🦀](rust/src/bin/intersection-of-two-arrays.rs) [🐹](golang/intersection-of-two-arrays/main.go)|
 [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)|🟩|[🦀](rust/src/bin/intersection-of-two-arrays-ii.rs)|
