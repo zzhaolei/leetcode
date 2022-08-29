@@ -1,6 +1,6 @@
 # 解决方案
-> 全部题目：132
-> - 🟩 简单：96
+> 全部题目：133
+> - 🟩 简单：97
 > - 🟥 困难：4
 > - 🟨 中等：32
 
@@ -120,6 +120,7 @@
 [1450. 在既定时间做作业的学生人数](https://leetcode.cn/problems/number-of-students-doing-homework-at-a-given-time/)|🟩|[🦀](rust/src/bin/number-of-students-doing-homework-at-a-given-time.rs)|
 [1460. 通过翻转子数组使两个数组相等](https://leetcode.cn/problems/make-two-arrays-equal-by-reversing-sub-arrays/)|🟩|[🦀](rust/src/bin/make-two-arrays-equal-by-reversing-sub-arrays.rs)|
 [1464. 数组中两元素的最大乘积](https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array/)|🟩|[🦀](rust/src/bin/maximum-product-of-two-elements-in-an-array.rs)|
+[1470. 重新排列数组](https://leetcode.cn/problems/shuffle-the-array/)|🟩|[🦀](rust/src/bin/shuffle-the-array.rs)|
 [1480. 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)|🟩|[🦀](rust/src/bin/running-sum-of-1d-array.rs) [🐹](golang/running-sum-of-1d-array/main.go)|
 [1603. 设计停车系统](https://leetcode-cn.com/problems/design-parking-system/)|🟩|[🦀](rust/src/bin/design-parking-system.rs)|
 [1656. 设计有序流](https://leetcode.cn/problems/design-an-ordered-stream/)|🟩|[🦀](rust/src/bin/design-an-ordered-stream.rs)|
