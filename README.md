@@ -1,6 +1,6 @@
 # 解决方案
-> 全部题目：133
-> - 🟩 简单：97
+> 全部题目：134
+> - 🟩 简单：98
 > - 🟥 困难：4
 > - 🟨 中等：32
 
@@ -122,6 +122,7 @@
 [1464. 数组中两元素的最大乘积](https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array/)|🟩|[🦀](rust/src/bin/maximum-product-of-two-elements-in-an-array.rs)|
 [1470. 重新排列数组](https://leetcode.cn/problems/shuffle-the-array/)|🟩|[🦀](rust/src/bin/shuffle-the-array.rs)|
 [1480. 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)|🟩|[🦀](rust/src/bin/running-sum-of-1d-array.rs) [🐹](golang/running-sum-of-1d-array/main.go)|
+[1582. 二进制矩阵中的特殊位置](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/)|🟩|[🦀](rust/src/bin/special-positions-in-a-binary-matrix.rs)|
 [1603. 设计停车系统](https://leetcode-cn.com/problems/design-parking-system/)|🟩|[🦀](rust/src/bin/design-parking-system.rs)|
 [1656. 设计有序流](https://leetcode.cn/problems/design-an-ordered-stream/)|🟩|[🦀](rust/src/bin/design-an-ordered-stream.rs)|
 [1736. 替换隐藏数字得到的最晚时间](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)|🟩|[🦀](rust/src/bin/latest-time-by-replacing-hidden-digits.rs) [🐹](golang/latest-time-by-replacing-hidden-digits/main.go)|
