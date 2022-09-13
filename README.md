@@ -1,8 +1,8 @@
 # 解决方案
-> 全部题目：135
+> 全部题目：136
 > - 🟩 简单：99
 > - 🟥 困难：4
-> - 🟨 中等：32
+> - 🟨 中等：33
 
 `点击符号查看解答`
 
@@ -80,6 +80,7 @@
 [575. 分糖果](https://leetcode-cn.com/problems/distribute-candies/)|🟩|[🦀](rust/src/bin/distribute-candies.rs)|
 [598. 范围求和 II](https://leetcode-cn.com/problems/range-addition-ii/)|🟩|[🦀](rust/src/bin/range-addition-ii.rs)|
 [648. 单词替换](https://leetcode.cn/problems/replace-words/)|🟨|[🦀](rust/src/bin/replace-words.rs)|
+[670. 最大交换](https://leetcode.cn/problems/maximum-swap/)|🟨|[🦀](rust/src/bin/maximum-swap.rs)|
 [676. 实现一个魔法字典](https://leetcode.cn/problems/implement-magic-dictionary/)|🟨|[🦀](rust/src/bin/implement-magic-dictionary.rs)|
 [693. 交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)|🟩|[🦀](rust/src/bin/binary-number-with-alternating-bits.rs)|
 [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)|🟩|[🦀](rust/src/bin/binary-search.rs) [🐹](golang/binary-search/main.go)|
