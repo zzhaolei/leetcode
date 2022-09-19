@@ -1,6 +1,8 @@
 # 解决方案
-> 全部题目：136
-> - 🟩 简单：99
+> 不包含力扣上所有已解决的题目
+>
+> 全部题目：137
+> - 🟩 简单：100
 > - 🟥 困难：4
 > - 🟨 中等：33
 
@@ -126,6 +128,7 @@
 [1582. 二进制矩阵中的特殊位置](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/)|🟩|[🦀](rust/src/bin/special-positions-in-a-binary-matrix.rs)|
 [1603. 设计停车系统](https://leetcode-cn.com/problems/design-parking-system/)|🟩|[🦀](rust/src/bin/design-parking-system.rs)|
 [1608. 特殊数组的特征值](https://leetcode.cn/problems/special-array-with-x-elements-greater-than-or-equal-x/)|🟩|[🦀](rust/src/bin/special-array-with-x-elements-greater-than-or-equal-x.rs)|
+[1636. 按照频率将数组升序排序](https://leetcode.cn/problems/sort-array-by-increasing-frequency/)|🟩|[🦀](rust/src/bin/sort-array-by-increasing-frequency.rs)|
 [1656. 设计有序流](https://leetcode.cn/problems/design-an-ordered-stream/)|🟩|[🦀](rust/src/bin/design-an-ordered-stream.rs)|
 [1736. 替换隐藏数字得到的最晚时间](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)|🟩|[🦀](rust/src/bin/latest-time-by-replacing-hidden-digits.rs) [🐹](golang/latest-time-by-replacing-hidden-digits/main.go)|
 [1748. 唯一元素的和](https://leetcode-cn.com/problems/sum-of-unique-elements/)|🟩|[🦀](rust/src/bin/sum-of-unique-elements.rs)|
