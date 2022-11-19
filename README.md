@@ -1,8 +1,8 @@
 # 解决方案
 > 不包含力扣上所有已解决的题目
 >
-> 全部题目：142
-> - 🟩 简单：103
+> 全部题目：143
+> - 🟩 简单：104
 > - 🟥 困难：4
 > - 🟨 中等：35
 
@@ -134,6 +134,7 @@
 [1636. 按照频率将数组升序排序](https://leetcode.cn/problems/sort-array-by-increasing-frequency/)|🟩|[🦀](rust/src/bin/sort-array-by-increasing-frequency.rs)|
 [1656. 设计有序流](https://leetcode.cn/problems/design-an-ordered-stream/)|🟩|[🦀](rust/src/bin/design-an-ordered-stream.rs)|
 [1694. 重新格式化电话号码](https://leetcode.cn/problems/reformat-phone-number/)|🟩|[🦀](rust/src/bin/reformat-phone-number.rs)|
+[1732. 找到最高海拔](https://leetcode.cn/problems/find-the-highest-altitude/)|🟩|[🦀](rust/src/bin/find-the-highest-altitude.rs)|
 [1736. 替换隐藏数字得到的最晚时间](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)|🟩|[🦀](rust/src/bin/latest-time-by-replacing-hidden-digits.rs) [🐹](golang/latest-time-by-replacing-hidden-digits/main.go)|
 [1748. 唯一元素的和](https://leetcode-cn.com/problems/sum-of-unique-elements/)|🟩|[🦀](rust/src/bin/sum-of-unique-elements.rs)|
 [1791. 找出星型图的中心节点](https://leetcode-cn.com/problems/find-center-of-star-graph/)|🟩|[🦀](rust/src/bin/find-center-of-star-graph.rs)|
