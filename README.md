@@ -1,8 +1,8 @@
 # 解决方案
 > 不包含力扣上所有已解决的题目
 >
-> 全部题目：143
-> - 🟩 简单：104
+> 全部题目：144
+> - 🟩 简单：105
 > - 🟥 困难：4
 > - 🟨 中等：35
 
@@ -138,6 +138,7 @@
 [1736. 替换隐藏数字得到的最晚时间](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)|🟩|[🦀](rust/src/bin/latest-time-by-replacing-hidden-digits.rs) [🐹](golang/latest-time-by-replacing-hidden-digits/main.go)|
 [1748. 唯一元素的和](https://leetcode-cn.com/problems/sum-of-unique-elements/)|🟩|[🦀](rust/src/bin/sum-of-unique-elements.rs)|
 [1791. 找出星型图的中心节点](https://leetcode-cn.com/problems/find-center-of-star-graph/)|🟩|[🦀](rust/src/bin/find-center-of-star-graph.rs)|
+[1796. 字符串中第二大的数字](https://leetcode.cn/problems/second-largest-digit-in-a-string/)|🟩|[🦀](rust/src/bin/second-largest-digit-in-a-string.rs)|
 [1800. 最大升序子数组和](https://leetcode.cn/problems/maximum-ascending-subarray-sum/)|🟩|[🦀](rust/src/bin/maximum-ascending-subarray-sum.rs)|
 [1846. 减小和重新排列数组后的最大元素](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging/)|🟨|[🦀](rust/src/bin/maximum-element-after-decreasing-and-rearranging.rs)|
 [1893. 检查是否区域内所有整数都被覆盖](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|🟩|[🦀](rust/src/bin/check-if-all-the-integers-in-a-range-are-covered.rs) [🐹](golang/check-if-all-the-integers-in-a-range-are-covered/main.go)|
