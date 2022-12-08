@@ -1,8 +1,8 @@
 # 解决方案
 > 不包含力扣上所有已解决的题目
 >
-> 全部题目：145
-> - 🟩 简单：106
+> 全部题目：146
+> - 🟩 简单：107
 > - 🟥 困难：4
 > - 🟨 中等：35
 
@@ -142,6 +142,7 @@
 [1800. 最大升序子数组和](https://leetcode.cn/problems/maximum-ascending-subarray-sum/)|🟩|[🦀](rust/src/bin/maximum-ascending-subarray-sum.rs)|
 [1805. 字符串中不同整数的数目](https://leetcode.cn/problems/number-of-different-integers-in-a-string/)|🟩|[🦀](rust/src/bin/number-of-different-integers-in-a-string.rs)|
 [1846. 减小和重新排列数组后的最大元素](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging/)|🟨|[🦀](rust/src/bin/maximum-element-after-decreasing-and-rearranging.rs)|
+[1812. 判断国际象棋棋盘中一个格子的颜色](https://leetcode.cn/problems/determine-color-of-a-chessboard-square/)|🟨|[🦀](rust/src/bin/determine-color-of-a-chessboard-square.rs)|
 [1893. 检查是否区域内所有整数都被覆盖](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/)|🟩|[🦀](rust/src/bin/check-if-all-the-integers-in-a-range-are-covered.rs) [🐹](golang/check-if-all-the-integers-in-a-range-are-covered/main.go)|
 [1929. 数组串联](https://leetcode-cn.com/problems/concatenation-of-array/)|🟩|[🦀](rust/src/bin/concatenation-of-array.rs) [🐹](golang/concatenation-of-array/main.go)|
 [2000. 反转单词前缀](https://leetcode-cn.com/problems/reverse-prefix-of-word/)|🟩|[🦀](rust/src/bin/reverse-prefix-of-word.rs)|
