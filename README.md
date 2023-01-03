@@ -1,8 +1,8 @@
 # 解决方案
 > 不包含力扣上所有已解决的题目
 >
-> 全部题目：148
-> - 🟩 简单：109
+> 全部题目：149
+> - 🟩 简单：110
 > - 🟥 困难：4
 > - 🟨 中等：35
 
@@ -149,6 +149,7 @@
 [1929. 数组串联](https://leetcode-cn.com/problems/concatenation-of-array/)|🟩|[🦀](rust/src/bin/concatenation-of-array.rs) [🐹](golang/concatenation-of-array/main.go)|
 [2000. 反转单词前缀](https://leetcode-cn.com/problems/reverse-prefix-of-word/)|🟩|[🦀](rust/src/bin/reverse-prefix-of-word.rs)|
 [2006. 差的绝对值为 K 的数对数目](https://leetcode-cn.com/problems/count-number-of-pairs-with-absolute-difference-k/)|🟩|[🦀](rust/src/bin/count-number-of-pairs-with-absolute-difference-k.rs)|
+[2042. 检查句子中的数字是否递增](https://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence/)|🟩|[🦀](rust/src/bin/check-if-numbers-are-ascending-in-a-sentence.rs)|
 [2047. 句子中的有效单词数](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/)|🟩|[🦀](rust/src/bin/number-of-valid-words-in-a-sentence.rs)|
 [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)|🟩|[🦀](rust/src/bin/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.rs)|
 [剑指 Offer 28. 对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)|🟩|[🦀](rust/src/bin/dui-cheng-de-er-cha-shu-lcof.rs)|
