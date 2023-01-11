@@ -2,9 +2,9 @@
 > 不包含力扣上所有已解决的题目
 >
 > 全部题目：150
-> - 🟩 简单：111
+> - 🟩 简单：109
 > - 🟥 困难：4
-> - 🟨 中等：35
+> - 🟨 中等：37
 
 `点击符号查看解答`
 
@@ -27,7 +27,7 @@
 [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)|🟨|[🦀](rust/src/bin/generate-parentheses.rs)|
 [26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|🟩|[🦀](rust/src/bin/remove-duplicates-from-sorted-array.rs) [🐹](golang/remove-duplicates-from-sorted-array/main.go)|
 [27. 移除元素](https://leetcode-cn.com/problems/remove-element/)|🟩|[🦀](rust/src/bin/remove-element.rs) [🐹](golang/remove-element/main.go)|
-[28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)|🟩|[🦀](rust/src/bin/implement-strstr.rs) [🐹](golang/implement-strstr/main.go)|
+[28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)|🟨|[🦀](rust/src/bin/implement-strstr.rs) [🐹](golang/implement-strstr/main.go)|
 [31. 下一个排列](https://leetcode-cn.com/problems/next-permutation/)|🟨|[🦀](rust/src/bin/next-permutation.rs)|
 [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|🟨|[🦀](rust/src/bin/search-in-rotated-sorted-array.rs)|
 [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)|🟩|[🦀](rust/src/bin/search-insert-position.rs) [🐹](golang/search-insert-position/main.go)|
@@ -57,7 +57,7 @@
 [219. 存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/)|🟩|[🦀](rust/src/bin/contains-duplicate-ii.rs)|
 [232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)|🟩|[🦀](rust/src/bin/implement-queue-using-stacks.rs)|
 [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)|🟩|[🦀](rust/src/bin/palindrome-linked-list.rs)|
-[237. 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|🟩|~~Rust~~ [🐹](golang/delete-node-in-a-linked-list/main.go)|
+[237. 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|🟨|~~Rust~~ [🐹](golang/delete-node-in-a-linked-list/main.go)|
 [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)|🟩|[🦀](rust/src/bin/valid-anagram.rs) [🐹](golang/valid-anagram/main.go)|
 [260. 只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii/)|🟨|[🦀](rust/src/bin/single-number-iii.rs)|
 [268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/)|🟩|[🦀](rust/src/bin/missing-number.rs) [🐹](golang/missing-number/main.go)|
