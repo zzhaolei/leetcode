@@ -1,8 +1,8 @@
 # 解决方案
 > 不包含力扣上所有已解决的题目
 >
-> 全部题目：151
-> - 🟩 简单：110
+> 全部题目：152
+> - 🟩 简单：111
 > - 🟥 困难：4
 > - 🟨 中等：37
 
@@ -153,6 +153,7 @@
 [2047. 句子中的有效单词数](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/)|🟩|[🦀](rust/src/bin/number-of-valid-words-in-a-sentence.rs)|
 [2180. 统计各位数字之和为偶数的整数个数](https://leetcode.cn/problems/count-integers-with-even-digit-sum/)|🟩|[🦀](rust/src/bin/count-integers-with-even-digit-sum.rs)|
 [2315. 统计星号](https://leetcode.cn/problems/count-asterisks/)|🟩|[🦀](rust/src/bin/count-asterisks.rs)|
+[剑指 Offer 06. 从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)|🟩|[🦀](rust/src/bin/cong-wei-dao-tou-da-yin-lian-biao-lcof.rs)|
 [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)|🟩|[🦀](rust/src/bin/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.rs)|
 [剑指 Offer 28. 对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)|🟩|[🦀](rust/src/bin/dui-cheng-de-er-cha-shu-lcof.rs)|
 [剑指 Offer II 041. 滑动窗口的平均值](https://leetcode.cn/problems/qIsx9U/)|🟩|[🦀](rust/src/bin/qIsx9U.rs)|
