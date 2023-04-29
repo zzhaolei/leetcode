@@ -1,6 +1,6 @@
 # 解决方案
-> 全部题目：155
-> - 🟩 114
+> 全部题目：156
+> - 🟩 115
 > - 🟨 37
 > - 🟥 4
 
@@ -151,6 +151,7 @@
 [2315. 统计星号](https://leetcode.cn/problems/count-asterisks/)|🟩|[🦀](rust/src/bin/count-asterisks.rs)|
 [2409. 统计共同度过的日子数](https://leetcode.cn/problems/count-days-spent-together/)|🟩|[🦀](rust/src/bin/count-days-spent-together.rs) [🐹](golang/count-days-spent-together/main.go)|
 [2418. 按身高排序](https://leetcode.cn/problems/sort-the-people/)|🟩|[🦀](rust/src/bin/sort-the-people.rs)|
+[2423. 删除字符使频率相同](https://leetcode.cn/problems/remove-letter-to-equalize-frequency/)|🟩|[🦀](rust/src/bin/remove-letter-to-equalize-frequency.rs)|
 [2469. 温度转换](https://leetcode.cn/problems/convert-the-temperature/)|🟩|[🦀](rust/src/bin/convert-the-temperature.rs)|
 [剑指 Offer 06. 从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)|🟩|[🦀](rust/src/bin/cong-wei-dao-tou-da-yin-lian-biao-lcof.rs)|
 [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)|🟩|[🦀](rust/src/bin/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.rs)|
