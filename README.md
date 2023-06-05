@@ -1,6 +1,6 @@
 # 解决方案
-> 全部题目：158
-> - 🟩 117
+> 全部题目：159
+> - 🟩 118
 > - 🟨 37
 > - 🟥 4
 
@@ -153,6 +153,7 @@
 [2418. 按身高排序](https://leetcode.cn/problems/sort-the-people/)|🟩|[🦀](rust/src/bin/sort-the-people.rs)|
 [2423. 删除字符使频率相同](https://leetcode.cn/problems/remove-letter-to-equalize-frequency/)|🟩|[🦀](rust/src/bin/remove-letter-to-equalize-frequency.rs)|
 [2437. 有效时间的数目](https://leetcode.cn/problems/number-of-valid-clock-times/)|🟩|[🐹](golang/number-of-valid-clock-times/main.go)|
+[2460. 对数组执行操作](https://leetcode.cn/problems/apply-operations-to-an-array/)|🟩|[🦀](rust/src/bin/apply-operations-to-an-array.rs) [🐹](golang/apply-operations-to-an-array/main.go)|
 [2465. 不同的平均值数目](https://leetcode.cn/problems/number-of-distinct-averages/)|🟩|[🦀](rust/src/bin/number-of-distinct-averages.rs) [🐹](golang/number-of-distinct-averages/main.go)|
 [2469. 温度转换](https://leetcode.cn/problems/convert-the-temperature/)|🟩|[🦀](rust/src/bin/convert-the-temperature.rs)|
 [剑指 Offer 06. 从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)|🟩|[🦀](rust/src/bin/cong-wei-dao-tou-da-yin-lian-biao-lcof.rs)|
