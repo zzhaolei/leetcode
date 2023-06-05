@@ -4,12 +4,7 @@ impl Solution {
     pub fn check_if_pangram(sentence: String) -> bool {
         use std::collections::HashSet;
 
-        sentence
-            .chars()
-            .into_iter()
-            .collect::<HashSet<char>>()
-            .len()
-            >= 26
+        sentence.chars().collect::<HashSet<char>>().len() >= 26
     }
 }
 

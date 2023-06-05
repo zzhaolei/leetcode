@@ -14,7 +14,7 @@ impl Solution {
             }
         }
 
-        let mut v = map.into_iter().map(|(_, v)| v).collect::<Vec<u8>>();
+        let mut v = map.into_values().collect::<Vec<u8>>();
         v.sort();
         v.reverse();
 
@@ -22,12 +22,11 @@ impl Solution {
         if len == 1
             || (len == 2 && v[len - 1] == 1)
             || (v[0] == v[len - 1] && v[0] == 1)
-            || (v[len - 1] == 1
-                && v[..len - 1].iter().collect::<HashSet<&u8>>().iter().count() == 1)
+            || (v[len - 1] == 1 && v[..len - 1].iter().collect::<HashSet<&u8>>().len() == 1)
         {
             return true;
         }
-        (v[1..].iter().collect::<HashSet<&u8>>().iter().count() == 1) && v[0] - 1 == v[v.len() - 1]
+        (v[1..].iter().collect::<HashSet<&u8>>().len() == 1) && v[0] - 1 == v[v.len() - 1]
     }
 }
 

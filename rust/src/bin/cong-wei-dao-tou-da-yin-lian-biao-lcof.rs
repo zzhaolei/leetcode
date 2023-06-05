@@ -18,12 +18,12 @@ impl Solution {
     fn recursion(head: &mut Option<Box<ListNode>>, vec: &mut Vec<i32>) {
         match head {
             Some(ref mut node) => {
-                if let Some(_) = node.next {
+                if node.next.is_some() {
                     Solution::recursion(&mut node.next.take(), vec);
                 }
                 vec.push(node.val);
             }
-            None => return,
+            None => (),
         }
     }
     pub fn reverse_print(mut head: Option<Box<ListNode>>) -> Vec<i32> {

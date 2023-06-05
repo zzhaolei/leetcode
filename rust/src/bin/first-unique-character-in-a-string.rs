@@ -5,12 +5,12 @@ impl Solution {
         use std::collections::HashSet;
         // 记录字符是否已经比较过
         let mut m: HashSet<char> = HashSet::new();
-        'a: for (i, v) in (&s).chars().enumerate() {
+        'a: for (i, v) in s.chars().enumerate() {
             // 如果字符无法插入，则说明重复，已经比较过，直接continue
             if !m.insert(v) {
                 continue;
             }
-            for vv in (&s).chars().skip(i + 1) {
+            for vv in s.chars().skip(i + 1) {
                 if v == vv {
                     // 如果重复，则直接跳转到最外层for循环，继续下一次寻找
                     continue 'a;

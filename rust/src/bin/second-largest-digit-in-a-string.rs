@@ -4,7 +4,7 @@ impl Solution {
     pub fn second_highest(s: String) -> i32 {
         let (mut a, mut b) = (47, 47);
         s.chars().for_each(|c| {
-            if ('0'..='9').contains(&c) {
+            if c.is_ascii_digit() {
                 let i = c as i32;
                 if i > b {
                     if b > a {

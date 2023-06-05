@@ -4,7 +4,7 @@ impl Solution {
     pub fn impl1(word: String, ch: char) -> String {
         if let Some(i) = word.find(ch) {
             let mut s = String::new();
-            s.push_str(&(&word[..=i]).chars().rev().collect::<String>());
+            s.push_str(&word[..=i].chars().rev().collect::<String>());
             s.push_str(&word[i + 1..]);
             s
         } else {
@@ -15,7 +15,7 @@ impl Solution {
     #[allow(unused)]
     pub fn impl2(word: String, ch: char) -> String {
         if let Some(i) = word.find(ch) {
-            (&word[..=i]).chars().rev().collect::<String>() + &word[i + 1..]
+            word[..=i].chars().rev().collect::<String>() + &word[i + 1..]
         } else {
             word
         }

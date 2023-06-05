@@ -2,16 +2,12 @@ struct Solution;
 
 impl Solution {
     pub fn reformat_number(number: String) -> String {
-        let number = number.replace(" ", "").replace("-", "");
+        let number = number.replace([' ', '-'], "");
         if number.len() <= 3 {
             return number;
         }
 
-        let number = number
-            .chars()
-            .into_iter()
-            .map(|x| x as u8)
-            .collect::<Vec<u8>>();
+        let number = number.chars().map(|x| x as u8).collect::<Vec<u8>>();
 
         let mut ans: Vec<u8> = Vec::with_capacity(number.len() + 1);
         let mut i = 0;

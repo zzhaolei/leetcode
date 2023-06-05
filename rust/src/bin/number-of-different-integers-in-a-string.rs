@@ -4,7 +4,7 @@ impl Solution {
     pub fn num_different_integers(word: String) -> i32 {
         let v = word
             .bytes()
-            .map(|i| if i >= 48 && i <= 57 { i } else { 32 })
+            .map(|i| if (48..=57).contains(&i) { i } else { 32 })
             .collect::<Vec<u8>>();
         let binding = String::from_utf8_lossy(&v);
         let mut v = binding

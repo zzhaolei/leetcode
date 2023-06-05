@@ -6,7 +6,7 @@ impl Solution {
         arr.sort();
         let a = (arr.len() as f64 * 0.05).round() as usize;
         let new = &arr[a..arr.len() - a];
-        new.into_iter().sum::<i32>() as f64 / new.len() as f64
+        new.iter().sum::<i32>() as f64 / new.len() as f64
     }
 }
 

@@ -12,8 +12,8 @@ impl Solution {
                     continue;
                 }
                 let mut vec = vec![];
-                for k in 0..mat.len() {
-                    vec.push(mat[k][j]);
+                for v in &mat {
+                    vec.push(v[j]);
                 }
                 if vec.iter().filter(|x| **x == 1).count() != 1 {
                     continue;

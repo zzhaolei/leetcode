@@ -13,7 +13,7 @@ impl Solution {
         }
         for (k, v) in t.into_iter() {
             if v == 1 {
-                return k as i32;
+                return k;
             }
         }
         0

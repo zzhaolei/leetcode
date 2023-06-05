@@ -32,3 +32,17 @@ fn main() {
         Solution::apply_operations(vec![300, 126, 0, 0, 523, 523])
     );
 }
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn test() {
+        use crate::Solution;
+
+        assert_eq!(Solution::apply_operations(vec![0, 1]), [1, 0]);
+        assert_eq!(
+            Solution::apply_operations(vec![300, 126, 0, 0, 523, 523]),
+            [300, 126, 1046, 0, 0, 0]
+        );
+    }
+}

@@ -5,10 +5,10 @@ impl Solution {
         let mut s = x.to_string();
         let ans;
         if s.starts_with('-') {
-            s = (&s[1..]).chars().rev().collect::<String>();
+            s = s[1..].chars().rev().collect::<String>();
             ans = -s.parse::<i64>().unwrap_or(0);
         } else {
-            s = (&s[..]).chars().rev().collect::<String>();
+            s = s[..].chars().rev().collect::<String>();
             ans = s.parse::<i64>().unwrap_or(0);
         }
 

@@ -20,9 +20,8 @@ impl Solution {
         }
         let mut ans = vec![];
         for i in arr.into_iter() {
-            match map.get(&i) {
-                Some(&v) => ans.push(v),
-                None => (),
+            if let Some(&v) = map.get(&i) {
+                ans.push(v);
             }
         }
         ans

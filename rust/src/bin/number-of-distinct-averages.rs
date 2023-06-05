@@ -23,7 +23,7 @@ impl Solution {
             i += 1;
             j -= 1;
         }
-        return set.len() as i32;
+        set.len() as i32
     }
 }
 
@@ -34,4 +34,19 @@ fn main() {
     );
     println!("{}", Solution::distinct_averages(vec![4, 1, 4, 0, 3, 5]));
     println!("{}", Solution::distinct_averages(vec![1, 100]));
+}
+
+#[cfg(test)]
+mod tests {
+    use crate::Solution;
+
+    #[test]
+    fn test() {
+        assert_eq!(
+            Solution::distinct_averages(vec![9, 5, 7, 8, 7, 9, 8, 2, 0, 7]),
+            5
+        );
+        assert_eq!(Solution::distinct_averages(vec![4, 1, 4, 0, 3, 5]), 2);
+        assert_eq!(Solution::distinct_averages(vec![1, 100]), 1);
+    }
 }

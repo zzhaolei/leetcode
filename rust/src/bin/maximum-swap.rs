@@ -5,9 +5,9 @@ impl Solution {
         let mut v = num.to_string().chars().collect::<Vec<char>>();
         for i in 0..v.len() - 1 {
             let mut max = (i, v[i]);
-            for j in i + 1..v.len() {
-                if max.1 <= v[j] {
-                    max.1 = max.1.max(v[j]);
+            for (j, &item) in v.iter().enumerate().skip(i + 1) {
+                if max.1 <= item {
+                    max.1 = max.1.max(item);
                     max.0 = j;
                 }
             }

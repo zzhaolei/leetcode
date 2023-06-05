@@ -6,9 +6,9 @@ impl Solution {
         let mut map: HashMap<String, u32> = HashMap::new();
 
         for i in cpdomains.into_iter() {
-            let v = i.split(" ").into_iter().collect::<Vec<&str>>();
+            let v = i.split(' ').collect::<Vec<&str>>();
             let count = unsafe { v[0].parse::<u32>().unwrap_unchecked() };
-            let domains = v[1].split(".").into_iter().collect::<Vec<&str>>();
+            let domains = v[1].split('.').collect::<Vec<&str>>();
 
             for j in 0..domains.len() {
                 let domain = domains[j..].join(".");
