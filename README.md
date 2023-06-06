@@ -1,7 +1,7 @@
 # 解决方案
-> 全部题目：159
+> 全部题目：160
 > - 🟩 118
-> - 🟨 37
+> - 🟨 38
 > - 🟥 4
 
 |题目|难度|解答|
@@ -149,6 +149,7 @@
 [2047. 句子中的有效单词数](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/)|🟩|[🦀](rust/src/bin/number-of-valid-words-in-a-sentence.rs)|
 [2180. 统计各位数字之和为偶数的整数个数](https://leetcode.cn/problems/count-integers-with-even-digit-sum/)|🟩|[🦀](rust/src/bin/count-integers-with-even-digit-sum.rs)|
 [2315. 统计星号](https://leetcode.cn/problems/count-asterisks/)|🟩|[🦀](rust/src/bin/count-asterisks.rs)|
+[2352. 相等行列对](https://leetcode.cn/problems/equal-row-and-column-pairs/)|🟨|[🐹](golang/equal-row-and-column-pairs/main.go)|
 [2409. 统计共同度过的日子数](https://leetcode.cn/problems/count-days-spent-together/)|🟩|[🦀](rust/src/bin/count-days-spent-together.rs) [🐹](golang/count-days-spent-together/main.go)|
 [2418. 按身高排序](https://leetcode.cn/problems/sort-the-people/)|🟩|[🦀](rust/src/bin/sort-the-people.rs)|
 [2423. 删除字符使频率相同](https://leetcode.cn/problems/remove-letter-to-equalize-frequency/)|🟩|[🦀](rust/src/bin/remove-letter-to-equalize-frequency.rs)|
