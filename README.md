@@ -158,7 +158,7 @@
 [2465. 不同的平均值数目](https://leetcode.cn/problems/number-of-distinct-averages/)|🟩|[🦀](rust/src/bin/number-of-distinct-averages.rs) [🐹](golang/number-of-distinct-averages/main.go)|
 [2469. 温度转换](https://leetcode.cn/problems/convert-the-temperature/)|🟩|[🦀](rust/src/bin/convert-the-temperature.rs)|
 [剑指 Offer 06. 从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)|🟩|[🦀](rust/src/bin/cong-wei-dao-tou-da-yin-lian-biao-lcof.rs)|
-[剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|🟩|[🐹](golang/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/main.go)|
+[剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|🟩|[🦀](rust/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs) [🐹](golang/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/main.go)|
 [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)|🟩|[🦀](rust/src/bin/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.rs)|
 [剑指 Offer 28. 对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)|🟩|[🦀](rust/src/bin/dui-cheng-de-er-cha-shu-lcof.rs)|
 [剑指 Offer II 041. 滑动窗口的平均值](https://leetcode.cn/problems/qIsx9U/)|🟩|[🦀](rust/src/bin/qIsx9U.rs)|
