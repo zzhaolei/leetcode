@@ -53,7 +53,7 @@
 [219. 存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/)|🟩|[🦀](rust/src/bin/contains-duplicate-ii.rs)|
 [232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)|🟩|[🦀](rust/src/bin/implement-queue-using-stacks.rs)|
 [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)|🟩|[🦀](rust/src/bin/palindrome-linked-list.rs)|
-[237. 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|🟨|~~Rust~~ [🐹](golang/delete-node-in-a-linked-list/main.go)|
+[237. 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|🟨|~~🦀~~ [🐹](golang/delete-node-in-a-linked-list/main.go)|
 [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)|🟩|[🦀](rust/src/bin/valid-anagram.rs) [🐹](golang/valid-anagram/main.go)|
 [260. 只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii/)|🟨|[🦀](rust/src/bin/single-number-iii.rs)|
 [268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/)|🟩|[🦀](rust/src/bin/missing-number.rs) [🐹](golang/missing-number/main.go)|
@@ -162,7 +162,7 @@
 [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)|🟩|[🦀](rust/src/bin/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.rs)|
 [剑指 Offer 28. 对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)|🟩|[🦀](rust/src/bin/dui-cheng-de-er-cha-shu-lcof.rs)|
 [剑指 Offer II 041. 滑动窗口的平均值](https://leetcode.cn/problems/qIsx9U/)|🟩|[🦀](rust/src/bin/qIsx9U.rs)|
-[剑指 Offer 52. 两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|🟩|~~Rust~~ [🐹](golang/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/main.go)|
+[剑指 Offer 52. 两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|🟩|~~🦀~~ [🐹](golang/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/main.go)|
 [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)|🟩|[🦀](rust/src/bin/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.rs) [🐹](golang/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/main.go)|
 [剑指 Offer 58 - I. 翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)|🟩|[🦀](rust/src/bin/fan-zhuan-dan-ci-shun-xu-lcof.rs)|
 [面试题 01.01. 判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/)|🟩|[🦀](rust/src/bin/is-unique-lcci.rs) [🐹](golang/is-unique-lcci/main.go)|
