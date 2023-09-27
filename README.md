@@ -1,7 +1,7 @@
 # 解决方案
-> 全部题目：162
+> 全部题目：163
 > - 🟩 120
-> - 🟨 38
+> - 🟨 39
 > - 🟥 4
 
 |题目|难度|解答|
@@ -111,6 +111,7 @@
 [1252. 奇数值单元格的数目](https://leetcode.cn/problems/cells-with-odd-values-in-a-matrix/)|🟩|[🦀](rust/src/bin/cells-with-odd-values-in-a-matrix.rs)|
 [1290. 二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|🟩|[🦀](rust/src/bin/convert-binary-number-in-a-linked-list-to-integer.rs)|
 [1331. 数组序号转换](https://leetcode.cn/problems/rank-transform-of-an-array/)|🟩|[🦀](rust/src/bin/rank-transform-of-an-array.rs)|
+[1333. 餐厅过滤器](https://leetcode.cn/problems/filter-restaurants-by-vegan-friendly-price-and-distance/description/)|🟨|[🐹](golang/filter-restaurants-by-vegan-friendly-price-and-distance/description/main.go)|
 [1342. 将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|🟩|[🦀](rust/src/bin/number-of-steps-to-reduce-a-number-to-zero.rs) [🐹](golang/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/main.go)|
 [1374. 生成每种字符都是奇数个的字符串](https://leetcode.cn/problems/generate-a-string-with-characters-that-have-odd-counts/)|🟩|[🦀](rust/src/bin/generate-a-string-with-characters-that-have-odd-counts.rs)|
 [1380. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)|🟩|[🦀](rust/src/bin/lucky-numbers-in-a-matrix.rs)|
