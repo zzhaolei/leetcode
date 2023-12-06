@@ -1,6 +1,6 @@
 # 解决方案
-> 全部题目：164
-> - 🟩 121
+> 全部题目：165
+> - 🟩 122
 > - 🟨 39
 > - 🟥 4
 
@@ -170,3 +170,4 @@
 [剑指 Offer 58 - I. 翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)|🟩|[🦀](rust/src/bin/fan-zhuan-dan-ci-shun-xu-lcof.rs)|
 [面试题 01.01. 判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/)|🟩|[🦀](rust/src/bin/is-unique-lcci.rs) [🐹](golang/is-unique-lcci/main.go)|
 [面试题 01.05. 一次编辑](https://leetcode-cn.com/problems/one-away-lcci/)|🟨|[🦀](rust/src/bin/one-away-lcci.rs)|
+[LCR 021. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/SLwz0R/)|🟩|[🐹](golang/remove-nth-node-from-end-of-list/main.go)|
