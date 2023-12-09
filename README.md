@@ -1,7 +1,7 @@
 # 解决方案
-> 全部题目：165
+> 全部题目：167
 > - 🟩 122
-> - 🟨 39
+> - 🟨 41
 > - 🟥 4
 
 |题目|难度|解答|
@@ -33,6 +33,7 @@
 [56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)|🟨|[🦀](rust/src/bin/merge-intervals.rs) [🐹](golang/merge-intervals/main.go)|
 [57. 插入区间](https://leetcode-cn.com/problems/insert-interval/)|🟨|[🦀](rust/src/bin/insert-interval.rs) [🐹](golang/insert-interval/main.go)|
 [58. 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)|🟩|[🦀](rust/src/bin/length-of-last-word.rs)|
+[64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/)|🟨|[🐹](golang/minimum-path-sum/main.go)|
 [66. 加一](https://leetcode-cn.com/problems/plus-one/)|🟩|[🦀](rust/src/bin/plus-one.rs)|
 [67. 二进制求和](https://leetcode-cn.com/problems/add-binary/)|🟩|[🦀](rust/src/bin/add-binary.rs)|
 [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)|🟩|[🦀](rust/src/bin/sqrtx.rs)|
@@ -171,3 +172,4 @@
 [面试题 01.01. 判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/)|🟩|[🦀](rust/src/bin/is-unique-lcci.rs) [🐹](golang/is-unique-lcci/main.go)|
 [面试题 01.05. 一次编辑](https://leetcode-cn.com/problems/one-away-lcci/)|🟨|[🦀](rust/src/bin/one-away-lcci.rs)|
 [LCR 021. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/SLwz0R/)|🟩|[🐹](golang/remove-nth-node-from-end-of-list/main.go)|
+[LCR 099. 最小路径和](https://leetcode.cn/problems/0i0mDW/)|🟨|[🐹](golang/minimum-path-sum/main.go)|
