@@ -1,6 +1,6 @@
 # 解决方案
-> 全部题目：167
-> - 🟩 122
+> 全部题目：168
+> - 🟩 123
 > - 🟨 41
 > - 🟥 4
 
@@ -160,6 +160,7 @@
 [2460. 对数组执行操作](https://leetcode.cn/problems/apply-operations-to-an-array/)|🟩|[🦀](rust/src/bin/apply-operations-to-an-array.rs) [🐹](golang/apply-operations-to-an-array/main.go)|
 [2465. 不同的平均值数目](https://leetcode.cn/problems/number-of-distinct-averages/)|🟩|[🦀](rust/src/bin/number-of-distinct-averages.rs) [🐹](golang/number-of-distinct-averages/main.go)|
 [2469. 温度转换](https://leetcode.cn/problems/convert-the-temperature/)|🟩|[🦀](rust/src/bin/convert-the-temperature.rs)|
+[2706. 购买两块巧克力](https://leetcode.cn/problems/buy-two-chocolates/)|🟩|[🐹](golang/buy-two-chocolates/main.go)|
 [剑指 Offer 03. 数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)|🟩|[🐹](golang/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/main.go)|
 [剑指 Offer 06. 从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)|🟩|[🦀](rust/src/bin/cong-wei-dao-tou-da-yin-lian-biao-lcof.rs)|
 [剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|🟩|[🦀](rust/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs) [🐹](golang/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/main.go)|
