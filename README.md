@@ -1,6 +1,6 @@
 # 解决方案
-> 全部题目：168
-> - 🟩 123
+> 全部题目：169
+> - 🟩 124
 > - 🟨 41
 > - 🟥 4
 
@@ -161,6 +161,7 @@
 [2465. 不同的平均值数目](https://leetcode.cn/problems/number-of-distinct-averages/)|🟩|[🦀](rust/src/bin/number-of-distinct-averages.rs) [🐹](golang/number-of-distinct-averages/main.go)|
 [2469. 温度转换](https://leetcode.cn/problems/convert-the-temperature/)|🟩|[🦀](rust/src/bin/convert-the-temperature.rs)|
 [2706. 购买两块巧克力](https://leetcode.cn/problems/buy-two-chocolates/)|🟩|[🐹](golang/buy-two-chocolates/main.go)|
+[2864. 最大二进制奇数](https://leetcode.cn/problems/maximum-odd-binary-number/)|🟩|[🐹](golang/maximum-odd-binary-number.go)|
 [剑指 Offer 03. 数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)|🟩|[🐹](golang/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/main.go)|
 [剑指 Offer 06. 从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)|🟩|[🦀](rust/src/bin/cong-wei-dao-tou-da-yin-lian-biao-lcof.rs)|
 [剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|🟩|[🦀](rust/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs) [🐹](golang/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/main.go)|
