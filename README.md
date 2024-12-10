@@ -1,7 +1,7 @@
 # 解决方案
-> 全部题目：170
+> 全部题目：171
 > - 🟩 125
-> - 🟨 41
+> - 🟨 42
 > - 🟥 4
 
 |题目|难度|解答|
@@ -28,6 +28,7 @@
 [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|🟨|[🦀](rust/src/bin/search-in-rotated-sorted-array.rs)|
 [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)|🟩|[🦀](rust/src/bin/search-insert-position.rs) [🐹](golang/search-insert-position/main.go)|
 [38. 外观数列](https://leetcode-cn.com/problems/count-and-say/)|🟨|[🦀](rust/src/bin/count-and-say.rs) [🐹](golang/count-and-say/main.go)|
+[49. 字母异位词分组](https://leetcode.cn/problems/group-anagrams/)|🟨|[🐹](golang/group-anagrams/main.go)|
 [50. Pow(x, n)](https://leetcode.cn/problems/powx-n/)|🟨|[🦀](rust/src/bin/powx-n.rs)|
 [53. 最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/)|🟨|[🦀](rust/src/bin/maximum-subarray.rs)|
 [56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)|🟨|[🦀](rust/src/bin/merge-intervals.rs) [🐹](golang/merge-intervals/main.go)|
