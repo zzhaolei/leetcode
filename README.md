@@ -1,7 +1,7 @@
 # 解决方案
-> 全部题目：171
+> 全部题目：172
 > - 🟩 125
-> - 🟨 42
+> - 🟨 43
 > - 🟥 4
 
 |题目|难度|解答|
@@ -42,6 +42,7 @@
 [80. 删除有序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)|🟨|[🦀](rust/src/bin/remove-duplicates-from-sorted-array-ii.rs)|
 [83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|🟩|[🦀](rust/src/bin/remove-duplicates-from-sorted-list.rs)|
 [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|🟨|[🦀](rust/src/bin/best-time-to-buy-and-sell-stock-ii.rs)|
+[128. 最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence/)|🟨|[🐹](golang/longest-consecutive-sequence/main.go)|
 [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)|🟩|[🦀](rust/src/bin/single-number.rs) [🐹](golang/single-number/main.go)|
 [137. 只出现一次的数字 II](https://leetcode-cn.com/problems/single-number-ii/)|🟨|[🦀](rust/src/bin/single-number-ii.rs)|
 [160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/)|🟩| [🐹](golang/intersection-of-two-linked-lists/main.go)|
