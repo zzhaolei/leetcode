@@ -6,7 +6,7 @@
 
 |题目|难度|解答|
 |---|---|---|
-[1. 两数之和](https://leetcode-cn.com/problems/two-sum/)|🟩|[🦀](rust/src/bin/two-sum.rs)|
+[1. 两数之和](https://leetcode-cn.com/problems/two-sum/)|🟩|[🦀](rust/src/bin/two-sum.rs) [🐹](golang/two-sum/main.go)|
 [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)|🟨|[🦀](rust/src/bin/add-two-numbers.rs) [🐹](golang/add-two-numbers/main.go)|
 [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|🟨|[🦀](rust/src/bin/longest-substring-without-repeating-characters.rs) [🐹](golang/longest-substring-without-repeating-characters/main.go)|
 [4. 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)|🟥|[🦀](rust/src/bin/median-of-two-sorted-arrays.rs) [🐹](golang/median-of-two-sorted-arrays/main.go)|
