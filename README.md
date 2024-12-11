@@ -1,6 +1,6 @@
 # 解决方案
-> 全部题目：172
-> - 🟩 125
+> 全部题目：173
+> - 🟩 126
 > - 🟨 43
 > - 🟥 4
 
@@ -164,6 +164,7 @@
 [2465. 不同的平均值数目](https://leetcode.cn/problems/number-of-distinct-averages/)|🟩|[🦀](rust/src/bin/number-of-distinct-averages.rs) [🐹](golang/number-of-distinct-averages/main.go)|
 [2469. 温度转换](https://leetcode.cn/problems/convert-the-temperature/)|🟩|[🦀](rust/src/bin/convert-the-temperature.rs)|
 [2706. 购买两块巧克力](https://leetcode.cn/problems/buy-two-chocolates/)|🟩|[🐹](golang/buy-two-chocolates/main.go)|
+[2717. 半有序排列](https://leetcode.cn/problems/semi-ordered-permutation/)|🟩|[🐹](golang/semi-ordered-permutation/main.go)|
 [2864. 最大二进制奇数](https://leetcode.cn/problems/maximum-odd-binary-number/)|🟩|[🐹](golang/maximum-odd-binary-number.go)|
 [剑指 Offer 03. 数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)|🟩|[🐹](golang/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/main.go)|
 [剑指 Offer 06. 从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)|🟩|[🦀](rust/src/bin/cong-wei-dao-tou-da-yin-lian-biao-lcof.rs)|
