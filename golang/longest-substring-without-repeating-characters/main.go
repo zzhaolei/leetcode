@@ -26,8 +26,25 @@ func impl1(s string) int {
 	return maxLen
 }
 
+func impl2(s string) int {
+	m := make(map[byte]int)
+	r, ans := -1, 0
+	for i := 0; i < len(s); i++ {
+		if i != 0 {
+			delete(m, s[i-1])
+		}
+		for r+1 < len(s) && m[s[r+1]] == 0 {
+			m[s[r+1]] += 1
+			r++
+		}
+		ans = max(ans, r+1-i)
+	}
+
+	return ans
+}
+
 func lengthOfLongestSubstring(s string) int {
-	return impl1(s)
+	return impl2(s)
 }
 
 func main() {
