@@ -171,7 +171,7 @@
 [2717. 半有序排列](https://leetcode.cn/problems/semi-ordered-permutation/)|🟩|[🐹](golang/semi-ordered-permutation/main.go)|
 [2864. 最大二进制奇数](https://leetcode.cn/problems/maximum-odd-binary-number/)|🟩|[🐹](golang/maximum-odd-binary-number/main.go)|
 [3264. K 次乘运算后的最终数组 I](https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-i/)|🟩|[🐹](golang/final-array-state-after-k-multiplication-operations-i/main.go)|
-[3285. 找到稳定山的下标](https://leetcode.cn/problems/find-indices-of-stable-mountains/)|🟩|[🐹](golang/find-indices-of-stable-mountains/main.go)|
+[3285. 找到稳定山的下标](https://leetcode.cn/problems/find-indices-of-stable-mountains/)|🟩|[🐹](golang/find-indices-of-stable-mountains/main.go) [🦀](rust/src/bin/find-indices-of-stable-mountains.rs)|
 [剑指 Offer 03. 数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)|🟩|[🐹](golang/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/main.go)|
 [剑指 Offer 06. 从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)|🟩|[🦀](rust/src/bin/cong-wei-dao-tou-da-yin-lian-biao-lcof.rs)|
 [剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|🟩|[🐹](golang/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/main.go) [🦀](rust/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs)|
